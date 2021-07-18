@@ -1,4 +1,4 @@
-baseURL = "https://www.pilas-engine.com.ar/"
+baseURL = "https://pilas-engine.github.io/sitio-web/"
 languageCode = "es-AR"
 title = "Pilas Engine"
 DefaultContentLanguage = "es"

@@ -26,6 +26,9 @@ ejecutar:
 	hugo serve
 
 deploy: compilar
+	git add docs
+	git commit -m "Realizando deploy"
+	git push origin main
 
 compilar:
 	@echo "Compilando"

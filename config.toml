@@ -1,8 +1,9 @@
-baseURL = "https://pilas-engine.github.io/sitio-web/"
+baseURL = "https://pilas-engine.github.io/sitio-web"
 languageCode = "es-AR"
 title = "Pilas Engine"
 DefaultContentLanguage = "es"
 theme = "hugo-theme-chunky-poster"
+canonifyurls = true
 
 [menu]
   [[menu.main]]

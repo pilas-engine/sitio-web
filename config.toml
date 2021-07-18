@@ -1,0 +1,44 @@
+baseURL = "https://www.pilas-engine.com.ar/"
+languageCode = "es-AR"
+title = "Pilas Engine"
+DefaultContentLanguage = "es"
+theme = "hugo-theme-chunky-poster"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "descargas"
+    name = "Descargas"
+    url = "/descargas/"
+    weight = 0
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 0
+
+
+[params]
+  author = "Hugo Authors"
+  description = "Lorem ipsum dolor sit amet."
+  homepageImage = "/images/homepage-image.jpg"
+  dateFormat = "January 2, 2006"
+  share = true
+  showLanguageSwitcher = false
+
+  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
+  customCSS = []
+  customJS = []
+
+  [params.social]
+    rss = true
+    twitter = "https://twitter.com/hugoruscitti"
+    github = "https://github.com/pilas-engine/pilas-engine"
+
+  [params.prismJS]
+    enable = true
+    theme = ""

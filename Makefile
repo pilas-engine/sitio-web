@@ -27,8 +27,9 @@ ejecutar:
 
 deploy: compilar
 	git add docs
-	git commit -m "Realizando deploy"
+	git commit -m "Realizando deploy" --allow-empty
 	git push origin main
+	@echo "El sitio estará temporalmente en https://pilas-engine.github.io/sitio-web/"
 
 compilar:
 	@echo "Compilando"

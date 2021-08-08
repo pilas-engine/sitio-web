@@ -26,10 +26,12 @@ ejecutar:
 	hugo serve
 
 deploy: compilar
-	git add docs
-	git commit -m "Realizando deploy" --allow-empty
-	git push origin main
-	@echo "El sitio estará temporalmente en https://pilas-engine.github.io/sitio-web/"
+	@git add docs
+	@git commit -m "Realizando deploy" --allow-empty
+	@git push origin main
+	@echo ""
+	@echo "${Y}El sitio estará temporalmente en https://pilas-engine.github.io/sitio-web/${N}"
+	@echo ""
 
 compilar:
 	@echo "Compilando"

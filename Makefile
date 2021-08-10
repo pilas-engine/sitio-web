@@ -31,6 +31,7 @@ deploy: compilar
 	@git push origin main
 	@echo ""
 	@echo "${Y}El sitio estará temporalmente en https://pilas-engine.github.io/sitio-web/${N}"
+	@echo "${Y}(hay que esperar 1 minuto para que se actualice solo)${N}"
 	@echo ""
 
 compilar:

@@ -1,51 +1,26 @@
 <footer class="footer text-center bg-dark py-6">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <ul class="list-inline">
-                    {{ if .Site.Params.social.rss -}}
-                    <li class="list-inline-item">
-                        {{- with .Site.GetPage "" -}}
-                            {{- with .OutputFormats.Get "RSS" -}}
-                                <a href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" class="icons d-block">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            {{- end -}}
-                        {{- end -}}
-                    </li>
-                    {{- end -}}
-                    {{- if .Site.Params.social.email -}}
-                    <li class="list-inline-item">
-                        <a href="mailto:{{ .Site.Params.social.email }}" class="icons d-block">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {{- end -}}
-                    {{- range $name, $path := .Site.Params.social -}}
-                        {{- if and $path (not (in (slice "rss" "email") $name)) -}}
-                        <li class="list-inline-item">
-                            <a href="{{ $path | safeURL }}" class="icons d-block">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-{{ $name }} fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        {{- end -}}
-                    {{- end }}
-                </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a
+              href="{{ .Permalink }}"
+              rel="alternate"
+              type="application/rss+xml"
+              class="icons d-block"
+            >
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
 
-                <p class="text-muted">
-                        Copyright &copy; Hugo Ruscitti {{ now.Year }}
-                </p>
+        </ul>
 
-            </div>
-        </div>
+        <p class="text-muted">Copyright &copy; Hugo Ruscitti {{ now.Year }}</p>
+      </div>
     </div>
+  </div>
 </footer>

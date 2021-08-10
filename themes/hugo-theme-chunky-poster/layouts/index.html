@@ -1,56 +1,104 @@
 {{ define "main" }}
 <main class="homepage container py-6">
-    <!-- Hero -->
-    <div class="hero row">
-        <div class="col position-relative py-lg-7{{ if not .Site.Params.homepageImage }} py-7{{ else }} pb-5{{ end }}">
-            {{- with .Site.Params.homepageImage -}}
-                <div class="homepage-image">
-                    <img src="{{ . | relURL }}" class="img-fluid">
-                </div>
-            {{- end -}}
+  <div class="jumbotron text-center">
+    <h1 class="display-4">¡Crea tus propios videojuegos!</h1>
 
-            <h1 class="display-4">{{ .Site.Title }}</h1>
-            {{- with .Site.Params.description -}}
-                <h3 class="font-weight-normal">{{ . | safeHTML }}</h3>
-            {{- end -}}
+    <p class="lead">
+      Pilas Engine te permite aprender a programar creando videojuegos geniales.
+    </p>
+
+    <hr class="my-4" />
+
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Abrir la versión online</a>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Descargar</a>
+    </p>
+  </div>
+
+  <div>
+
+      <h2 id="que-es-pilas-engine">¿Que es Pilas Engine?</h2>
+
+      <p>
+        Pilas Engine es una herramienta para construir videojuegos de manera
+        sencilla y divertida.
+      </p>
+
+      <p>
+        Ideamos esta herramienta para que los jóvenes puedan descubrir y
+        aprender a programar computadoras. Creemos que aprender a programar es
+        espectacular, porque les permite tener el control de las computadora,
+        inventar y desarrollar cualquier tipo de software.
+      </p>
+
+      <p>
+        <img class="img-fluid" src="index/editor_2.png">
+      </p>
+
+      <h2 id="qué-características-incluye-pilas-engine">
+        ¿Qué características incluye Pilas Engine?
+      </h2>
+
+
+      <div class="row">
+        <div class="col-sm">
+          <img src="caracteristicas/primeros-pasos.png" />
+
+          <p>
+            Está dirigido a personas que comienzan a programar videojuegos y
+            quieren lograr resultados sorprendentes y divertidos en poco tiempo.
+          </p>
         </div>
-    </div>
 
-    <!-- Latest article -->
-    {{- range first 1 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) -}}
-        {{ $page := . }}
-        <div class="latest row py-lg-5">
-            <div class="col-lg-6 mb-3">
-                {{- with $page.Params.images -}}
-                    {{- $images := . -}}
-                    {{- with $page.Site.GetPage "section" "images" -}}
-                        {{- with .Resources.GetMatch (strings.TrimPrefix "/images/" (index $images 0)) -}}
-                            {{- $image := .Fill "700x450" -}}
-                            <a href="{{ $page.RelPermalink }}" class="d-block">
-                                <img data-src="{{ $image.RelPermalink }}" class="img-fluid rounded" alt="{{ $page.Title }}">
-                            </a>
-                        {{- end -}}
-                    {{- end -}}
-                {{- end -}}
-            </div>
-            <div class="col-lg-6 mb-3">
-                <h5 class="created text-muted text-uppercase font-weight-bold">{{ $page.Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</h5>
-                <h2><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
+        <div class="col-sm">
+          <img src="caracteristicas/multiplataforma.png" />
 
-                <div class="content">
-                    {{ $page.Summary }}
-                </div>
-            </div>
+          <p>
+            Es multiplataforma: funciona en Windows, Gnu/Linux y Mac OS X.
+            Cualquier persona puede utilizar el motor :).
+          </p>
         </div>
-    {{- end -}}
 
-    <!-- Articles -->
-    <div class="articles row row-cols-1 row-cols-lg-3">
-        {{ range after 1 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-            <div class="col mb-3">
-                {{ .Render "card" }}
-            </div>
-        {{ end }}
-    </div>
+        <div class="col-sm">
+          <img src="caracteristicas/completamente-castellano.png" />
+          <p>
+            Completamente en castellano: la documentación, los tutoriales y el
+            código programado están en tu idioma.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <img src="caracteristicas/interactiva.png" />
+          <p>Es interactiva: puedes programar mientras observas resultados.</p>
+        </div>
+
+        <div class="col-sm">
+          <img src="caracteristicas/actores-incluidos.png" />
+          <p>
+            Incluye actores y ejemplos prediseñados: para que puedas comenzar a
+            crear muchas variedades de juegos rápidamente.
+          </p>
+        </div>
+
+        <div class="col-sm">
+          <img src="caracteristicas/libre-gratuita.png" />
+          <p>
+            Libre y gratuita: Es software libre bajo la LGPL, así que puedes
+            copiar, modificar y distribuir el motor libremente.
+          </p>
+        </div>
+      </div>
+
+  </div>
+
+  <!-- Articles -->
+  <div class="articles row row-cols-1 row-cols-lg-3">
+    {{ range after 1 (where .Site.RegularPages "Type" "in"
+    .Site.Params.mainSections) }}
+    <div class="col mb-3">{{ .Render "card" }}</div>
+    {{ end }}
+  </div>
 </main>
 {{ end }}

@@ -31,8 +31,7 @@ canonifyurls = true
   share = true
   showLanguageSwitcher = true
 
-  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
-  customCSS = []
+  customCSS = ['estilo.css']
   customJS = []
 
   [params.prismJS]

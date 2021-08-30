@@ -7,8 +7,8 @@ canonifyurls = true
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
+    identifier = "portada"
+    name = "Portada"
     url = "/"
     weight = 10
   [[menu.main]]

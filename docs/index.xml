@@ -2,26 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pilas Engine</title>
-    <link>https://pilas-engine.github.io/sitio-web/</link>
+    <link>https://pilas-engine.com.ar/</link>
     <description>Recent content on Pilas Engine</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-AR</language><atom:link href="https://pilas-engine.github.io/sitio-web/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://pilas-engine.com.ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://pilas-engine.github.io/sitio-web/about/</link>
-      <pubDate>Thu, 08 Jul 2021 13:46:38 -0300</pubDate>
+      <title>Galeria</title>
+      <link>https://pilas-engine.com.ar/galeria/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:45 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/about/</guid>
-      <description>asdasd</description>
+      <guid>https://pilas-engine.com.ar/galeria/</guid>
+      <description>Galería de fotos  </description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://pilas-engine.com.ar/videos/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:41 -0300</pubDate>
+      
+      <guid>https://pilas-engine.com.ar/videos/</guid>
+      <description>Videos En esta sección reunimos varios tutoriales y conferencias para que puedas conocer más sobre pilas:
+Tutorial - Cómo implementar autómatas en Pilas Engine 2  Cómo implementar autómatas en Pilas Engine 2 Pilas Engine 2    Tutorial - Cómo desarrollar un juego de lluvia de objetos con Pilas Engine  Cómo hacer un juego de lluvia de objetos - Parte 1 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 2 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 3 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 4 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 5 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 6 Pilas Engine 2    Tutorial - Cómo hacer un juego de plataformas  Cómo hacer un juego de plataformas con Pilas Engine 2 Pilas Engine 2    Tutorial - Cómo crear el juego Nave vs Aliens  Nave vs Aliens - Parte 1 Pilas Engine 2     Nave vs Aliens - Parte 2 Pilas Engine 2     Nave vs Aliens - Parte 3 Pilas Engine 2     Nave vs Aliens - Parte 4 Pilas Engine 2    Tutorial - Cómo hacer un Flappy Bird  Cómo hacer un Flappy Bird Video 1 pilas-engine 2     Cómo hacer un Flappy Bird Video 2 pilas-engine 2     Cómo hacer un Flappy Bird Video 3 pilas-engine 2     Cómo hacer un Flappy Bird Video 4 pilas-engine 2     Cómo hacer un Flappy Bird Video 5 pilas-engine 2     Cómo hacer un Flappy Bird Video 6 pilas-engine 2     Cómo hacer un Flappy Bird Video 7 pilas-engine 2     Cómo hacer un Flappy Bird Video 8 pilas-engine 2     Cómo hacer un Flappy Bird Video 9 pilas-engine 2     Cómo hacer un Flappy Bird Video 10 pilas-engine 2    Demos  Pilas en móviles pilas-engine 2     ¿Cómo crear un entorno?</description>
+    </item>
+    
+    <item>
+      <title>Foro</title>
+      <link>https://pilas-engine.com.ar/foro/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:37 -0300</pubDate>
+      
+      <guid>https://pilas-engine.com.ar/foro/</guid>
+      <description>Foro de mensajes En el foro de mensajes vas a encontrar una comunidad de personas dispuestas a ayudar y resolver dudas sobre pilas:
+ Abrir el foro en una ventana nueva  </description>
+    </item>
+    
+    <item>
+      <title>Documentación</title>
+      <link>https://pilas-engine.com.ar/documentacion/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:29 -0300</pubDate>
+      
+      <guid>https://pilas-engine.com.ar/documentacion/</guid>
+      <description>Documentación Un buen punto de inicio para comenzar a utilizar pilas es explorar el manual completo en español. Este manual recorre toda la funcionalidad de pilas, y explica con ejemplos cómo utilizar cada parte del motor.
+Manuales de la versión actual de pilas:
+Leer el manual online Manual en PDF Manual en epub Ver API  Versión python-pilas:
+Ver el manual
+Ver API
+Mini tutorial
+Mini tutorial (huayra)
+Ver el manual (ver 0.</description>
     </item>
     
     <item>
       <title>Descargas</title>
-      <link>https://pilas-engine.github.io/sitio-web/descargas/</link>
-      <pubDate>Thu, 08 Jul 2021 13:46:38 -0300</pubDate>
+      <link>https://pilas-engine.com.ar/descargas/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:24 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/descargas/</guid>
-      <description>asdasd</description>
+      <guid>https://pilas-engine.com.ar/descargas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noticias</title>
+      <link>https://pilas-engine.com.ar/noticias/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:04 -0300</pubDate>
+      
+      <guid>https://pilas-engine.com.ar/noticias/</guid>
+      <description>mis noticias</description>
+    </item>
+    
+    <item>
+      <title>Acercade</title>
+      <link>https://pilas-engine.com.ar/acercade/</link>
+      <pubDate>Sat, 04 Sep 2021 22:26:10 -0300</pubDate>
+      
+      <guid>https://pilas-engine.com.ar/acercade/</guid>
+      <description>Acerca de Pilas Engine ¿Cuál es el propósito?, ¿cómo empezó?, ¿hacia donde va?</description>
     </item>
     
   </channel>

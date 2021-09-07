@@ -5,10 +5,6 @@
     <link>https://pilas-engine.github.io/sitio-web/tags/</link>
     <description>Recent content in Tags on Pilas Engine</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-AR</language>
-    
-	<atom:link href="https://pilas-engine.github.io/sitio-web/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-AR</language><atom:link href="https://pilas-engine.github.io/sitio-web/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

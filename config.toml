@@ -1,39 +1,7 @@
-baseURL = "https://pilas-engine.github.io/sitio-web"
-languageCode = "es-AR"
-title = "Pilas Engine"
-DefaultContentLanguage = "es"
-theme = "hugo-theme-chunky-poster"
-canonifyurls = true
+baseURL = 'https://pilas-engine.com.ar'
+languageCode = 'en-us'
+title = 'Pilas Engine'
+theme = "pilas"
 
-[menu]
-  [[menu.main]]
-    identifier = "portada"
-    name = "Portada"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    identifier = "descargas"
-    name = "Descargas"
-    url = "/descargas/"
-    weight = 0
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 0
-
-
-[params]
-  author = "Hugo Ruscitti"
-  description = "Aprende a crear tus propios videojuegos."
-  homepageImage = "/images/homepage-image.jpg"
-  dateFormat = "January 2, 2006"
-  share = true
-  showLanguageSwitcher = true
-
-  customCSS = ['estilo.css']
-  customJS = []
-
-  [params.prismJS]
-    enable = true
-    theme = ""
+[markup.goldmark.renderer]
+unsafe = true

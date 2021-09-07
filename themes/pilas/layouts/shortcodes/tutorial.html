@@ -1,0 +1,12 @@
+<div class="pa2 cf">
+  <div class="fl pr2">
+    <a href="/tutoriales/{{ .Get "nombre" }}.{{ .Get "extension" }}">
+      <img class="ba b--silver" src="/tutoriales/{{ .Get "nombre" }}/icono.png">
+    </a>
+  </div>
+
+  <div>
+    <div><a class="link" href="/tutoriales/{{ .Get "nombre" }}.{{ .Get "extension" }}">{{ .Get "titulo" }}</a></div>
+    <div class='pt2'>{{ .Get "descripcion" }}</div>
+  </div>
+</div>

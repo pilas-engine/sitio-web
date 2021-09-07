@@ -1,0 +1,10 @@
+<style>
+</style>
+
+<!-- main -->
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/tachyons.min.css" | absURL }}">
+
+<!-- highlight.js -->
+{{ if .Site.Params.highlight | default false }} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlightStyle | default "default" }}.min.css"> {{ end }}
+

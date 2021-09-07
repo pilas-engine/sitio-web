@@ -1,0 +1,12 @@
+{{ partial "header" . }}
+
+<main class="pt4 mw8 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+    <h2>{{ .Title }}</h2>
+    asdad
+
+    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+
+</main>
+
+{{ partial "paginator" . }}
+{{ partial "footer" . }}

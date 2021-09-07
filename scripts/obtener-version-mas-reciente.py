@@ -7,8 +7,10 @@ response = request.urlopen(url)
 data = response.read().decode("utf-8")
 data = json.loads(data)
 
-print(data["tag_name"])
-print(data["published_at"].split("T")[0])
+print()
+print("version:", data["tag_name"])
+print("fecha de publicacion:", data["published_at"].split("T")[0])
+print()
 
 descargas = {}
 

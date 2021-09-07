@@ -1,7 +1,8 @@
-baseURL = 'https://pilas-engine.com.ar'
+baseURL = 'https://pilas-engine.github.io/sitio-web/'
 languageCode = 'en-us'
 title = 'Pilas Engine'
 theme = "pilas"
+canonifyurls = true
 
 [markup.goldmark.renderer]
 unsafe = true

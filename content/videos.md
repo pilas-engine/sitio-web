@@ -11,6 +11,40 @@ draft: false
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
+## Hagamos un juego juntos
+
+
+{{< video 
+  url="https://www.youtube.com/watch?v=WSIjAyTZP-0" 
+  imagen="/videos/ninjas/parte1.jpg" 
+  titulo="Hagamos un juego de Ninjas"
+  subtitulo="Pilas Engine 2" 
+>}}
+
+{{< video 
+  url="https://www.youtube.com/watch?v=nkRGb9l1pes" 
+  imagen="/videos/juego-educativo/parte1.jpg" 
+  titulo="Juego educativo - Parte 1"
+  subtitulo="Pilas Engine 2" 
+>}}
+
+{{< video 
+  url="https://www.youtube.com/watch?v=4tPEK0pi6Vs" 
+  imagen="/videos/juego-educativo/parte2.jpg" 
+  titulo="Juego educativo - Parte 2"
+  subtitulo="Pilas Engine 2" 
+>}}
+
+## Aprende conceptos de programación iniciales
+
+{{< video 
+  url="https://www.youtube.com/watch?v=MGqb18dMHs8" 
+  imagen="/videos/conceptos/video.jpg" 
+  titulo="Conceptos iniciales"
+  subtitulo="Pilas Engine 2" 
+>}}
+
+
 ## Tutorial - Cómo implementar autómatas en Pilas Engine 2
 
 {{< video 

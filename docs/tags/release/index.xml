@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>release on Pilas Engine</title>
+    <link>https://pilas-engine.github.io/sitio-web/tags/release/</link>
+    <description>Recent content in release on Pilas Engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Nov 2013 18:40:47 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publicamos la versión 0.83</title>
+      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</link>
+      <pubDate>Thu, 14 Nov 2013 18:40:47 -0300</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</guid>
+      <description>Publicamos la nueva versión 0.83 de pilas !!!
+Puedes encontrar la versión listo para descargar en:
+http://pilas-engine.com.ar/descargas.html</description>
+    </item>
+    
+  </channel>
+</rss>

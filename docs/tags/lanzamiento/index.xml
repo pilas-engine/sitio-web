@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lanzamiento on Pilas Engine</title>
+    <link>https://pilas-engine.github.io/sitio-web/tags/lanzamiento/</link>
+    <description>Recent content in lanzamiento on Pilas Engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Dec 2014 21:29:25 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/tags/lanzamiento/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publicamos la versión beta 0.90.16</title>
+      <link>https://pilas-engine.github.io/sitio-web/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</link>
+      <pubDate>Wed, 10 Dec 2014 21:29:25 -0300</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</guid>
+      <description>¡Saludos!, hoy queremos anunciar que tenemos una nueva versión beta de pilas-engine, aquí está el anuncio oficial:
+http://foro.pilas-engine.com.ar/t/publicamos-una-nueva-beta-0-90-16/290</description>
+    </item>
+    
+  </channel>
+</rss>

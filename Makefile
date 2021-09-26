@@ -23,7 +23,7 @@ comandos:
 
 ejecutar:
 	@echo "Iniciando el servidor..."
-	hugo serve
+	hugo serve --disableFastRender -w
 
 deploy: compilar
 	@git add docs

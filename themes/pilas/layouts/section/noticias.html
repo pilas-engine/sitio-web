@@ -1,0 +1,32 @@
+{{ partial "header" . }}
+
+<main class="pt4 mw8 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+  <h1 id="noticias">Noticias</h1>
+
+  {{ range .Pages }}
+  <div class="pa3 br2 ba b--light-gray bw2 mb3">
+
+    <div class="flex flex-column flex-row-ns">
+
+      <div class="w4-ns tc tl-ns mb4 mb0-ns">
+        <span class="f7 black pa1">
+          {{.Date.Format "Jan 2, 2006"}}
+        </span>
+      </div>
+
+      <div class="flex1">
+        <h3 class="b0 mt0 b">
+          {{ .Title }}
+        </h3>
+
+        <div class="lh-copy">
+          {{ .Content }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+  {{ end }}
+
+</main>

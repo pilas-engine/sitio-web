@@ -13,10 +13,10 @@ explica con ejemplos cómo utilizar cada parte del motor.
 Manuales de la versión actual de pilas:
 
 <div class="tc">
-  <a class="bg-blue pa2 br2 link white source-sans-pro" href="https://app.pilas-engine.com.ar/manual/index.html" target="_blank">Leer el manual online</a>
-  <a class="bg-blue pa2 br2 link white source-sans-pro" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/book.pdf">Manual en PDF</a>
-  <a class="bg-blue pa2 br2 link white source-sans-pro" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/book.epub">Manual en epub</a>
-  <a class="bg-blue pa2 br2 link white source-sans-pro" href="https://app.pilas-engine.com.ar/#/api" target="_blank">Ver API</a>
+  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://app.pilas-engine.com.ar/manual/index.html" target="_blank">Leer el manual online</a>
+  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/book.pdf">Manual en PDF</a>
+  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/book.epub">Manual en epub</a>
+  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://app.pilas-engine.com.ar/#/api" target="_blank">Ver API</a>
 
 </div>
 

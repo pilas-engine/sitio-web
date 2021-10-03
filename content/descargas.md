@@ -26,3 +26,6 @@ equipo:
 
 Ten en cuenta que pilas también se pude usar de forma online directamente
 desde el navegador visitando esta dirección: <a href="https://app.pilas-engine.com.ar">app.pilas-engine.com.ar</a>.
+
+Ah, también existe una página especial dedicada a la versión
+[clásica de pilas](/pilas-version-clasica) basada en python.

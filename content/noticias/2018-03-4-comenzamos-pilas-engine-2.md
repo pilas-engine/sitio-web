@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ¡Comenzamos el desarrollo de pilas-engine 2!
 draft: false
 date: 2018-03-04

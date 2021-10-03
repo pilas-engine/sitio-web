@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Publicamos un video tutorial sobre autómatas
 draft: false
 date: 2020-07-01

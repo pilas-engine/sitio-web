@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ¡ Tenemos un nuevo video tutorial !
 draft: false
 date: 2020-06-10

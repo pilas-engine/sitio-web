@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ¡Pilas Engine cumple 10 años!
 draft: false
 date: 2020-08-07

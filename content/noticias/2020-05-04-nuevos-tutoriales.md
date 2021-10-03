@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dos nuevos tutoriales
 draft: false
 date: 2020-05-04

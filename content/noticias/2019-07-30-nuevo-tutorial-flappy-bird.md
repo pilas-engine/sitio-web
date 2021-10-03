@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nuevo tutorial en video
 draft: false
 date: 2019-07-30

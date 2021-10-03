@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nuevo tutorial de coches de carrera
 draft: false
 date: 2020-06-11

@@ -1,12 +1,13 @@
-<div class="pa2 cf">
+<div class="pa2 cf mv2">
   <div class="fl pr2">
-    <a href="/tutoriales/{{ .Get "nombre" }}.{{ .Get "extension" }}">
+    <a href="/documentacion/tutoriales/{{ .Get "nombre" }}/">
       <img class="ba b--silver" src="/tutoriales/{{ .Get "nombre" }}/icono.png">
     </a>
   </div>
 
   <div>
-    <div><a class="link" href="/tutoriales/{{ .Get "nombre" }}.{{ .Get "extension" }}">{{ .Get "titulo" }}</a></div>
+    <div><a class="link" href="/tutoriales/{{ .Get "nombre" }}/">{{ .Get "titulo" }}</a></div>
     <div class='pt2'>{{ .Get "descripcion" }}</div>
+    <div class='pt2'>Realizado por:  <span class="b">{{ .Get "autor" }}</span></div>
   </div>
 </div>

@@ -1,0 +1,99 @@
+{{ partial "header" . }}
+
+<style>
+  .tutorial h1 {
+    color: #005590;
+  }
+
+  .tutorial code {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 3px 5px;
+    font-family: monospace;
+  }
+
+  .tutorial h2 {
+    color: #005590;
+  }
+
+  .tutorial p {
+  }
+
+  .tutorial strong {
+    font-weight: bold;
+  }
+
+  .tutorial li {
+    text-align: justify;
+    padding-bottom: 1em;
+  }
+
+  .tutorial img {
+    max-width: 100%;
+    display: block;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .footer_imprimir {
+    display: none;
+  }
+</style>
+
+
+
+<style media="print">
+  header {
+    display: none !important;
+  }
+
+  body {
+    overflow: initial !important;
+  }
+
+  .contenedor-scroll {
+    position: initial !important;
+    overflow: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer_imprimir {
+    display: block !important;
+  }
+
+  .contenedor-para-el-boton-imprimir {
+    display: none;
+  }
+
+</style>
+
+
+
+
+<div class="contenedor-scroll">
+  <main class="tutorial pt4 mw7 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+    <div class="tr f6">
+      <div class="pt3 contenedor-para-el-boton-imprimir">
+        <button type="button" onclick="window.print(); return false;">Imprimir tutorial</button>
+      </div>
+    </div>
+
+    {{ .Content }}
+
+    <div class="footer_imprimir tc">
+      Artículo extraído del sitio <a href="https://www.pilas-engine.com.ar">https://www.pilas-engine.com.ar</a>
+    </div>
+
+    {{ partial "footer" . }}
+
+  </main>
+</div>
+

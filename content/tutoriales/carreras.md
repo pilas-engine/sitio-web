@@ -21,7 +21,7 @@ Antes de comenzar a desarrollar el videojuego, ingresamos al siguiente link para
 descargar una colección de gráficos de carreras que luego utilizaremos.
 
 - [Racing Pack de kenney](https://www.kenney.nl/assets/racing-pack)
-- [Link alternativo](/assets/extras/kenney_racingpack_updated.zip)
+- [Link alternativo](/tutoriales/kenney_racingpack_updated.zip)
 
 ## **Paso 2: Creamos nuestro actor principal**
 

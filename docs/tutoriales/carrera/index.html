@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://pilas-engine.github.io/sitio-web/favicon.png">
+        
+        <title></title>
+
+        <style>
+</style>
+
+
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/main.css">
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/tachyons.min.css">
+
+
+
+
+
+        
+
+
+<script src="https://pilas-engine.github.io/sitio-web/js/main.js"></script>
+ 
+        <meta name="generator" content="Hugo 0.84.4" />
+
+        
+
+
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5829629-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-5829629-2');
+        </script>
+
+    </head>
+
+    <body>
+        
+
+        <nav class="db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+
+  <a href="https://pilas-engine.github.io/sitio-web/" class="v-mid mid-gray link w5 pl3 pv2" href="#" title="home">
+    <img class="logo" width="183" height="64" src="https://pilas-engine.github.io/sitio-web/logo-de-pilas.svg">
+  </a>
+
+  <div class="v-mid w-100 tr truncate">
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/">Principal</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/noticias">Noticias</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/descargas">Descargas</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/documentacion">Documentación</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/foro">Foro</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/videos">Videos</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/galeria">Galería</a>
+  </div>
+
+</nav>
+
+
+
+<style>
+  .tutorial h1 {
+    color: #005590;
+  }
+
+  .tutorial code {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 3px 5px;
+    font-family: monospace;
+  }
+
+  .tutorial h2 {
+    color: #005590;
+  }
+
+  .tutorial p {
+  }
+
+  .tutorial strong {
+    font-weight: bold;
+  }
+
+  .tutorial li {
+    text-align: justify;
+  }
+
+  .tutorial img {
+    max-width: 100%;
+    display: block;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .footer_imprimir {
+    display: none;
+  }
+</style>
+
+
+
+<style media="print">
+  header {
+    display: none !important;
+  }
+
+  body {
+    overflow: initial !important;
+  }
+
+  .contenedor-scroll {
+    position: initial !important;
+    overflow: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer_imprimir {
+    display: block !important;
+  }
+
+  .contenedor-para-el-boton-imprimir {
+    display: none;
+  }
+
+</style>
+
+
+
+
+<div class="contenedor-scroll">
+  <main class="tutorial pt4 mw7 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+    <div class="tr f6">
+      <div class="pt3 contenedor-para-el-boton-imprimir">
+        <button type="button" onclick="window.print(); return false;">Imprimir tutorial</button>
+      </div>
+    </div>
+
+    <h1 id="carrera">¡Carrera!</h1>
+<p><img src="image1.png" alt=""></p>
+<p>En este tutorial veremos como hacer un juego de carreras como se ve en la imagen, para esto,
+debemos descargar los sprites que utilizaremos <a href="https://pilas-engine.github.io/sitio-web/tutoriales/carrera.zip">desde aquí</a></p>
+<h2 id="calle">Calle</h2>
+<p>Lo primero que haremos será construir una calle que de un efecto de que vamos rápido. En este tipo
+de juegos, el auto no es el que avanza, sino que el fondo es el que se mueve dando a entender al
+jugador que esta avanzando, cuando no es así.</p>
+<p>Por eso, haremos que la calle se mueva hacia abajo
+constantemente.</p>
+<p>Para poder hacer bien este efecto, crearemos 5 actores “calle” que irán bajando hasta determinada
+coordenada en <code>y</code>, y cuando lleguen ahí, volverán a arriba a otra coordenada <code>y</code>.</p>
+<p>De esta forma, no hará falta crear mas que 5 actores para realizar el efecto que queremos.</p>
+<p>Para empezar, eliminaremos todos los objetos que vienen por defecto en el proyecto inicial. Esto lo
+haremos seleccionando cada actor de la escena, tocando los 3 puntos a la derecha de su nombre y
+seleccionando la opción “Eliminar”. De la misma forma, eliminaremos la segunda escena, ya que no la
+usaremos en este tutorial.</p>
+<p><img src="image2.png" alt=""></p>
+<p>Una vez teniendo el proyecto limpio, seleccionaremos la escena y vamos a cambiar el fondo, para
+hacer esto, buscaremos en las propiedades de la escena (el panel debajo de los actores) y
+buscaremos la propiedad “Fondo”.</p>
+<p><img src="image3.png" alt=""></p>
+<p>Haremos click en el nombre de la imagen actual(“fondo-plano”) y nos abrirá una pantalla donde
+podremos seleccionar una imagen propia de pilas o agregar una nueva imagen. Nosotros
+seleccionaremos la que se muestra a continuación.</p>
+<p><img src="image4.png" alt=""></p>
+<p>Listo, nuestro fondo ha cambiado a la imagen seleccionada. Lo siguiente que haremos será crear el
+actor “Calle”. Para esto, vamos al botón “Crear Actor”.</p>
+<p><img src="image5.png" alt=""></p>
+<p>Y seleccionaremos el actor que no tiene imagen.</p>
+<p><img src="image6.png" alt=""></p>
+<p>Veremos que nuestro actor ahora aparece en la pantalla. Lo seleccionaremos y buscaremos las
+propiedades “Nombre” y “Etiqueta”, y a ambas les pondremos “calle”. Además, buscaremos la propiedad
+“Imagen”, al tocar en el nombre de la imagen nos abrirá la pantalla para cargar imágenes de
+actores.</p>
+<p><img src="image7.png" alt=""></p>
+<p>Iremos a la opción “Importar imagen” y seleccionaremos todas las imágenes que descargamos para este
+tutorial, y seleccionaremos la calle.</p>
+<p><img src="image8.png" alt=""></p>
+<p>Una vez hecho esto, veremos que nuestro Actor ahora tiene la imagen que acabamos de seleccionar.
+Ahora buscaremos la propiedad “Centro y” y le pondremos el valor 1.</p>
+<p><img src="image9.png" alt=""></p>
+<p>Ahora abriremos la pestaña de Código que está a la derecha.</p>
+<p><img src="image10.png" alt=""></p>
+<p>En esta, escribiremos lo siguiente.</p>
+<p><img src="image11.png" alt=""></p>
+<p>Explicaremos un poco este código por partes:</p>
+<ul>
+<li>Creamos una variable llamada <code>Velocidad</code> a la cual le asignamos el valor <code>5</code>. Esta será la velocidad con la que la calle ira descendiendo en el juego, dando el efecto de que el jugador esta avanzando.</li>
+<li>Creamos la variable <code>punto_a_moverse</code> y le asignamos el valor <code>250</code>. Este será el punto en “y” al que se moverá la imagen una vez haya descendido lo suficiente para salir de la pantalla.</li>
+<li>El método <code>actualizar</code> actualiza constantemente el valor de la variable <code>y</code> restándole la velocidad, lo que efectivamente hace que nuestra calle se mueva. Debajo de esto vemos la condición de que si el <code>y</code> de nuestra calle bajó lo suficiente, esta debe volver al punto que definimos.</li>
+</ul>
+<p>Una vez teniendo este código, seleccionamos la calle en el panel de actores, vamos a los
+3 puntos a la derecha y tocamos “Duplicar este actor”.</p>
+<p><img src="image12.png" alt=""></p>
+<p>Repetiremos este proceso hasta tener 5 calles en nuestra escena.</p>
+<p><img src="image13.png" alt=""></p>
+<p>Ahora, a cada calle le ajustaremos la posición en <code>x</code> e <code>y</code>. En <code>x</code> le pondremos <code>0</code> a todas, para que
+queden en centro de la pantalla. En e iremos cambiando el valor para que queden acomodadas según
+nos convenga. Para esto, seleccionaremos cada una de las calles e iremos asignándole en orden los
+valores <code>-250</code>, <code>-125</code>, <code>0</code>, <code>125</code>, <code>250</code> (calle tendrá <code>y=-250</code>, calle1 tendrá <code>y=-125</code>, calle2 <code>0</code>, y así sucesivamente).</p>
+<p>De esta forma, nuestra escena debería quedar así.</p>
+<p><img src="image14.png" alt=""></p>
+<p>Notaremos que al duplicar la calle, el código que escribimos en el primer actor se copio en todos
+los demás. Haciendo que todas las calles se comporten exactamente igual. Si ejecutamos ahora el
+juego, veremos que parece como si estuviésemos avanzando en una calle.</p>
+<h2 id="jugador">Jugador</h2>
+<p>Lo que sigue es hacer un actor para nuestro jugador que se pueda mover en la calle que ya hicimos.
+Para esto, crearemos un nuevo actor “sin imagen”, cambiaremos su nombre y etiqueta por “jugador” y
+seleccionaremos la imagen del auto rojo que importamos anteriormente.</p>
+<p><img src="image15.png" alt=""></p>
+<p>Luego, iremos a la pestaña código de nuestro jugador y escribiremos lo siguiente.</p>
+<p><img src="image16.png" alt=""></p>
+<p>Explicaremos un poco este código:</p>
+<ul>
+<li>Creamos la variable <code>velocidad</code> y le asignamos el valor <code>3</code>, esta será la velocidad a la que el auto se moverá en el eje x.</li>
+<li>Creamos la variable <code>bordes</code> y le asignamos el valor <code>97</code>. Esta variable nos servirá para que el jugador no se pueda salir de la calle.</li>
+<li>En el método <code>iniciar</code> ponemos la posición inicial de nuestro jugador, haciendo que empiece en <code>x=0</code> (centro de la pantalla), <code>y=-215</code> (al pie de la pantalla).</li>
+<li>En el método <code>actualizar</code> agregamos una condición para saber si el jugador esta tocando la flecha izquierda (<code>this.pilas.control.izquierda</code>), y además de estar tocando esa tecla, también verificamos que el jugador no se pueda pasar de los bordes (<code>this.x &gt; -this.bordes</code>).</li>
+<li>La siguiente condición hace exactamente lo mismo pero para el movimiento hacia la derecha.</li>
+<li>Luego, agregamos un método llamado <code>cuando_colisiona</code> que recibe como parámetro un actor. Este método será llamado cuando nuestro jugador choque con algo. En nuestro caso, queremos identificar solamente cuando nuestro jugador choque contra otro actor con la etiqueta “obstaculo”, el cual todavía no creamos, pero lo haremos a la brevedad. Si el actor tiene la etiqueta obstáculo, crearemos una explosión con el método <code>this.pilas.actores.explosion()</code> y la guardaremos en la variable <code>explosión</code>, luego la posicionaremos en el lugar en el que esta nuestro actor. Además, le enviaremos un mensaje “perder” a nuestra escena avisándole de que el jugador perdió, para que esta le muestre el cartel de perder y le de la opción de volver a jugar, cosa que todavía no programamos, pero que haremos en un momento. Por ultimo eliminamos al actor.</li>
+</ul>
+<p>Una vez terminado ese código, debemos dirigirnos a las propiedades del actor “jugador” y bajar
+hasta la parte de físicas. Ahí, seleccionaremos la Figura “Rectángulo”, y cambiaremos los limites
+de este rectángulo ajustando las propiedades “Ancho” y “Alto”, poniendo los valores <code>40</code> y <code>60</code>
+respectivamente. Además, quitaremos el check “Dinámica”, ya que no queremos que nuestro actor sea
+afectado por físicas.</p>
+<p>Nuestro jugador debería quedar así:</p>
+<p><img src="image17.png" alt=""></p>
+<p>Si ejecutamos el juego ahora, veremos que podremos mover a nuestro actor de un extremo al otro de
+la calle presionando las flechas izquierda y derecha de nuestro teclado.</p>
+<h2 id="obstáculos">Obstáculos</h2>
+<p>A continuación, crearemos un obstáculo para que nuestro jugador tenga algo que esquivar. Para eso,
+crearemos un nuevo actor “sin imagen”, asignándole el nombre y la etiqueta “obstaculo”, y cambiando
+la imagen del actor por la imagen del auto marrón. Además, quitaremos el check “Activo”, ya que
+este actor no debe iniciar con el juego, sino que lo iremos clonando a medida que pase el tiempo.</p>
+<p>Nuestro nuevo actor debería quedar así:</p>
+<p><img src="image18.png" alt=""></p>
+<p>Además, iremos a la parte de propiedades físicas, y le asignaremos los mismos valores que a nuestro
+actor “jugador”. Estas propiedades eran:</p>
+<p><img src="image19.png" alt=""></p>
+<p>Una vez hecho esto, nos dirigiremos a la pestaña código de nuestro actor y escribiremos lo
+siguiente.</p>
+<p><img src="image20.png" alt=""></p>
+<p>Explicaremos este código a continuación:</p>
+<ul>
+<li>Creamos la variable velocidad, a la cual le asignamos el valor 1. Esta nos servirá para mover al obstáculo hacia abajo. Cabe aclarar que esta velocidad es bastante menor a la de la calle, lo que hace parecer que nuestro jugador va realmente muy rápido.</li>
+<li>Luego, en el método <code>actualizar</code>, usamos exactamente el mismo código que utilizamos para la calle, con la diferencia de que eliminaremos a estos actores cuando lleguen al <code>y &lt; -300</code> en lugar de <code>-375</code>.</li>
+</ul>
+<p>Bien, ya tenemos a nuestro obstáculo, pero si ejecutamos el juego veremos que nunca aparece en
+nuestra pantalla. Eso es porque todavía no hicimos que la escena genere a estos obstáculos. Pero
+antes de ir al código de la escena, agregaremos otro actor que nos servirá para mejorar la
+ambientación de nuestro juego.</p>
+<h2 id="arbustos">Arbustos</h2>
+<p>Antes de seguir avanzando con la funcionalidad de la escena, crearemos al actor “arbusto” para
+darle una ambientación a nuestro juego. Para esto, crearemos un nuevo actor “sin
+imagen”, le cambiaremos el nombre y la etiqueta por “arbusto”, además quitaremos el check inactivo
+y le pondremos la imagen “arbusto” que importamos al principio del tutorial. Nuestro actor debería
+quedar así:</p>
+<p><img src="image21.png" alt=""></p>
+<p>Cabe aclarar que este actor no necesita colisionar con nada, ya que solo aparecerá fuera de la
+calle. Luego, vamos al código del arbusto y escribiremos lo siguiente.</p>
+<p><img src="image22.png" alt=""></p>
+<p>Podemos observar que el código es exactamente igual que el código que utilizamos en el actor
+“obstáculo”, con la única diferencia de que su velocidad es bastante mayor. Esto es así para que
+refuerce la idea de que el jugador está yendo realmente rápido.</p>
+<p>Si ejecutamos nuestro juego, tampoco veremos ningún cambio hasta el momento, pero eso cambiara
+cuando modifiquemos la escena, la cual se encargará de clonar obstáculos y arbustos.</p>
+<h2 id="escena">Escena</h2>
+<p>Lo último que nos queda por programar es nuestra escena, la cual será la encargada de que aparezcan
+obstáculos y arbustos, además de los mensajes de “Game Over” y el botón “Volver a jugar”.</p>
+<p>Antes de crear la escena agregaremos un nuevo actor. Buscaremos dentro de los actores de pilas el
+que se llama “texto”</p>
+<p><img src="image23.png" alt=""></p>
+<p>Una vez agregado, le pondremos el nombre y etiqueta “gameover”, y quitaremos el check activo.
+además, modificaremos la propiedad “Texto” y le pondremos “Game-Over”.</p>
+<p>Nuestro actor debería quedar así:</p>
+<p><img src="image24.png" alt=""></p>
+<p>además, iremos a las propiedades “Escala x” y “Escala y”, y le pondremos el valor <code>3</code> a ambas.</p>
+<p><img src="image25.png" alt=""></p>
+<p>Una vez hecho esto, podemos empezar con el código de la escena.</p>
+<p>Seleccionamos nuestra escena y vamos a la pestaña de código. Dentro de esta, escribiremos lo
+siguiente:</p>
+<p><img src="image26.png" alt=""></p>
+<p>Explicaremos este código a continuación:</p>
+<ul>
+<li>Creamos la variable “puntos_para_clonar_autos”, la cual es una lista de coordenadas en <code>x</code> que utilizaremos para clonar nuestros obstáculos.</li>
+<li>De igual forma, creamos la variable “puntos_para_clonar_arbustos”, la cual contiene coordenadas en <code>x</code> que utilizaremos para clonar arbustos.</li>
+<li>Luego agregaremos el método “cuando_transcurre_un_segundo”. Este método se ejecuta una vez por segundo automáticamente, y nos indica los segundos transcurridos con le parámetro “segundos. Dentro de este método, llamaremos al método <code>clonar_arbustos</code> el cual explicaremos a continuación, pero básicamente, se encarga de crear arbustos. Debajo de esto, ponemos una condición para que cada 3 segundos la escena cree un obstáculo (utilizamos el método <code>pilas_es_multiplo</code> para saber si los segundos son múltiplo de <code>3</code>). Si esto se cumple, obtendremos un valor al azar (utilizando la función <code>azar</code> de pilas que recibe 2 parámetros numéricos, los cuales representan los limites de un intervalo en el que se generara el numero aleatorio) que este dentro del rango <code>[0, tamaño de la lista de arbustos-1]</code> y lo guardaremos en la variable <code>índice</code>. Luego, utilizamos esta variable para acceder a algún punto de los que tenemos guardados en la lista, y lo guardamos en la variable <code>x</code>. Por último, utilizamos la función de pilas <code>clonar_en</code> (la cual recibe 3 parámetros, el primero es el nombre del actor a clonar, y los otros dos son los valores de <code>x</code> e <code>y</code> respectivamente) para clonar nuestro “obstáculo” en el punto <code>x</code> que haya sido elegido aleatoriamente, y en el valor <code>y=300</code>, lo que significa que estará fuera de la pantalla (por encima para ser exactos) lo que evita que veamos como el obstáculo aparece de repente.</li>
+<li>El método “clonar_arbustos” lleva una lógica muy parecida a como creamos nuestros obstáculos, con la diferencia de que se ejecutara cada segundo; además, este método obtiene primero un valor aleatorio entre <code>0</code> y el tamaño de nuestra lista de puntos para generar arbustos -1, el cual será la cantidad de arbustos que crearemos en ese instante de tiempo. Para hacer esto, utilizamos un ciclo for que ejecutara su interior la cantidad “cantidad” que salió aleatoriamente en la línea anterior. Luego, siguiendo la lógica utilizada para crear obstáculos, clonaremos los arbustos en algún punto aleatorio.</li>
+<li>Por ultimo, el método <code>cuando_llega_un_mensaje</code> será el encargado de recibir el mensaje “perder” que le envía el Actor del jugador al chocar con un obstáculo. Para eso, dentro del método comparamos el mensaje recibido con “perder”, si esto es cierto, clonaremos al actor “gameover” (el mensaje de perder) en la coordenada <code>(225, 0)</code>. También crearemos al botón “reiniciar_escena” para que el jugador pueda volver a jugar, utilizando el método <code>pilas.actores.reiniciar_escena()</code>, el cual hace este trabajo por nosotros. Cambiaremos el mensaje del botón por “Volver a intentar” y por ultimo haremos que la cámara vibre con el método <code>pilas.camara.vibrar</code> (El cual recibe como parámetro la intensidad de la vibración y el tiempo que debe vibrar) haciendo que vibre con intensidad 5 por 1 segundo.</li>
+</ul>
+<p>Si ejecutamos nuestro juego ahora, veremos que aparecerán obstáculos y arbustos en nuestra escena a
+medida que el jugador “avanza” en la calle.</p>
+<p>Espero que les haya gustado este tutorial y se haya entendido. Si tienen alguna duda pueden
+consultarla en el <a href="https://foro.pilas-engine.com.ar/">foro de pilas</a>.</p>
+<p>¡Saludos!</p>
+
+
+    <div class="footer_imprimir tc">
+      Artículo extraído del sitio <a href="https://www.pilas-engine.com.ar">https://www.pilas-engine.com.ar</a>
+    </div>
+
+            <footer class="pt4 ph3 ph5-m ph6-l mid-gray sans-serif pv3">
+
+          <div class="tc mt3">
+            <a href="https://github.com/pilas-engine/pilas-engine/" target=_blank title="github" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/github.png"></a>
+            <a href="https://www.youtube.com/user/hugoruscitti" target=_blank title="youtube" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/youtube.png"></a>
+            <a href="https://foro.pilas-engine.com.ar/" target=_blank title="foro" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/foro.png"></a>
+          </div>
+
+          <div class="tc mt2 f7">
+            © Hugo Ruscitti
+          </div>
+
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
+
+  </main>
+</div>
+

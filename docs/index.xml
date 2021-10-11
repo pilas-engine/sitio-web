@@ -38,6 +38,16 @@ Hagamos un juego juntos  Hagamos un juego de Ninjas Pilas Engine 2     Juego edu
     
     <item>
       <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/carrera/</link>
+      <pubDate>Sun, 05 Sep 2021 12:31:29 -0300</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/carrera/</guid>
+      <description>¡Carrera! En este tutorial veremos como hacer un juego de carreras como se ve en la imagen, para esto, debemos descargar los sprites que utilizaremos desde aquí
+Calle Lo primero que haremos será construir una calle que de un efecto de que vamos rápido. En este tipo de juegos, el auto no es el que avanza, sino que el fondo es el que se mueve dando a entender al jugador que esta avanzando, cuando no es así.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://pilas-engine.github.io/sitio-web/tutoriales/carreras/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:29 -0300</pubDate>
       

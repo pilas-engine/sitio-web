@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://pilas-engine.github.io/sitio-web/favicon.png">
+        
+        <title></title>
+
+        <style>
+</style>
+
+
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/main.css">
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/tachyons.min.css">
+
+
+
+
+
+        
+
+
+<script src="https://pilas-engine.github.io/sitio-web/js/main.js"></script>
+ 
+        <meta name="generator" content="Hugo 0.84.4" />
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+
+  <a href="https://pilas-engine.github.io/sitio-web/" class="v-mid mid-gray link w5 pl3 pv2" href="#" title="home">
+    <img class="logo" width="183" height="64" src="https://pilas-engine.github.io/sitio-web/logo-de-pilas.svg">
+  </a>
+
+  <div class="v-mid w-100 tr truncate">
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/">Principal</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/noticias">Noticias</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/descargas">Descargas</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/documentacion">Documentación</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/foro">Foro</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/videos">Videos</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/galeria">Galería</a>
+  </div>
+
+</nav>
+
+
+
+<style>
+  .tutorial h1 {
+    color: #005590;
+  }
+
+  .tutorial code {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 3px 5px;
+    font-family: monospace;
+  }
+
+  .tutorial h2 {
+    color: #005590;
+  }
+
+  .tutorial p {
+  }
+
+  .tutorial strong {
+    font-weight: bold;
+  }
+
+  .tutorial li {
+    text-align: justify;
+  }
+
+  .tutorial img {
+    max-width: 100%;
+    display: block;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .footer_imprimir {
+    display: none;
+  }
+</style>
+
+
+
+<style media="print">
+  header {
+    display: none !important;
+  }
+
+  body {
+    overflow: initial !important;
+  }
+
+  .contenedor-scroll {
+    position: initial !important;
+    overflow: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer_imprimir {
+    display: block !important;
+  }
+
+  .contenedor-para-el-boton-imprimir {
+    display: none;
+  }
+
+</style>
+
+
+
+
+<div class="contenedor-scroll">
+  <main class="tutorial pt4 mw7 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+    <div class="tr f6">
+      <div class="pt3 contenedor-para-el-boton-imprimir">
+        <button type="button" onclick="window.print(); return false;">Imprimir tutorial</button>
+      </div>
+    </div>
+
+    <h1 id="defiende-la-base">Defiende la base</h1>
+<p>Defiende la base es un juego en el que debes poner defensores que disparen a los zombis que quieren
+llegar a tu base antes de que estos cumplan con su objetivo. Tu único objetivo es sobrevivir el
+mayor tiempo posible, mientras que las hordas de zombis cada vez son mayores.</p>
+<p>En este tutorial crearemos nuestra propia versión de este clásico juego en el motor Pilas Engine!</p>
+<p><img src="image1.png" alt=""></p>
+<blockquote>
+<p>Para continuar con este tutorial necesitaras descargar los recursos desde <a href="defiende_la_base.zip">aquí</a></p>
+</blockquote>
+<blockquote>
+<p>Y ten en cuenta que puedes jugar y ver el código del proyecto <a href="https://app.pilas-engine.com.ar/#/proyecto/5124e618-0290-429a-826b-d511052da41a">aquí</a>.</p>
+</blockquote>
+<p><strong>ATENCION</strong>: Este tutorial requiere un nivel básico de conocimiento de pilas, si nunca programaste
+antes, te recomiendo primero ver
+<a href="https://foro.pilas-engine.com.ar/t/video-tutorial-sobre-pilas-engine-2-como-hacer-un-flappy-bird/1701">este</a>
+tutorial. Caso contrario, ¡Que te diviertas!</p>
+<p>Para empezar, eliminaremos el contenido que nos trae el proyecto por defecto.</p>
+<p><img src="image2.png" alt=""></p>
+<p>Crearemos los actores e importaremos las imágenes que necesitamos para los mismo, para esto vamos a
+&ldquo;Crear Actor&rdquo;:</p>
+<p><img src="image3.png" alt=""></p>
+<p>Y seleccionaremos el actor &ldquo;Sin Imagen&rdquo;.</p>
+<p><img src="image4.png" alt=""></p>
+<p>Seleccionamos el actor y vamos a cambiar la propiedad “Imagen”</p>
+<p><img src="image5.png" alt=""></p>
+<p>Seleccionamos la opción “Importar Imagen”, y buscaremos los recursos del proyecto que descargamos
+para el tutorial. De estos recursos, podemos seleccionar cualquiera de las 2 imágenes de
+defensores. Para esta ocasión voy a utilizar la que se llama “police-idle.png”. Una vez
+seleccionada veremos que podemos seleccionar la imagen en el panel.</p>
+<p><img src="image6.png" alt=""></p>
+<p>Vamos a las propiedades y cambiamos la propiedad “Nombre” de “actor” a “defensor”, y también
+cambiaremos la etiqueta por el mismo valor.</p>
+<p><img src="image7.png" alt=""></p>
+<p>Y listo, ya tenemos a nuestro policía en el juego. Repetiremos el proceso para crear al zombi,
+seleccionando el archivo “zombie_idle.png” como imagen.</p>
+<p>Al hacer esto, notaremos que el zombi es mucho mas grande que nuestro defensor, por lo que
+buscaremos las propiedades “Escala x” y “Escala y” y les pondremos el valor <code>0.5</code>.</p>
+<p>De esta forma tendremos a los 2 actores de mas o menos el mismo tamaño.</p>
+<p><img src="image8.png" alt=""></p>
+<p>Lo siguiente que haremos es modificar el escenario para que quede como en la primera imagen. Para
+eso seleccionaremos a la escena y le cambiaremos la imagen por la que mas nos guste, siguiendo los
+pasos que realizamos para ponerle la imagen a nuestro zombi y policía, con la diferencia de que la
+propiedad en este caso se llama “Fondo”.</p>
+<p><img src="image9.png" alt=""></p>
+<p>Ahora vamos a agregar la base para dejar listo nuestro escenario, para eso agregamos un nuevo actor
+sin imagen, le ponemos nombre y etiqueta “base” y le seleccionamos la imagen “tanque_base”, con
+escala <code>5</code> en <code>x</code> e <code>y</code>.</p>
+<p><img src="image10.png" alt=""></p>
+<p>Antes de comenzar con el código, rotaremos a nuestros actores para que queden los defensores
+mirando para arriba, y los zombis mirando hacia abajo, para eso seleccionamos al defensor, buscamos
+la propiedad rotación y la ponemos en <code>90</code>:</p>
+<p><img src="image11.png" alt=""></p>
+<p>Lo mismo haremos con el zombi, poniéndole una rotación de <code>180</code> para que mire hacia abajo.</p>
+<p><img src="image12.png" alt=""></p>
+<h2 id="funcionalidad">Funcionalidad</h2>
+<p>Lo primero que haremos será generar zombis que se muevan hacia la base, para esto, seleccionamos al
+actor zombi que creamos, abrimos la solapa código y escribiremos lo siguiente:</p>
+<p><img src="image13.png" alt=""></p>
+<p>Las primeras 2 líneas definen constantes que utilizaremos dentro de nuestro código. Esto lo haremos
+así para que mas adelante, si queremos modificar los atributos de un zombi lo hagamos sin necesidad
+de analizar el código, ni de tener que repetir los cambios en todos los lugares donde pusimos el
+valor anterior.</p>
+<p>Luego, en la línea 6 creamos el atributo <code>vida</code>, lo que representaría la vida del zombi en todo
+momento, y en la línea 9 la inicializamos con el valor que le dimos a “vida_inicial”.</p>
+<p>La línea 13 es la encargada de mover al zombi constantemente hacia abajo. Si bien este código
+cumple su funcionalidad, cuando ejecutamos el juego vemos que el zombi se mueve, pero no realiza
+ninguna animación, lo que lo hace poco atractivo. Por esto mismo crearemos una animación y se la
+asignaremos al zombi.</p>
+<p>Para crear una animación vamos al botón animaciones en la parte superior de la pantalla.</p>
+<p><img src="image14.png" alt=""></p>
+<p>Esto nos abrirá un modal con las animaciones que ya existen en nuestro proyecto (La mayoría ya
+vienen con el proyecto cuando lo creamos).</p>
+<p>Seleccionamos el botón “Crear una animación:</p>
+<p><img src="image15.png" alt=""></p>
+<p>Pondremos el nombre “caminar_zombi”, y pondremos <code>12</code> cuadros por segundo.</p>
+<p>Tocamos el botón con el signo +, lo que nos llevara a seleccionar una imagen, seleccionamos
+“importar imagen” y buscaremos en los recursos descargados para el proyecto todas las imágenes que
+se llamen “zombie-walk-n” siendo n el orden en que deberemos poner las imágenes en la animación.</p>
+<p>Deberíamos tener todas las imágenes cargadas como se muestra en la imagen:</p>
+<p><img src="image16.png" alt=""></p>
+<p>Seleccionaremos primero la imagen “zombie-idle” y veremos que se agrego a nuestra animación:</p>
+<p><img src="image17.png" alt=""></p>
+<p>Agregaremos en el orden antes mencionado el resto de las imágenes, lo que resultaría así:</p>
+<p><img src="image18.png" alt=""></p>
+<p>Si le damos a reproducir veremos que nuestro zombi camina. Una vez terminado esto cerramos esta
+ventana y veremos que en la lista de animaciones aparece nuestra animación con su nombre:</p>
+<p><img src="image19.png" alt=""></p>
+<p>Copiamos la línea de código que nos muestra en la parte superior y la pegamos en el método
+<code>iniciar</code> del zombi.</p>
+<p><img src="image20.png" alt=""></p>
+<p>Y listo, nuestro zombi ya tiene su animación de caminar.</p>
+<p>Lo siguiente que haremos será que los zombis se generen automáticamente en la parte superior, y
+haremos algunos ajustes de dificultad para que el juego se ponga más difícil cuando pasa el tiempo.
+Para esto seleccionaremos la escena, agregaremos las constantes: <code>ajustar_tiempo_entre_zombis</code>,
+<code>ajustar_cantidad_de_zombis</code> y <code>maximo_zombis_a_clonar</code>, dándoles los valores indicados en la
+imagen.</p>
+<p>También crearemos las variables <code>tiempo_entre_zombi_minimo</code>, <code>tiempo_entre_zombi_maximo</code> y
+<code>tiempo_proxima_clonacion</code>, dándoles los valores indicados en la imagen.</p>
+<p><img src="image21.png" alt=""></p>
+<p>Estos valores iniciales significan:</p>
+<ul>
+<li><code>ajustar_tiempo_entre_zombis</code>: Cada 40 segundos ajustaremos el rango de tiempo en el que se clonaran zombis, haciéndolo cada vez mas pequeño.</li>
+<li><code>ajustar_cantidad_de_zombis</code>: Cada 100 segundos ajustaremos la cantidad de zombis que clonaremos cada vez que debamos realizar la clonación.</li>
+<li><code>maximo_zombis_a_clonar</code>: El máximo de zombis que clonaremos por cada clonación serán 20.</li>
+<li><code>tiempo_entre_zombi_minimo</code>: El tiempo mínimo que tiene que pasar al principio para realizar una clonación. (Este valor será ajustado cada 40 segundos).</li>
+<li><code>tiempo_entre_zombi_maximo</code>: El tiempo máximo que tiene que pasar al principio para realizar una clonación. (Este valor será ajustado cada 40 segundos).</li>
+<li><code>tiempo_proxima_clonacion</code>: El tiempo en el que efectivamente realizaremos una clonación. Este valor cambia cada vez que clonamos.</li>
+<li><code>zombis_a_clonar</code>: La cantidad de zombis que efectivamente clonaremos al momento de realizar una clonación. (Este valor será ajustado cada 100 segundos).</li>
+</ul>
+<p>Además, agregaremos los métodos “cada_segundo”, “clonar_zombis”,
+“calcular_tiempo_entre_zombi”, “ajustar_tiempo_de_clonacion” y
+“ajustar_cantidad_por_clonacion”.</p>
+<p>Analizaremos a continuación cada método:</p>
+<p><img src="image22.png" alt=""></p>
+<p><strong>cada_segundo(segundos)</strong>:</p>
+<p>Este método es propio de pilas, nosotros solo lo sobreescribimos. Se ejecuta 1 vez por segundo, y
+nos sirve para realizar acciones que dependan del tiempo. En nuestro caso, utilizamos la función
+<code>es_multiplo</code> pilas para saber si el valor del primer parámetro (en este caso, el segundo) es
+múltiplo del valor que le pasamos como segundo parámetro.</p>
+<p>De esta forma, logramos que cada cierto tiempo se ejecute la función que queramos. En el primer
+<code>if</code> logramos que los zombis se clonen cada <code>tiempo_proxima_clonacion</code> (Que iniciamos como <code>1</code> y
+que tendrá un valor arbitrario entre <code>3</code> y <code>6</code> inicialmente). En el segundo <code>if</code> logramos que cada
+ajustar_tiempo_entre_zombis(40s) se ajuste el rango de tiempo que tiene que pasar para que se clone
+otro zombi. En el tercer y ultimo <code>if</code> logramos que cada ajustar_cantidad_de_zombis(100s) se ajuste
+la cantidad de zombis a clonar.</p>
+<p><img src="image23.png" alt=""></p>
+<p><strong>clonar_zombis()</strong>:</p>
+<p>Este método es desarrollado por nosotros. Lo que hace es clonar la cantidad de zombis
+“zombis_a_clonar” en un x aleatorio.</p>
+<p>Para lograr que se genere en un x aleatorio, usamos la función de pilas <code>azar</code>, la cual recibe como
+parámetros el limite inferior y superior del rango de valores que puede devolver. Eso lo guardamos
+en la variable <code>xAleatorio</code> y luego lo usamos en la función <code>clonar_en</code>, la cual es de pilas y recibe
+como parámetro 3 valores. El primero es el nombre del actor que queremos clonar. El segundo el
+valor de <code>x</code> en el que lo queremos clonar, y el tercero el valor de <code>y</code> en el que lo queremos clonar.</p>
+<p>En este caso elegí <code>250</code> porque de esa forma el zombi aparece fuera de escena, lo que esconde el
+efecto de que aparezca de repente en pantalla. Al ultimo llamamos al método
+<code>calcular_tiempo_entre_zombi</code> para que se recalcule cuando volveremos a llamar a esta función.</p>
+<p><img src="image24.png" alt=""></p>
+<p><strong>calcular_tiempo_entre_zombi():</strong></p>
+<p>Este método es desarrollado por nosotros. Lo que hace es calcular según un valor al azar dado por
+el rango <code>[tiempo_entre_zombi_minimo, tiempo_entre_zombi_maximo]</code> y guardarlo en la variable que
+utilizamos para saber cuando debemos llamar al método <code>clonar_zombis()</code>.</p>
+<p><img src="image25.png" alt=""></p>
+<p><strong>ajustar_tiempo_de_clonacion()</strong>:</p>
+<p>Este método es desarrollada por nosotros. Lo que hace es ajustar el rango de tiempo en el cual
+puede clonarse un zombi al disminuir los valores de <code>tiempo_entre_zombi_minimo</code> y
+<code>tiempo_entre_zombi_maximo</code>. Los <code>ifs</code> que vemos en la función verifican que los valores del rango
+no sean ni 0 ni negativo antes de decrementar el valor de las variables.</p>
+<p><img src="image26.png" alt=""></p>
+<p><strong>ajustar_cantidad_por_clonacion():</strong></p>
+<p>Este método es desarrollado por nosotros. Lo que hace es ajustar la cantidad de zombis a generar
+cada vez que se llame a la función <code>clonar_zombis()</code>. El <code>if</code> valida que la cantidad nueva que
+vayamos a poner no sea mayor a la cantidad máxima definida en <code>maximo_zombis_a_clonar</code>, y en el
+caso de que lo sea, simplemente ponemos el valor nuevamente en <code>máximo_zombis_a_clonar</code>. Según la
+configuración actual, cada <code>100</code> segundos se duplicará la cantidad de zombis a clonar.</p>
+<p>Si ejecutamos ahora nuestro juego, veremos que los zombis empiezan a aparecer y a moverse
+infinitamente hacia abajo, lo cual parece divertido, pero todavía no dañan a nuestra base, por lo
+que todavía no terminamos con su funcionamiento. Por otro lado, todavía vemos los 2 actores que
+creamos al principio y que nos sirven solamente para ser clonados.</p>
+<p><img src="image27.png" alt=""></p>
+<p>No podemos borrar estos actores ya que no tendríamos como clonarlos, entonces lo que haremos será
+desactivarlos buscando la propiedad Activo y quitando el check. Haremos esto para ambos actores.</p>
+<p><img src="image28.png" alt=""></p>
+<p>Y listo, ahora si bien cuando el juego esta parado los vemos como transparentes, cuando ejecutemos
+el juego desaparecerán, y aun así podremos clonarlos.</p>
+<p>Ahora abordaremos el tema de las colisiones. Para poder quitarle vida cuando un zombi choque con un
+defensor o con la base, necesitamos que ambos actores tengan un área de colisión. Para esto, iremos
+a las Propiedades de nuestros actores y le asignaremos una “Figura”, y ajustaremos el tamaño de la
+forma según nos parezca conveniente. Además, quitaremos la opción “Dinámica”, ya que no queremos
+que se simulen físicas como la gravedad en estos actores.</p>
+<p><img src="image29.png" alt=""></p>
+<p>Notaremos que cuando asignamos la figura, en este caso circular, veremos la figura sobre el actor,
+lo que nos da facilidad para acomodarla como queramos. Haremos esto mismo para el actor defensor,
+asignando exactamente los mismos valores (Figura circular de radio 15 no dinámica). Pero para la
+base, utilizaremos una figura Rectangular, de ancho 510 y de alto 200, para que ocupe toda el área
+de la base.</p>
+<p><img src="image30.png" alt=""></p>
+<p>Bien, ahora nuestros actores pueden colisionar entre si.</p>
+<p>Ahora haremos que el zombi al chocar con la base, le envíe un mensaje de que colisiono y que debe
+perder vida. Para esto, seleccionamos al zombi y vamos a agregar el siguiente método en su código:</p>
+<p><img src="image31.png" alt=""></p>
+<p><strong>cuando_colisiona(actor)</strong>:</p>
+<p>Es un método propio de pilas que reescribimos. Este método se ejecuta cuando un actor (en este
+caso, nuestro zombi) colisiona con otro actor. Recibe como parámetro el actor con el que se acaba
+de colisionar.</p>
+<p>En este caso, necesitamos asegurarnos de que contra lo que choco nuestro zombi es
+la base y no cualquier otro actor, ya que no haremos lo mismo si el zombi choca con otro zombi que
+si este choca con la base o un defensor.</p>
+<p>Para identificar al otro actor utilizamos su etiqueta (En este caso, nosotros utilizamos el mismo
+nombre que la etiqueta por lo que puede resultar un poco confuso, pero cabe aclarar que para estos
+casos se utiliza la etiqueta) y verificamos si efectivamente ese actor es la base. Si es la base,
+le enviaremos un mensaje de que acaba de ser atacada, y mataremos al zombi. El método <code>morir()</code> se
+muestra a continuación:</p>
+<p><img src="image32.png" alt=""></p>
+<p>La forma de eliminar un actor en pilas es usar la función <code>eliminar()</code> propia del actor al que se
+quiere eliminar.</p>
+<p>Entonces, hasta el momento el zombi choca con la base, le envía un mensaje y desaparece, pero
+todavía no especificamos que debería hacer la base con ese mensaje. Para esto, utilizaremos la
+función <code>cuando_llega_un_mensaje(mensaje)</code> de pilas. Seleccionamos la base, vamos a su código y
+escribimos lo siguiente:</p>
+<p><img src="image33.png" alt=""></p>
+<p><strong>cuando_llega_un_mensaje(mensaje)</strong>:</p>
+<p>Este es propio de pilas, nosotros lo sobrescribiremos. Se llama cuando alguien le envía un mensaje
+a este actor. En este caso en particular, solo nos interesan los mensajes que contengan
+“ataque_zombi”, ya que eso nos indicara que nos atacaron y que debemos hacer algo, como disminuir
+la vida de la base.</p>
+<p>Para disminuir la vida de la base, primero debemos crear una variable que represente la vida de la
+misma, a su vez mostrar la vida en pantalla al jugador, entonces tendremos:</p>
+<p><img src="image34.png" alt=""></p>
+<p>Creamos la constante <code>vida_base</code> con la cantidad de vidas que se desee, y una variable <code>vida</code> que
+represente la vida actual de la base. Para mostrar las vidas que le quedan al jugador, utilizamos
+el método <code>observar</code> de pilas, que recibe como parámetro el nombre que queremos que se muestre al
+lado del valor de la variable que especificamos en el segundo parámetro. Bien, ahora podemos
+agregar correctamente la función <code>disminuir_vida</code>:</p>
+<p><img src="image35.png" alt=""></p>
+<p>Este método lo único que hace es restarle <code>1</code> punto de vida cada vez que es llamado y actualizar el
+valor en la pantalla. Nótese que volvemos a llamar al método <code>observar</code> de pilas con la misma
+variable así se actualiza el valor de la pantalla. Además, agregamos una verificación de que pasa
+si la vida es menor o igual a <code>0</code>, en tal caso, deberíamos hacer perder al jugador, lo cual
+lograremos enviándole un mensaje a la escena, la cual se encargara mas delante de avisarle al
+jugador que perdió.</p>
+<p>Si probamos nuestro juego ahora, los zombis bajaran constantemente hasta la base y chocaran
+desapareciendo y disminuyendo la vida de la base infinitamente, lo cual se acerca a lo que
+queremos, pero todavía nos queda mucho trabajo por delante.</p>
+<p>Para empezar, la desaparición del zombi no es muy convincente, por lo que agregaremos algún efecto
+que demuestre que el zombi acaba de hacer daño y morir.</p>
+<p>¡Crearemos un efecto de explosión!</p>
+<p>Para esto, vamos a “Crear actor” y seleccionamos la explosión.</p>
+<p><img src="image36.png" alt=""></p>
+<p>Quitaremos la opción <code>activo</code> de la explosion ya que no queremos que este ahí cuando empieza
+nuestro juego e iremos al código de nuestro zombi, particularmente a la funcion <code>morir()</code>, y
+agregaremos una simple linea de código.</p>
+<p><img src="image37.png" alt=""></p>
+<p>Utilizando el metodo que ya vimos <code>clonar_en</code>, pasamos como parámetro el nombre del actor que
+queremos clonar (la explosión en este caso) y le indicamos que se clone en la posición <code>x</code> e <code>y</code> de
+nuestro zombi. <em>Y voila, habemus explosión</em> (Michael Bay estaría orgulloso).</p>
+<p>El comportamiento de nuestro zombi esta casi listo, entonces avanzaremos un poco mas con el control
+del juego. Para empezar, no es bueno presentar el juego y no darle tiempo al jugador a que se
+prepare antes de que empiecen a aparecer zombis, por lo que agregaremos un botón para iniciar el
+juego.</p>
+<p>Además, hemos hecho que la base envíe un mensaje a la escena diciendo que el jugador perdió,
+pero la escena no se está enterando de que recibió un mensaje, por lo que no hace nada. Agregaremos
+en la escena una variable de control que nos permita saber si estamos jugando o si todavía no
+empezó el juego, o también si el jugador ya perdió, y con esta variable agregaremos validaciones
+para que el juego no se ejecute en momentos que no es debido.</p>
+<p>Lo primero que haremos será agregar el botón Jugar, para lo que iremos a “Crear actor” y
+seleccionaremos el actor “boton”:</p>
+<p><img src="image38.png" alt=""></p>
+<p>Luego, cambiaremos el nombre de este actor por “boton_jugar”, cambiaremos la propiedad “Texto” por
+“Jugar” y por ultimo lo pondremos en la posición <code>(0, 0)</code></p>
+<p><img src="image39.png" alt=""></p>
+<p>Veremos que este botón ya tiene cierto código en su interior, pero lo único que nos interesa es la
+función <code>cuando_hace_click()</code>, la cual debemos hacer que le avise a la escena de que el juego tiene
+que empezar, y esconder el botón para que no moleste al momento de jugar.</p>
+<p><img src="image40.png" alt=""></p>
+<p>Ese será todo el comportamiento de nuestro botón Jugar. Ahora debemos ir a la escena y enseñarle a
+recibir mensajes. Seleccionamos la escena y añadimos la variable jugando, la cual será la variable
+que nos definirá si estamos en juego o no.</p>
+<p><img src="image41.png" alt=""></p>
+<p>Y también el método <code>cuando_llega_un_mensaje</code> con el siguiente código:</p>
+<p><img src="image42.png" alt=""></p>
+<p>De esta forma, cuando el mensaje sea “perder” haremos que <code>jugando</code> sea <code>false</code>, y cuando sea
+“empezar” tenga el valor <code>true</code>. Pero esto todavía no hace nada, ya que debemos agregar
+validaciones para que el juego solo funcione si estamos jugando.</p>
+<p>Lo primero que haremos será agregar una condición al método <code>cada_segundo(segundos)</code> de nuestra
+escena</p>
+<p><img src="image43.png" alt=""></p>
+<p>Con esto alcanza para que los zombis no aparezcan si no estamos en juego. Si ejecutamos nuestro
+juego ahora, veremos que no pasara nada hasta que toquemos el botón jugar, y solo luego de eso
+empezaran a aparecer zombis. De la misma forma, si llegamos a 0 vidas, veremos que los zombis
+dejaran de aparecer porque el mensaje “perder” llego a la escena. Pero todavía hay algo raro.
+Cuando perdemos, el juego no nos avisa que perdimos, ni nos da ninguna opción de volver a jugar. Y
+aun mas extraño, perdemos y los zombis que quedaron siguen bajando y dañando nuestra base. Para
+solucionar esto, primero agregaremos un texto que nos indique que perdimos, y un botón que nos
+permita volver a jugar.</p>
+<p>Vamos a “Crear actor” y seleccionamos el actor “texto”</p>
+<p><img src="image44.png" alt=""></p>
+<p>Seleccionamos el actor y cambiaremos las siguientes propiedades:</p>
+<ul>
+<li>Nombre: gameover</li>
+<li>Activo: desactivado</li>
+<li>Texto: Game-Over</li>
+<li>Posición X: 235</li>
+<li>Posición Y: 100</li>
+<li>Escala X e Y: 3.</li>
+</ul>
+<p>Entonces, deberíamos ver algo así:</p>
+<p><img src="image45.png" alt=""></p>
+<p>Cabe aclarar que pueden jugar con los valores que deseen.</p>
+<p>Además, crearemos otro botón que nos servirá para reiniciar el juego. Por suerte, pilas ya trae un
+actor que se encarga de reiniciar la escena. Para agregarlo vamos a “Crear Actor” y seleccionamos
+el que se llama “reiniciar_escena”</p>
+<p><img src="image46.png" alt=""></p>
+<p>Una vez agregado le cambiaremos el texto para que diga “Volver” y lo desactivaremos para que no
+aparezca hasta que no se lo pidamos. (Nota: No importa que este botón este encima del botón Jugar,
+ya que nunca estarán los dos botones al mismo tiempo en el juego).</p>
+<p><img src="image47.png" alt=""></p>
+<p>Bien, hasta aquí agregamos los actores necesarios para el control de nuestro juego, pero todavía no
+hemos lidiado con mostrarlos cuando sea necesario, y ni hablar de que los zombis siguen ahí cuando
+perdemos. Para terminar con este tema, iremos a la función <code>cuando_llega_un_mensaje(mensaje)</code> de
+la escena y la modificaremos de la siguiente forma:</p>
+<p><img src="image48.png" alt=""></p>
+<p>En el recuadro 1, recorremos todos los actores de la escena y los eliminamos, de esta forma no
+veremos ningún actor en la escena al momento de perder (La función <code>forEach</code> se aplica a las listas
+para recorrerlas y hacer algo con su interior, en este caso la escena tiene una lista de actores
+llamada “actores”, la cual contiene todos los actores que participan en la escena).</p>
+<p>En el recuadro 2, estamos clonando el botón reiniciar escena para que aparezca, y también al
+mensaje “Game Over”, ambos en las posiciones que definimos al principio.</p>
+<p>Si probamos nuestro juego ahora, veremos que cuando las vidas llegan a <code>0</code>,  efectivamente
+perderemos y tendremos la opción de volver a empezar el juego. Esto significa que es momento de
+darle al jugador la opción de defender su base. Para esto, haremos que el jugador empiece con una
+determinada cantidad de puntos, que podrán ser gastados en crear defensores que dispararan a los
+zombis. A su vez, cuando el defensor mata a un zombi, este le dará puntos para poder conseguir mas
+defensores. Los defensores serán puestos en la escena cuando el jugador haga click en
+alguna parte.</p>
+<p>Lo primero que haremos será crear el puntaje del jugador para que pueda “comprar” defensores. Para
+ello, iremos al código de la escena y agregaremos las constantes <code>puntos_maximos</code>,
+<code>maximo_y_para_defensor</code> y <code>minimo_y_para_defensor</code>, y crearemos la variable <code>puntaje</code> iniciándola
+con un valor arbitrario. Además, añadiremos una variable <code>puedo_clonar_defensores</code> que nos servirá
+como validación al momento de que el jugador toque el botón “Jugar”, ya que queremos que los
+defensores se clonen cuando se hace click, pero no si todavía no estamos jugando.</p>
+<p>Entonces el código de nuestra escena quedaría así:</p>
+<p><img src="image49.png" alt=""></p>
+<p>El significado de las constantes y variables que agregamos es el siguiente:</p>
+<ul>
+<li><code>costo_de_defensor</code>: Los puntos que le quitara al jugador crear un defensor.</li>
+<li><code>puntos_maximos</code>: La cantidad máxima de puntos que puede acumular el jugador. Esto nos servirá para que si el juego se extiende mucho, no colapse la memoria del dispositivo en el que se esta ejecutando el juego.</li>
+<li><code>máximo_y_para_defensor</code>: Valor que nos servirá para delimitar la zona en la que el jugador puede posicionar defensores.</li>
+<li><code>mínimo_y_para_defensor</code>: Valor que nos servirá para delimitar la zona en la que el jugador puede posicionar defensores.</li>
+<li><code>puedo_clonar_defensores</code>: Variable que utilizaremos para que no se creen defensores si todavía no se empezó el juego.</li>
+<li><code>puntaje</code>: El puntaje del jugador.</li>
+</ul>
+<p>Una vez agregado todo esto, crearemos los métodos <code>cuando_hace_click</code> y <code>esta_en_rango_clonacion</code>.</p>
+<p><img src="image50.png" alt=""></p>
+<p>Lo primero que hacemos en este método es verificar que el jugador este jugando. Luego, verificamos
+que puede clonar defensores. Esta verificación es necesaria ya que cuando el jugador toca el botón
+“Jugar” inmediatamente pilas toma como que ya estamos en juego y ejecuta la función
+<code>cuando_hace_click()</code> de la escena, lo que conlleva a que si no tenemos esta validación, se cree un
+defensor en la posición donde hicimos click para tocar el botón jugar, lo cual no es nuestra
+intención.</p>
+<p>Debajo de esta verificación verificamos que el jugador tiene los puntos necesarios para pagar un
+defensor (<code>this.puntaje &gt;= costo_de_defensor</code>) y también (<code>&amp;&amp;</code>) que se hizo click en el rango
+permitido para crear defensores (Nótese que se esta llamando a un método que valida esto, la cual
+explicaremos a continuación). Si esta condición se cumple, entonces restamos los puntos del jugador
+(<code>this.puntaje -= costo_de_defensor</code>), llamamos al método <code>clonar_en_la_posición_del_cursor</code> de
+pilas, que recibe como parámetro el nombre del actor que queremos clonar, y por ultimo le mostramos
+en la pantalla al jugador cuantos puntos le quedaron. Pero esto no lo habíamos hecho previamente,
+entonces esta misma línea debemos agregarla en el método iniciar.</p>
+<p><img src="image51.png" alt=""></p>
+<p>El método <code>esta_en_rango_clonacion()</code> es el siguiente:</p>
+<p><img src="image52.png" alt=""></p>
+<p>Este método asegura que la posición del cursor en <code>y</code> (obtenida con <code>pilas.cursor_y</code>) al momento de hacer click sea menor al máximo valor permitido en <code>y</code>, y mayor al mínimo. De esta forma, limitamos el área de creación.</p>
+<p>Si ejecutamos nuestro juego, veremos que podemos clonar defensores en el espacio, pero estos no
+hacen absolutamente nada. No colisionan, no defienden, no se mueven, nada. Entonces, debemos darle
+vida a nuestros defensores.</p>
+<p>Seleccionamos el defensor que hicimos al principio del tutorial y vamos a su código. Agregaremos
+las constantes “distancia_para_atacar”, “tiempo_entre_ataque” y “vida_defensor” y las variables
+“objetivo” y “vida” como se indica en la imagen.</p>
+<p><img src="image53.png" alt=""></p>
+<p>El significado de las constantes y variables agregadas es el siguiente:</p>
+<ul>
+<li><code>distancia_para_atacar</code>: Distancia de visión del defensor. Es la distancia máxima a la que un defensor puede encontrar un objetivo.</li>
+<li><code>tiempo_entre_ataque</code>: Es el tiempo que el defensor se tomara entre disparos.</li>
+<li><code>vida_defensor</code>: es la vida máxima con la que empezara el defensor.</li>
+<li><code>objetivo</code>: Variable que utilizaremos para definir a quien debe atacar, la inicializamos en null porque cuando creamos al defensor, este no ha encontrado ningún objetivo.</li>
+<li><code>vida</code>: la vida actual del defensor.</li>
+</ul>
+<p>Además, modificaremos el método <code>actualizar()</code> y agregaremos otros métodos como “obtener_objetivo”, “apuntar”, “disparar”, “cada_segundo”, “disminuir_vida”, “cuando_llega_un_mensaje” y “morir”.</p>
+<p>Cada método quedara como se muestra a continuación:</p>
+<p><img src="image54.png" alt=""></p>
+<p>Al método <code>actualizar</code> le agregamos una llamada al método <code>obtener_objetivo()</code>, el cual se encargara de buscar un objetivo para dispararle. La validación siguiente nos permite saber si ya tenemos objetivo y si este esta vivo. De ser así debemos apuntarle con el método <code>apuntar()</code>, y dispararle cuando sea momento de hacerlo, lo cual lo desarrollaremos en el método <code>cada_segundo(segundos)</code>. Caso contrario, volveremos a poner al defensor apuntando hacia adelante asignándole una rotación de <code>90º</code>.</p>
+<p><img src="image55.png" alt=""></p>
+<p><strong>obtener_objetivo():</strong></p>
+<p>En este método lo primero que haremos será obtener todos los zombis de la escena, para esto llamaremos al método <code>obtener_todos_los_actores_con_la_etiqueta</code> de pilas, la cual recibe como parámetro la etiqueta por la que queremos buscar los actores, y al resultado lo guardamos en la variable temporal zombis.</p>
+<p>Luego recorremos la lista zombis con método <code>forEach</code>, y por cada uno obtendremos la distancia que tenemos con nuestro defensor utilizando el método <code>obtener_distancia_entre_actores</code> de pilas, la cual recibe como parámetro 2 actores y nos devuelve la distancia entre los mismo. Guardamos este valor en la variable temporal <code>distancia</code> y verificamos en el <code>if</code> si esa distancia es menor o igual a la distancia para atacar del defensor. Si es así definimos a ese zombi como objetivo del defensor.</p>
+<p>Cabe aclarar que podríamos poner diferentes criterios para definir a que zombi se debería atacar o cual tiene mas prioridad. En este caso, la prioridad es el que este mas cercano del defensor.</p>
+<p><img src="image56.png" alt=""></p>
+<p><strong>apuntar():</strong></p>
+<p>El método apuntar es bastante simple gracias al método <code>obtener_angulo_entre_actores</code> de pilas, el
+cual hace todos los cálculos que necesitamos para hacer que nuestro actor apunte al objetivo. Para
+esto le debemos pasar 2 actores como parámetro.</p>
+<p><img src="image57.png" alt=""></p>
+<p><strong>disparar():</strong></p>
+<p>El método crear debe crear un proyectil que se dispare en la dirección en la que estamos apuntando.
+Por suerte, pilas ya trae el actor “laser” incluido por defecto, y podemos crear uno llamando al
+método <code>pilas.actores.laser()</code>, el cual nos devolverá un laser ya creado. Lo único que nos queda
+por hacer es posicionar al laser en la posición del defensor (<code>laser.x = this.x</code> y <code>laser.y = this.y</code>), y asignarle la rotación correcta, la cual es la rotación del defensor (<code>laser.rotacion = this.rotacion</code>).</p>
+<p><img src="image58.png" alt=""></p>
+<p><strong>cada_segundo(segundos)</strong>:</p>
+<p>En este método verificaremos si el defensor ya tiene un objetivo, y si lo tiene, haremos que le
+dispare cuando los segundos sean múltiplos del <code>tiempo_entre_ataque</code>.</p>
+<p><img src="image59.png" alt=""></p>
+<p><strong>disminuir_vida():</strong></p>
+<p>Este método es el encargado de quitarle vida al defensor cuando un zombi lo ataque. también verifica si la vida es menor o igual a 0 para saber si el defensor debe morir o no.</p>
+<p><img src="image60.png" alt=""></p>
+<p><strong>cuando_llega_un_mensaje(mensaje):</strong></p>
+<p>Agregamos este método para recibir el mensaje “recibir_ataque” cuando el zombi choque contra el
+defensor y así llamar al método <code>disminuir_vida()</code>. Sin embargo, el zombi todavía no envía este
+mensaje, por lo que si ejecutamos el juego veremos que los zombis no afectan a los defensores.</p>
+<p>Además, veremos que el defensor disparara lasers a los zombis, pero estos no harán daño al zombi,
+esto se debe a que tampoco agregamos el comportamiento correspondiente a la colisión en el zombi, y
+esto es lo que haremos a continuación.</p>
+<p>Primero, agregaremos un efecto para cuando el zombi reciba daño, iremos a animaciones y crearemos
+una nueva, importaremos las imágenes <code>blood-splash</code> de los recursos descargados para el tutorial y
+configuraremos la animación de la siguiente manera:</p>
+<p><img src="image61.png" alt=""></p>
+<p>Luego crearemos un nuevo actor sin imagen, le pondremos de nombre “sangre”, etiqueta “sangre”,
+pondremos la escala x e y en 0.5 y lo pondremos inactivo. La única funcionalidad que debería tener
+este actor es ejecutar la animación y luego desaparecer, para esto iremos al código y lo dejaremos
+de la siguiente manera.</p>
+<p><img src="image62.png" alt=""></p>
+<p>Nótese que al iniciar le asignamos la animación que acabamos de crear. Un nuevo método propio de
+pilas que vemos aquí es <code>cuando_finaliza_animacion()</code>, el cual es perfecto para nuestro propósito,
+ya que queremos que este actor solo exista para realizar una vez la animacion y luego desaparezca.</p>
+<p>Luego de agregar este efecto, seleccionaremos al zombi y modificaremos el método
+<code>cuando_colisiona(actor)</code> de la siguiente manera:</p>
+<p><img src="image63.png" alt=""></p>
+<p>Como podemos ver, agregamos más casos a tener en cuenta cuando colisione con diferentes actores. En
+el caso del láser, lo que hacemos es disminuir la vida del zombi, eliminar el laser y clonar el
+efecto de sangre. Para el caso del defensor, le enviamos el mensaje “recibir_ataque” (el cual el
+defensor ya entiende) y matamos al zombi.</p>
+<p>Podemos notar que agregamos un nuevo método disminuir_vida, el cual lleva el siguiente código.</p>
+<p><img src="image64.png" alt=""></p>
+<p><strong>disminuir_vida():</strong></p>
+<p>Este método es muy similar al que programamos para el defensor, con la diferencia de que cuando un
+zombi es asesinado por un defensor, debemos notificar a la escena para que le de puntos a nuestro
+jugador para poder agregar mas defensores.</p>
+<p><img src="image65.png" alt=""></p>
+<p><strong>notificar_muerte()</strong>:</p>
+<p>Este método lo único que hace es avisarle a la escena de que murió un zombi, así la escena le da los puntos correspondientes al jugador.</p>
+<p>Si ejecutamos el juego en este momento, veremos que este esta.. ¡casi listo! Solo nos faltan algunos detalles. Ahora seleccionaremos la escena y agregaremos Código en <code>recibir_mensaje</code> para que efectivamente le entregue los puntos al jugador.</p>
+<p>Pero primero agregaremos la constante <code>ganancia_x_zombi</code> para indicar cuantos puntos debe ganar el jugador por zombi.</p>
+<p><img src="image66.png" alt=""></p>
+<p>Una vez agregado esto, modificaremos el método <code>cuando_llega_un_mensaje(mensaje)</code> de la siguiente manera.</p>
+<p><img src="image67.png" alt=""></p>
+<p>Lo único que se agrega es un nuevo caso para cuando el mensaje es “muere_zombi”, en el que aumentaremos el puntaje en la cantidad que indicamos en la constante que creamos anteriormente. Luego verificamos si el puntaje se pasó del máximo posible y de ser así lo volvemos al valor máximo. Por último, actualizamos los puntos en la pantalla para que los vea el usuario.</p>
+<p>Lo último que nos queda por hacer es agregar barras de vida a los defensores y zombis para que el jugador sepa mejor el estado del juego. Por suerte, las barras de vida son muy simples de agregar en pilas, ya que vienen por defecto en el motor.</p>
+<p>Seleccionaremos al defensor y agregaremos lo siguiente.</p>
+<p><img src="image68.png" alt=""></p>
+<p>Agregamos la variable <code>barra</code> a la clase defensor, luego en <code>iniciar()</code> le pedimos a pilas que nos cree una barra de energía (En la imagen vemos que <code>this.barra</code> esta subrayado con rojo, esto se debe a que en la versión actual de pilas hay un pequeño error con la creación de barras de energía, pero podemos ignorarlo porque no nos impedirá completar nuestro objetivo) y le asignamos el largo y el alto en pixeles (<code>50px</code> y <code>5px</code>).</p>
+<p>Luego en <code>actualizar()</code> hacemos que nuestra barra se posicione donde esta nuestro defensor, pero <code>25</code> pixeles por encima. La última línea es un calculo que se debe hacer para normalizar el valor de la vida de nuestro defensor, ya que la vida actual de la barra de vida es un valor entre <code>0</code> y <code>100</code>, y nosotros utilizamos valores entre <code>0</code> y <code>2</code> para la vida del defensor.</p>
+<p>¡Listo! ¡Nuestro defensor ya tiene barra de vida! Haremos lo mismo para el zombi:</p>
+<p><img src="image69.png" alt=""></p>
+<p>Veremos que el código es idéntico para ambos actores y solo cambia la línea donde normalizamos la vida del actor.</p>
+<p>Y así termina este tutorial, en el que construimos un juego de defensa de la base, si lograste llegar hasta aquí ¡Felicitaciones!, espero que lo hayas pasado bien.</p>
+<p>Si te han quedado dudas, o quieres agregar funcionalidades pero no sabes bien como, anímate a preguntar en el <a href="https://foro.pilas-engine.com.ar/t/video-tutorial-sobre-pilas-engine-2-como-hacer-un-flappy-bird/1701">foro</a> de pilas, agregando al principio del titulo de la consulta el texto [DefiendeLaBase]. Seguro alguien puede ayudarte!</p>
+
+
+    <div class="footer_imprimir tc">
+      Artículo extraído del sitio <a href="https://www.pilas-engine.com.ar">https://www.pilas-engine.com.ar</a>
+    </div>
+
+            <footer class="pt4 ph3 ph5-m ph6-l mid-gray sans-serif pv3">
+
+          <div class="tc mt3">
+            <a href="https://github.com/pilas-engine/pilas-engine/" target=_blank title="github" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/github.png"></a>
+            <a href="https://www.youtube.com/user/hugoruscitti" target=_blank title="youtube" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/youtube.png"></a>
+            <a href="https://foro.pilas-engine.com.ar/" target=_blank title="foro" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/foro.png"></a>
+          </div>
+
+          <div class="tc mt2 f7">
+            © Hugo Ruscitti
+          </div>
+
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
+
+  </main>
+</div>
+

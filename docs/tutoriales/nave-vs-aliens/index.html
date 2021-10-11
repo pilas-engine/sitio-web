@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://pilas-engine.github.io/sitio-web/favicon.png">
+        
+        <title></title>
+
+        <style>
+</style>
+
+
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/main.css">
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/tachyons.min.css">
+
+
+
+
+
+        
+
+
+<script src="https://pilas-engine.github.io/sitio-web/js/main.js"></script>
+ 
+        <meta name="generator" content="Hugo 0.84.4" />
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+
+  <a href="https://pilas-engine.github.io/sitio-web/" class="v-mid mid-gray link w5 pl3 pv2" href="#" title="home">
+    <img class="logo" width="183" height="64" src="https://pilas-engine.github.io/sitio-web/logo-de-pilas.svg">
+  </a>
+
+  <div class="v-mid w-100 tr truncate">
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/">Principal</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/noticias">Noticias</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/descargas">Descargas</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/documentacion">Documentación</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/foro">Foro</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/videos">Videos</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/galeria">Galería</a>
+  </div>
+
+</nav>
+
+
+
+<style>
+  .tutorial h1 {
+    color: #005590;
+  }
+
+  .tutorial code {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 3px 5px;
+    font-family: monospace;
+  }
+
+  .tutorial h2 {
+    color: #005590;
+  }
+
+  .tutorial p {
+  }
+
+  .tutorial strong {
+    font-weight: bold;
+  }
+
+  .tutorial li {
+    text-align: justify;
+  }
+
+  .tutorial img {
+    max-width: 100%;
+    display: block;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .footer_imprimir {
+    display: none;
+  }
+</style>
+
+
+
+<style media="print">
+  header {
+    display: none !important;
+  }
+
+  body {
+    overflow: initial !important;
+  }
+
+  .contenedor-scroll {
+    position: initial !important;
+    overflow: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer_imprimir {
+    display: block !important;
+  }
+
+  .contenedor-para-el-boton-imprimir {
+    display: none;
+  }
+
+</style>
+
+
+
+
+<div class="contenedor-scroll">
+  <main class="tutorial pt4 mw7 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+    <div class="tr f6">
+      <div class="pt3 contenedor-para-el-boton-imprimir">
+        <button type="button" onclick="window.print(); return false;">Imprimir tutorial</button>
+      </div>
+    </div>
+
+    <h1 id="nave-vs-aliens">Nave vs aliens</h1>
+<p>El este tutorial explicaremos paso a paso cómo desarrollar el ejemplo <strong>&ldquo;Nave Contra Aliens&rdquo;</strong> de
+Pilas Engine. El mismo se basa en una nave manejada por el jugador con las flechas del teclado, que
+dispara misiles a aliens que se generan aleatoriamente en la pantalla. Mientras más aliens
+destruya, mayor va a ser el puntaje final.</p>
+<p><img src="image1.png" alt=""></p>
+<p>¡Comencemos!</p>
+<h2 id="paso-1">Paso 1</h2>
+<p>Para empezar, abriremos el editor de pilas, y eliminaremos a todos los actores iniciales de la
+escena1, y crearemos un nuevo actor seleccionando en la sección de “ESCENAS Y ACTORES” la opción
+“Crear actor”:</p>
+<p><img src="image2.png" alt=""></p>
+<p>Al elegir esta opción, saldrá una nueva ventana en la cual seleccionaremos la opción “actor”:</p>
+<p><img src="image3.png" alt=""></p>
+<p>Una vez creado el nuevo actor, modificaremos alguna de sus propiedades. Cambiaremos su imagen y
+posición. Para ello, iremos a la propiedad imagen del actor, y elegiremos la imagen de la nave de
+la siguiente forma:</p>
+<p><img src="image4.png" alt=""></p>
+<p>Luego cambiemos la posición <code>x</code> e <code>y</code> de la nave, y además démosle una rotación de 90° para que
+apunte hacia arriba, las propiedades deberían quedar así:</p>
+<p><img src="image5.png" alt=""></p>
+<p>Ahora le agregaremos código para que nuestra nave pueda desplazarse en cualquier dirección en la
+escena. Para lograr esto, iremos a la sección ‘EDITOR DE CÓDIGO’ ubicada a la derecha del editor, y
+agregaremos el siguiente fragmento de código:</p>
+<p><img src="image7.png" alt=""></p>
+<p><img src="image8.png" alt=""></p>
+<ol>
+<li>
+<p>En la función <code>actualizar()</code> crearemos una variable “velocidad” la cual, como su nombre indica,
+utilizaremos para establecer la velocidad con la cual se desplazará la nave en la pantalla. Cada
+uno puede modificar este valor a uno que le parezca conveniente, en nuestro caso le daremos a la
+nave una velocidad de <code>8</code>.</p>
+</li>
+<li>
+<p>Siguiente, agregaremos estas dos condiciones <code>if</code> para que el jugador pueda utilizar las flechas
+derecha e izquierda del teclado para mover la nave en dichas direcciones. La primera de estas
+funciones le resta el valor de <code>velocidad</code> a la posición horizontal de la nave cada vez que se
+aprieta la tecla izquierda, y le suma ese valor cuando se aprieta la tecla derecha.</p>
+</li>
+<li>
+<p>Las últimas dos condiciones <code>if</code> se utilizan para que la nave no salga de los bordes de la
+pantalla.</p>
+</li>
+</ol>
+<p>De momento, el juego con la nave quedaría así:</p>
+<p><img src="image9.png" alt=""></p>
+<h2 id="paso-2">Paso 2</h2>
+<p>Ahora agregaremos los aliens a los que dispararemos con la nave. Para ello, crearemos un nuevo
+actor, seleccionando la opción “Crear actor”, y elegiremos, como en el caso de la nave, la opción
+“actor”.</p>
+<p>A este actor le cambiaremos algunas propiedades, entre ellas, su nombre, la posición en la
+pantalla, la imagen y su figura. En cuanto a la imagen, haremos click en la propiedad “imagen” y en
+la pantalla emergente seleccionaremos “alien_verde”.</p>
+<p><img src="image10.png" alt=""></p>
+<p>En este caso, le cambiaremos el nombre a “enemigo”, y le añadiremos una figura de rectángulo para
+determinar cuando el alien colisiona contra otro actor, como por ejemplo, contra un misil. A esta
+figura la adaptaremos en ancho y alto para que sea más adecuada a la figura del enemigo. También
+habilitaremos la opción “¿Es Sensor?” para que al colisionar con la nave la traspase, y
+deshabilitaremos la opción “Dinámica” para evitar que los enemigos caigan antes de tiempo por la
+‘gravedad’ del juego.</p>
+<p>Finalmente, las propiedades del alien serán:</p>
+<p><img src="image11.png" alt=""></p>
+<p>Respecto al código de este actor, en un principio añadiremos una de las recetas predefinidas de
+pilas, haciendo click en la opción “Recetas” de la sección “EDITOR DE CÓDIGO”.</p>
+<p><img src="image13.png" alt=""></p>
+<p>En la ventana emergente, seleccionaremos la receta “Cambiar la posición del actor al azar cuando
+comienza”.</p>
+<p><img src="image14.png" alt=""></p>
+<p>Esta receta generara una función <code>iniciar()</code> la cual crea aleatoriamente al actor en la posición
+“x” y en la posición “y”. Como el enemigo solo se moverá hacia abajo, dejaremos la generación en el
+espacio “x” para dar el efecto de ‘lluvia’ de aliens, y en cuanto a la posición “y”, la definiremos
+fuera de la pantalla para que no parezca que aparecen ‘por arte de magia’.</p>
+<p><img src="image15.png" alt=""></p>
+<p>Para eliminar al alien cuando salga por la parte inferior de la pantalla podemos, o crear una nueva
+receta en su código llamada “Mover el actor hacia la izquierda y eliminar si sale de la pantalla” y
+modificar su código a gusto, o directamente agregar el código que nos permita mover el actor hacia
+abajo cada vez que se actualice (<code>this.y -= 2</code>) y eliminarlo cuando salga de la pantalla.</p>
+<p><img src="image16.png" alt=""></p>
+<p>Indistintamente de lo que elijamos, el código será el siguiente:</p>
+<p><img src="image17.png" alt=""></p>
+<p><img src="image18.png" alt=""></p>
+<p>Terminado este paso, la escena quedara así:</p>
+<p><img src="image19.png" alt=""></p>
+<h2 id="paso-3">Paso 3</h2>
+<p>Ahora agregaremos el misil con el cual destruiremos a las naves enemigas. Lo primero que haremos
+será crear un nuevo actor con la opción “Crear actor”, y luego en la ventana emergente elegiremos
+la opción “actor:</p>
+<p><img src="image20.png" alt=""></p>
+<p><img src="image21.png" alt=""></p>
+<p>Una vez creado el nuevo actor, modificaremos algunas de sus propiedades: cambiaremos su nombre a
+“disparo”, deshabilitaremos la opción “Activo” para que no aparezca visible cuando el juego
+comience, elegiremos la imagen “misil”, lo rotaremos 90° para que mire hacia arriba, le
+deshabilitaremos la opción “Dinámica” para que permanezca en su posición durante el juego y no
+caiga, habilitaremos la opción “¿Es Sensor?” para que al tocar otro actor lo atraviese y no
+modifique su trayectoria, y le definiremos una figura circular y la adaptaremos a las medidas del
+misil para saber cuándo choca contra una nave alienígena. Las propiedades resultantes serán:</p>
+<p><img src="image22.png" alt=""></p>
+<p><img src="image23.png" alt=""></p>
+<p>Al igual que en el código del actor enemigo, deberemos agregar las funciones que nos permitan mover
+hacia arriba el misil, y eliminarlo cuando desaparezca de la pantalla. Esto podemos hacerlo con la
+receta “Mover el actor hacia la izquierda y eliminar si sale de la pantalla” y modificándola para
+que sea idéntico al siguiente código:</p>
+<p><img src="image25.png" alt=""></p>
+<p><img src="image26.png" alt=""></p>
+<p>Al agregar el misil, deberemos de modificar el código tanto de los enemigos como de la nave, para
+que los misiles salgan desde la posición en la que se encuentre la nave, y que si llegan a hacer
+contacto con alguna nave enemiga la derribe y se elimine.</p>
+<p>Comenzaremos con el código de la nave:</p>
+<p><img src="image27.png" alt=""></p>
+<p><img src="image28.png" alt=""></p>
+<p>Crearemos una nueva variable “contador_puede_disparar” que iniciaremos en cero, y que calcula cada
+cuanto tiempo se puede disparar un misil. Además, añadiremos una función que llamaremos
+<code>disparar()</code> que asigna el valor ‘20’ a la variable “contador_puede_disparar” y clona al actor
+misil en la posición en la que se encuentra la nave del jugador. A su vez, cada vez que se
+actualice la pantalla se le descontara una unidad a “contador_puede_disparar”, y agregaremos al
+final de <code>actualizar()</code>, un condicional <code>if</code> que ejecutará la función <code>disparar()</code> anteriormente
+definida cada vez que el jugador presiona la barra espaciadora y cuando la variable
+“contador_puede_disparar” llegue a cero:</p>
+<p><img src="image29.png" alt=""></p>
+<p>Por último, modificaremos el código del enemigo para que sea eliminado cuando colisione con un
+misil. Para lograrlo, crearemos una función llamada <code>cuando_colisiona()</code>:</p>
+<p><img src="image30.png" alt=""></p>
+<p><img src="image31.png" alt=""></p>
+<p>Con esto eliminaremos al misil y al enemigo cuando colisionen.</p>
+<p>Para agregarle más realismo al juego, agregaremos un efecto de explosión en la colisión entre el
+misil y el alien. Para eso, agregaremos dentro del código del enemigo lo siguiente:</p>
+<p><img src="image32.png" alt=""></p>
+<p>Por un lado, creamos la variable explosión que va a contener el efecto del actor explosión en la
+posición en la que se encuentra la nave que tuvo contacto con el misil. Por el otro lado,
+programamos que la cámara vibre para simular un escenario más real de la explosión.</p>
+<p>El juego al final del paso 3 quedará:</p>
+<p><img src="image33.png" alt=""></p>
+<h2 id="paso-4">Paso 4</h2>
+<p>En este último paso cambiaremos el fondo del juego y agregaremos un contador de puntos.</p>
+<p>Para establecer un fondo del espacio a la escena, iremos a las propiedades de la misma y en la
+sección “Apariencia” modificaremos el fondo.</p>
+<p><img src="image34.png" alt=""></p>
+<p><img src="image35.png" alt=""></p>
+<p><img src="image36.png" alt=""></p>
+<p>Además, en el editor de código de la escena1 añadiremos la receta “Crear actores cada determinado
+tiempo en segundos” para generar varias naves enemigas en el juego.</p>
+<p><img src="image37.png" alt=""></p>
+<p><img src="image38.png" alt=""></p>
+<p>Una vez terminada la configuración de la escena, deberemos crear nuestro último actor del juego, el
+puntaje. Para hacerlo, seleccionaremos la opción crear actores, y en la ventana emergente
+elegiremos la opción “puntaje”.</p>
+<p><img src="image39.png" alt=""></p>
+<p>A continuación, cambiaremos su posición:</p>
+<p><img src="image40.png" alt=""></p>
+<p>Finalmente, para culminar con este tutorial, deberemos agregar dentro de la función
+<code>cuando_colisiona()</code> del actor enemigo una función que aumente en 1 el puntaje del jugador cada vez
+que se destruye una nave alien. Para ello:</p>
+<p><img src="image41.png" alt=""></p>
+<p><img src="image42.png" alt=""></p>
+<p>El juego completamente terminado tendrá la siguiente forma:</p>
+<p><img src="image43.png" alt=""></p>
+<p>Aquí termina el tutorial de <strong>nave contra aliens</strong>. Es posible agregarle algunas mejoras, como por
+ejemplo un contador de vidas, que disminuya cada vez que algún enemigo toque el borde inferior del
+juego o colisione contra el jugador, y que cuando llegue a cero aparezca un mensaje de ‘Game Over’.</p>
+<p>Ahora solo queda pulsar el botón &ldquo;Ejecutar&rdquo; y disfrutar del juego.</p>
+<p>¡Muchas gracias por leerlo!</p>
+
+
+    <div class="footer_imprimir tc">
+      Artículo extraído del sitio <a href="https://www.pilas-engine.com.ar">https://www.pilas-engine.com.ar</a>
+    </div>
+
+            <footer class="pt4 ph3 ph5-m ph6-l mid-gray sans-serif pv3">
+
+          <div class="tc mt3">
+            <a href="https://github.com/pilas-engine/pilas-engine/" target=_blank title="github" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/github.png"></a>
+            <a href="https://www.youtube.com/user/hugoruscitti" target=_blank title="youtube" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/youtube.png"></a>
+            <a href="https://foro.pilas-engine.com.ar/" target=_blank title="foro" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/foro.png"></a>
+          </div>
+
+          <div class="tc mt2 f7">
+            © Hugo Ruscitti
+          </div>
+
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
+
+  </main>
+</div>
+

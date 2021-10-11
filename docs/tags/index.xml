@@ -5,43 +5,6 @@
     <link>https://pilas-engine.github.io/sitio-web/tags/</link>
     <description>Recent content in Tags on Pilas Engine</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2014 21:29:25 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>lanzamiento</title>
-      <link>https://pilas-engine.github.io/sitio-web/tags/lanzamiento/</link>
-      <pubDate>Wed, 10 Dec 2014 21:29:25 -0300</pubDate>
-      
-      <guid>https://pilas-engine.github.io/sitio-web/tags/lanzamiento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>release</title>
-      <link>https://pilas-engine.github.io/sitio-web/tags/release/</link>
-      <pubDate>Thu, 14 Nov 2013 18:40:47 -0300</pubDate>
-      
-      <guid>https://pilas-engine.github.io/sitio-web/tags/release/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>asistente</title>
-      <link>https://pilas-engine.github.io/sitio-web/tags/asistente/</link>
-      <pubDate>Wed, 19 Dec 2012 08:28:00 -0300</pubDate>
-      
-      <guid>https://pilas-engine.github.io/sitio-web/tags/asistente/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>version</title>
-      <link>https://pilas-engine.github.io/sitio-web/tags/version/</link>
-      <pubDate>Wed, 19 Dec 2012 08:28:00 -0300</pubDate>
-      
-      <guid>https://pilas-engine.github.io/sitio-web/tags/version/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://pilas-engine.github.io/sitio-web/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://pilas-engine.github.io/sitio-web/favicon.png">
+        
+        <title></title>
+
+        <style>
+</style>
+
+
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/main.css">
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/tachyons.min.css">
+
+
+
+
+
+        
+
+
+<script src="https://pilas-engine.github.io/sitio-web/js/main.js"></script>
+ 
+        <meta name="generator" content="Hugo 0.84.4" />
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+
+  <a href="https://pilas-engine.github.io/sitio-web/" class="v-mid mid-gray link w5 pl3 pv2" href="#" title="home">
+    <img class="logo" width="183" height="64" src="https://pilas-engine.github.io/sitio-web/logo-de-pilas.svg">
+  </a>
+
+  <div class="v-mid w-100 tr truncate">
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/">Principal</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/noticias">Noticias</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/descargas">Descargas</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/documentacion">Documentación</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/foro">Foro</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/videos">Videos</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/galeria">Galería</a>
+  </div>
+
+</nav>
+
+
+
+<style>
+  .tutorial h1 {
+    color: #005590;
+  }
+
+  .tutorial code {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 3px 5px;
+    font-family: monospace;
+  }
+
+  .tutorial h2 {
+    color: #005590;
+  }
+
+  .tutorial p {
+  }
+
+  .tutorial strong {
+    font-weight: bold;
+  }
+
+  .tutorial li {
+    text-align: justify;
+  }
+
+  .tutorial img {
+    max-width: 100%;
+    display: block;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .footer_imprimir {
+    display: none;
+  }
+</style>
+
+
+
+<style media="print">
+  header {
+    display: none !important;
+  }
+
+  body {
+    overflow: initial !important;
+  }
+
+  .contenedor-scroll {
+    position: initial !important;
+    overflow: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer_imprimir {
+    display: block !important;
+  }
+
+  .contenedor-para-el-boton-imprimir {
+    display: none;
+  }
+
+</style>
+
+
+
+
+<div class="contenedor-scroll">
+  <main class="tutorial pt4 mw7 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+    <div class="tr f6">
+      <div class="pt3 contenedor-para-el-boton-imprimir">
+        <button type="button" onclick="window.print(); return false;">Imprimir tutorial</button>
+      </div>
+    </div>
+
+    <h1 id="juego-de-carreras">Juego de carreras</h1>
+<p>En este tutorial mostraremos como realizar el clásico juego de carreras y esquivar obstáculos en
+Pilas Engine.</p>
+<p>El juego se basa en un auto como actor principal el cual transita una carretera en la cual aparecen
+variados obstáculos y se deben esquivar.</p>
+<p><img src="image1.png" alt=""></p>
+<h2 id="paso-1-colección-de-gráficos"><strong>Paso 1:</strong> <strong>Colección de gráficos.</strong></h2>
+<p>Antes de comenzar a desarrollar el videojuego, ingresamos al siguiente link para
+descargar una colección de gráficos de carreras que luego utilizaremos.</p>
+<ul>
+<li><a href="https://www.kenney.nl/assets/racing-pack">Racing Pack de kenney</a></li>
+<li><a href="https://pilas-engine.github.io/sitio-web/assets/extras/kenney_racingpack_updated.zip">Link alternativo</a></li>
+</ul>
+<h2 id="paso-2-creamos-nuestro-actor-principal"><strong>Paso 2: Creamos nuestro actor principal</strong></h2>
+<p>Abrimos el editor de pilas, y eliminamos a todos los actores iniciales de la escena1. Luego, dentro
+de la sección de “ESCENAS Y ACTORES” seleccionamos la opción “Crear actor”:</p>
+<p><img src="image2.png" alt=""></p>
+<p>Seleccionamos la opción “actor”:</p>
+<p><img src="image3.png" alt=""></p>
+<p>Una vez creado el nuevo actor, pasamos a modificar sus propiedades para darle la apariencia y el
+comportamiento que deseemos.</p>
+<p>Primero iremos a la propiedad imagen del actor, y elegiremos la imagen del auto de la siguiente
+forma:</p>
+<p>Necesitaremos importar la imagen del auto deseado desde el botón “Importar imagen” y buscando donde
+hayamos descomprimido la colección de gráficos.   Una vez importada, podremos seleccionarla para
+nuestro actor.</p>
+<p><img src="image4.png" alt=""></p>
+<p>Luego cambiamos su nombre, etiqueta y la posición inicial (x,y).</p>
+<p><img src="image5.png" alt=""></p>
+<p>Ahora programaremos el comportamiento de nuestro auto de carreras para que pueda desplazarse en la
+escena. Para hacerlo, iremos a la sección de “Editor de código” ubicada a la derecha del editor, y
+agregaremos el siguiente fragmento de código:</p>
+<p><img src="image6.png" alt=""></p>
+<p><img src="image7.png" alt=""></p>
+<ol>
+<li>
+<p>En la función actualizar() crearemos una variable “movimiento” la cual utilizaremos para
+establecer la velocidad con la cual se desplazará el auto en la pantalla. Se le puede asignar el
+valor que cada uno crea correcto, en nuestro caso asignamos un valor de 5.</p>
+</li>
+<li>
+<p>Luego de eso, agregaremos 2 sentencias “if” para que el jugador pueda desplazar el auto hacia
+la izquierda o derecha para esquivar o moverse durante el juego.</p>
+</li>
+</ol>
+<h2 id="paso-3-creamos-paredes"><strong>Paso 3: Creamos paredes</strong></h2>
+<p>Ahora vamos a crear las paredes de la ruta por donde se desplazará nuestro vehículo. Para eso vamos
+la opción “Crear actor” nuevamente y seleccionamos el tipo “pared”.</p>
+<p><img src="image8.png" alt=""></p>
+<p>Una vez hecho esto, nos dirigimos a sus propiedades y cambiamos su nombre, etiqueta, y posición
+inicial. Estos valores los podemos variar a lo que creamos adecuado para el ancho de la ruta.</p>
+<p><img src="image9.png" alt=""></p>
+<p>Listo! Ya tenemos nuestra pared izquierda, ahora duplicamos este actor para crear la pared derecha.
+Para ello hacemos click en el icono que se muestra sobre el actor “pared_izq” y seleccionamos
+“Duplicar este actor”.</p>
+<p><img src="image10.png" alt=""></p>
+<p>Al nuevo actor, le cambiamos nombre, etiqueta y posición inicial para qué se comporte como la pared
+del lado derecho.</p>
+<p><img src="image11.png" alt=""></p>
+<p>Una vez finalizado esto, tendremos algo como se muestra en la imagen y estaremos listos para el
+próximo paso, donde programaremos el comportamiento de nuestro vehículo cuando colisione contra
+alguna de las paredes que creamos.</p>
+<p><img src="image12.png" alt=""></p>
+<p>Para simular el choque de nuestro vehículo con alguna de las paredes, debemos crear un nuevo actor
+que entrará en pantalla cuando nuestro actor principal colisione. Nos dirigimos nuevamente a la
+opción “Crear actor”:</p>
+<p><img src="image13.png" alt=""></p>
+<p>Seleccionamos “explosión”, y en sus propiedades marcamos al actor como inactivo inicialmente.</p>
+<p><img src="image14.png" alt=""></p>
+<p>Antes de programar la colisión de nuestro vehículo, vamos a las propiedades del mismo y le damos
+una forma rectangular para que este pueda chocar.</p>
+<p><img src="image15.png" alt=""></p>
+<p>Ahora programaremos la colisión de nuestro vehículo. Para ello nos dirigimos al “Editor de código”
+de nuestro actor principal y agregamos el siguiente fragmento de código:</p>
+<p><img src="image16.png" alt=""></p>
+<p>Este fragmento lo que hace es que cuando nuestro actor colisione contra otro actor, se elimine y
+muestre el actor de “explosión” en el mismo lugar donde el actor principal colisionó.</p>
+<p>Ahora nos faltaría agregar un nuevo actor para poder reiniciar la escena en caso de una colisión.</p>
+<p>Para eso nos dirigimos nuevamente a la opción “Crear actor” y elegimos “Botón”</p>
+<p><img src="image17.png" alt=""></p>
+<p>Luego nos dirigimos a las propiedades del nuevo actor y modificamos nombre, etiqueta, lo marcamos
+como inactivo y modificamos el texto del botón.</p>
+<p><img src="image18.png" alt=""></p>
+<p>Ahora nos dirigimos al editor de código para el nuevo botón y modificamos la función
+“cuando_hace_click” para que reinicie la escena al pulsar sobre el botón.</p>
+<p><img src="image19.png" alt=""></p>
+<p>Lo único que nos queda por hacer es modificar la función “cuando_colisiona” del actor principal
+para clonar el botón de reiniciar escena en ese momento.</p>
+<p><img src="image20.png" alt=""></p>
+<h2 id="paso-4-creamos-nuestro-primer-obstáculo"><strong>Paso 4: Creamos nuestro primer obstáculo</strong></h2>
+<p>Ahora vamos a crear un obstáculo que será el que aparecerá en escena aleatoriamente, el cual el
+vehículo deberá esquivar.</p>
+<p>Para eso vamos a la opción “Crear actor” nuevamente y seleccionamos “actor”.</p>
+<p><img src="image3.png" alt=""></p>
+<p>Nos dirigimos a las propiedades del actor para modificar su nombre, etiqueta, posición inicial,
+figura, estado inactivo e imagen (la cual importamos nuevamente desde la colección descargada).</p>
+<p><img src="image21.png" alt=""></p>
+<p>Ahora pasamos a programar su comportamiento. Para eso vamos al editor de código del actor
+“auto_obstaculo” y definimos las funciones iniciar() y actualizar() de la siguiente manera:</p>
+<p><img src="image22.png" alt=""></p>
+<ul>
+<li>
+<p>La función “iniciar” lo que hace es generar aleatoriamente la coordenada x inicial del actor,
+eso lo hacemos para que no aparezca siempre en el mismo lugar y el actor principal deba moverse
+para esquivar los obstáculos.</p>
+</li>
+<li>
+<p>La función “actualizar” emula la velocidad con la que se moverá el actor “auto_obstáculo”, de
+la misma forma que lo hicimos para los movimientos del actor principal. Además al llegar a la
+coordenada <code>Y = 235</code>, el actor desaparece de escena.</p>
+</li>
+</ul>
+<p>Listo!, ahora debemos hacer que el actor “auto_obstaculo” aparezca en escena a medida que el juego
+transcurre. Para eso vamos al editor de código de “escena1” y agregamos la siguiente función:</p>
+<p><img src="image23.png" alt=""></p>
+<p>La función “cada_segundo”, lo que hace es clonar un actor “auto_obstaculo” cada 3 segundos,
+siempre y cuando exista un actor “auto”. Esta última condición la agregamos para que no sigan
+apareciendo obstáculos una vez que perdimos.</p>
+<p>Sí prueban la escena ahora, verán que cada 3 segundos aparece un actor “auto_obstaculo” con
+posición aleatoria, el cual debemos esquivar para no perder.</p>
+<h2 id="paso-5-nuevos-obstáculos"><strong>Paso 5: Nuevos obstáculos</strong></h2>
+<p>Ahora pasaremos a crear nuevos obstáculos que podrán aparecer en escena.   Primero crearemos un
+actor tipo “motocicleta”, cuya forma será más pequeña que la del auto por ende será más fácil
+esquivar.   Para eso vamos al actor “auto_obstaculo” y clickeamos en “Duplicar este actor”.</p>
+<p><img src="image24.png" alt=""></p>
+<p>Al nuevo actor le modificamos su nombre, etiqueta, estado, imagen (la cual tomaremos nuevamente de
+la colección racing-pack) y la figura a la cual responde.</p>
+<p><img src="image25.png" alt=""></p>
+<p><img src="image26.png" alt=""></p>
+<p>Además, debemos ir al editor de código del actor “moto_obstaculo” para modificar su velocidad, ya
+que pretendemos que sea un obstáculo más pequeño y además su velocidad sea más lenta que la de
+“auto_obstaculo”.</p>
+<p><img src="image27.png" alt=""></p>
+<p>Ahora debemos ir nuevamente a la función “cada_segundo” de “escena1” para poder hacer que
+aparezcan los obstáculos tipo “motocicleta” a medida que transcurre el juego.</p>
+<p><img src="image28.png" alt=""></p>
+<p>Perfecto! Ahora llegó la hora de crear un nuevo actor tipo “aceite” el cual no nos hará perder al
+colisionar contra él, sino que nos cambiará nuestra trayectoria y puede hacernos chocar contra otro
+obstáculo.</p>
+<p>Para eso vamos a duplicar el actor “moto_obstaculo” que creamos anteriormente y modificaremos su
+nombre, etiqueta, estado, imagen (también obtenida de la colección racing-pack) y figura.</p>
+<p><img src="image29.png" alt=""></p>
+<p><img src="image30.png" alt=""></p>
+<p>Ahora nos dirigimos al editor de código del nuevo actor “aceite_obstaculo” y modificamos:</p>
+<ul>
+<li>
+<p>Su velocidad ya que es el obstáculo que más rápido se moverá en la escena.</p>
+</li>
+<li>
+<p>Los valores extremos para la función azar, ya que al ser más ancha la imagen de la mancha de</p>
+</li>
+<li>
+<p>aceite, puede parecer que está fuera de la ruta.</p>
+</li>
+</ul>
+<p><img src="image31.png" alt=""></p>
+<p>Como hicimos con el actor “moto_obstaculo”, hay que agregar el nuevo actor a la función
+“cada_segundo” de la escena para que aparezca el aceite aleatoriamente.</p>
+<p><img src="image32.png" alt=""></p>
+<p>Así quedará la función, la cual hará que cada 3 segundos aparezca un auto, cada 5 segundos aparezca
+una moto y cada 7 segundos aparezca una mancha de aceite. Estos valores los podemos ajustar de
+acuerdo al gusto de cada uno.</p>
+<p>Bien! Ahora sí ejecutan el juego notará que al colisionar con la mancha de aceite, el auto se
+destruye y perdemos.   Lo que queremos hacer es que la mancha de aceite modifique la trayectoria
+del vehículo principal. Para eso nos vamos al editor de código del actor “auto” y modificamos la
+función “cuando_colisiona” de la siguiente manera:</p>
+<p><img src="image33.png" alt=""></p>
+<ul>
+<li>Si observan la nueva función, notaran que agregamos un tratamiento para realizar una acción si
+el otro_actor es de tipo “aceite_obstaculo”.   Lo que hacemos es reproducir un sonido y a
+través de la función “azar” generar 2 tipos de movimientos que harán que nuestro vehículo se
+mueva en diagonal hacia la izquierda o hacia la derecha.</li>
+</ul>
+<p>Luego de esta modificación, notaran que al colisionar con una mancha de aceite, el auto cambia de
+dirección.</p>
+<h2 id="paso-6-puntaje-y-ambientación"><strong>Paso 6: Puntaje y ambientación</strong></h2>
+<p>Bueno, ya estamos llegando al final de la creación del juego. Para este último paso crearemos un
+puntaje que se irá incrementando a medida que transcurre el juego y además agregaremos ambientación
+para darle una mejor apariencia a la escena del juego.</p>
+<p>Para crear el puntaje nos vamos a la opción “Crear actor” y seleccionamos el tipo “puntaje”:</p>
+<p><img src="image34.png" alt=""></p>
+<p>Luego cambiamos su posición inicial (lo situamos en la parte inferior de la pantalla):</p>
+<p><img src="image35.png" alt=""></p>
+<p>Ahora debemos hacer que el puntaje se incremente a medida que transcurre el juego, para eso iremos
+nuevamente a modificar la función “cada_segundo” de la “escena1” de la siguiente manera:</p>
+<p><img src="image36.png" alt=""></p>
+<p>PERFECTO! Ahora solo nos queda cambiar la ambientación del juego.</p>
+<p>Para esto último primero cambiaremos el fondo de la escena a un fondo más uniforme tipo rojo:</p>
+<p><img src="image37.png" alt=""></p>
+<p>Ahora crearemos la hierba de los costados de la ruta. Para esto utilizaremos una técnica de
+duplicación de actores.</p>
+<p>Primero crearemos un nuevo actor:</p>
+<p><img src="image3.png" alt=""></p>
+<p>Al nuevo actor le cambiamos el nombre, etiqueta, posición inicial e imagen que simulara la hierba a
+los costados de la ruta.</p>
+<p><img src="image38.png" alt=""></p>
+<p>Ahora programaremos en el editor de código del actor “pasto_izq” el movimiento del mismo.</p>
+<p><img src="image39.png" alt=""></p>
+<p>Está función lo qué hará será mover el actor hasta la coordenada -300 donde lo re-posicionará en la
+coordenada 300.   Si duplicamos este actor tantas veces para cubrir el lado izquierdo, obtendremos
+algo como esto:</p>
+<p><img src="image40.png" alt=""></p>
+<p>Ahora, por último, nos queda duplicar los 5 actores de pasto izquierdo para emular la hierba del
+lado derecho.   Solo debemos cambiar el nombre y las coordenadas X,Y de cada nuevo actor para
+posicionarlo en su lugar correcto.</p>
+<p>El resultado debería ser algo así:</p>
+<p><img src="image1.png" alt=""></p>
+<p>¡Espero que te haya resultado útil este tutorial!</p>
+
+
+    <div class="footer_imprimir tc">
+      Artículo extraído del sitio <a href="https://www.pilas-engine.com.ar">https://www.pilas-engine.com.ar</a>
+    </div>
+
+            <footer class="pt4 ph3 ph5-m ph6-l mid-gray sans-serif pv3">
+
+          <div class="tc mt3">
+            <a href="https://github.com/pilas-engine/pilas-engine/" target=_blank title="github" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/github.png"></a>
+            <a href="https://www.youtube.com/user/hugoruscitti" target=_blank title="youtube" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/youtube.png"></a>
+            <a href="https://foro.pilas-engine.com.ar/" target=_blank title="foro" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/foro.png"></a>
+          </div>
+
+          <div class="tc mt2 f7">
+            © Hugo Ruscitti
+          </div>
+
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
+
+  </main>
+</div>
+

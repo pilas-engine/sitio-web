@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://pilas-engine.github.io/sitio-web/favicon.png">
+        
+        <title></title>
+
+        <style>
+</style>
+
+
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/main.css">
+<link rel="stylesheet" href="https://pilas-engine.github.io/sitio-web/css/tachyons.min.css">
+
+
+
+
+
+        
+
+
+<script src="https://pilas-engine.github.io/sitio-web/js/main.js"></script>
+ 
+        <meta name="generator" content="Hugo 0.84.4" />
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+
+  <a href="https://pilas-engine.github.io/sitio-web/" class="v-mid mid-gray link w5 pl3 pv2" href="#" title="home">
+    <img class="logo" width="183" height="64" src="https://pilas-engine.github.io/sitio-web/logo-de-pilas.svg">
+  </a>
+
+  <div class="v-mid w-100 tr truncate">
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/">Principal</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/noticias">Noticias</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/descargas">Descargas</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/documentacion">Documentación</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/foro">Foro</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/videos">Videos</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.github.io/sitio-web/galeria">Galería</a>
+  </div>
+
+</nav>
+
+
+
+<style>
+  .tutorial h1 {
+    color: #005590;
+  }
+
+  .tutorial code {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 3px 5px;
+    font-family: monospace;
+  }
+
+  .tutorial h2 {
+    color: #005590;
+  }
+
+  .tutorial p {
+  }
+
+  .tutorial strong {
+    font-weight: bold;
+  }
+
+  .tutorial li {
+    text-align: justify;
+  }
+
+  .tutorial img {
+    max-width: 100%;
+    display: block;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .footer_imprimir {
+    display: none;
+  }
+</style>
+
+
+
+<style media="print">
+  header {
+    display: none !important;
+  }
+
+  body {
+    overflow: initial !important;
+  }
+
+  .contenedor-scroll {
+    position: initial !important;
+    overflow: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer_imprimir {
+    display: block !important;
+  }
+
+  .contenedor-para-el-boton-imprimir {
+    display: none;
+  }
+
+</style>
+
+
+
+
+<div class="contenedor-scroll">
+  <main class="tutorial pt4 mw7 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+
+    <div class="tr f6">
+      <div class="pt3 contenedor-para-el-boton-imprimir">
+        <button type="button" onclick="window.print(); return false;">Imprimir tutorial</button>
+      </div>
+    </div>
+
+    <h1 id="apilador-de-cajas">Apilador de cajas</h1>
+<p>En este tutorial nos vamos a dedicar a explicar uno de los ejemplos que posee pilas, el apilador de
+cajas. El mismo trata de un fantasma que se desplaza horizontalmente en el espacio en conjunto a
+una caja media transparente, y que al dar click izquierdo en el mouse, se soltará una caja. El
+objetivo es tratar de sumar el mayor puntaje posible, apilando la mayor cantidad de cajas posibles
+sobre una plataforma. Si una caja cae fuera de la plataforma, el jugador perderá el juego.</p>
+<p>El juego cuenta con dos escenas, una que se activa cuando el jugador comienza el juego, y otra que
+se activará cuando el jugador pierda.</p>
+<p><img src="image1.png" alt=""></p>
+<p><img src="image2.png" alt=""></p>
+<p>A continuación veremos cómo funciona el juego para que cualquier persona pueda crear su propio
+apilador. ¡Comencemos!</p>
+<h2 id="escena-1">Escena 1</h2>
+<p>Como primer paso, abriremos el editor de pilas, y eliminaremos todos los actores, dejando sólo la
+caja, sobre la cual apilaremos las otras, y la plataforma con las siguientes posiciones en ‘x’ y en
+‘y’:</p>
+<p><img src="image3.png" alt=""></p>
+<p><img src="image4.png" alt=""></p>
+<p>Luego, añadiremos en la <strong>primer escena</strong> cuatro nuevos actores: un fantasma, una caja invisible,
+el puntaje y la zona a partir de la cual perderemos.</p>
+<p>Para crear el fantasma, seleccionaremos la opción “Crear actor”, y en la ventana emergente
+elegiremos la opción “actor”.</p>
+<p><img src="image5.png" alt=""></p>
+<p><img src="image6.png" alt=""></p>
+<p>Cambiaremos algunas propiedades del actor recién creado de la siguiente forma:</p>
+<p><img src="image7.png" alt=""></p>
+<p><img src="image8.png" alt=""></p>
+<p><img src="image9.png" alt=""></p>
+<p>Desactivaremos la opción dinámica, para que nuestro personaje no sea afectado por la “gravedad” del
+juego, y activaremos la opción “¿Es Sensor?” para que si el fantasma llegara a colisionar contra
+algún elemento, lo traspase y no rebote.</p>
+<p>Para obtener la imagen predefinida del fantasma, haremos click en el campo “Imagen” dentro de las
+propiedades, y elegiremos la imagen “fantasma_normal”.</p>
+<p><img src="image10.png" alt=""></p>
+<p>Dentro del editor de código del fantasma definiremos la variable ‘velocidad’, que indicará la
+velocidad a la cual se desplazará el actor (en este caso es 3), y la función <code>patrullar()</code>, con la
+cual lograremos el desplazamiento izquierda-derecha y derecha-izquierda en bucle mientras dure el
+juego.</p>
+<p>A dicha función la llamaremos dentro de <code>actualizar()</code> y funciona de la siguiente manera: la
+posición del fantasma se incrementa en el valor asignado a la variable velocidad dando la sensación
+de movimiento. Si la velocidad es positiva, entonces se moverá hacia la derecha. Cuando la posición
+del fantasma llegue al valor del extremo derecho determinado <code>180</code>, entonces la velocidad se
+multiplicará por <code>-1</code>, y de esta forma haremos que el personaje se mueva en sentido contrario hacia
+la izquierda y utilizaremos desactivaremos la opción espejado para que el fantasma mire hacia la
+izquierda. Una vez que el personaje llegue al extremo izquierdo establecido <code>-180</code>, entonces a
+velocidad se multiplica nuevamente por <code>-1</code>, y la propiedad espejado se activará (asignando <code> = true</code>), logrando que el personaje se mueva y mire hacia la derecha. Este proceso se repetirá desde
+que comienza el juego hasta que el jugador pierda.</p>
+<p><img src="image11.png" alt=""></p>
+<p>Por ahora hemos terminado con el fantasma, es momento de agregar las cajas que apilaremos. Para
+ello, seleccionaremos nuevamente la opción “Crear actor” en la sección “ESCENAS Y ACTORES” del
+editor, y en la ventana emergente elegiremos la opción “Caja”.</p>
+<p><img src="image12.png" alt=""></p>
+<p><img src="image16.png" alt=""></p>
+<p>Modificaremos las propiedades de la caja, como la posición, definiendo su nombre como
+“caja_invisible” y agregando una transparencia de <code>45</code> para dar el efecto de que todavía no ha
+sido materializada la caja. Además, desactivaremos la opción “Dinámica” para evitar que caiga la
+caja antes de tiempo, activaremos la opción “¿Es Sensor?” para que al colisionar con las cajas ya
+apiladas las traspase, y le agregaremos una figura de rectángulo para determinar cuándo colisiona
+con la zona que nos hará perder. La caja totalmente definida quedará de la siguiente forma:</p>
+<p><img src="image17.png" alt=""></p>
+<p><img src="image18.png" alt=""></p>
+<p><img src="image19.png" alt=""></p>
+<p>Una vez finalizada la creación de la caja invisible, deberemos asegurarnos de que siga la misma
+trayectoria del fantasma, para ello, seleccionaremos al actor fantasma, y dentro de su código
+definiremos la función <code>hacer_que_la_caja_siga_al_fantasma()</code>, la cual, como su nombre lo indica,
+hará que la caja siga el movimiento del fantasma. A dicha función la llamaremos en <code>actualizar()</code>.</p>
+<p><img src="image22.png" alt=""></p>
+<p><img src="image24.png" alt=""></p>
+<p>En adición a lo anterior, añadiremos la funcionalidad que nos permita materializar la caja
+invisible para apilarla cada vez que hagamos click. A la función que realizará dicha tarea la
+denominaremos <code>cuando_hace_click_en_la_pantalla()</code>. Lo que hace este método es clonar cajas en la
+posición del fantasma, y aumentar la altura del mismo en 50 de forma que si la torre es muy alta,
+no sobrepase al fantasma ni a la caja invisible.</p>
+<p><img src="image25.png" alt=""></p>
+<p>Por el momento, la altura del fantasma y de la caja invisible aumenta, sin embargo, la cámara sigue
+estática, por lo que una vez que el fantasma supere la altura de la pantalla, se perderá su visión.
+Para solucionar este problema, deberemos seleccionar la primer escena y añadir la siguiente función
+en su código:</p>
+<p><img src="image29.png" alt=""></p>
+<p><img src="image30.png" alt=""></p>
+<p>Terminado el paso anterior, agregaremos la zona que nos hará perder, y para ello, volveremos a
+crear un nuevo actor como hicimos en los pasos anteriores, con la opción “Crear actor”, y en la
+ventana emergente seleccionaremos la opción “Actor”. Acto seguido, elegiremos una imagen para el
+nuevo actor. Buscaremos la opción “invisible” y la seleccionaremos.</p>
+<p><img src="image31.png" alt=""></p>
+<p>Cambiaremos algunos atributos de este actor, comenzando por su nombre (“zona_perder”), su posición
+(definida en la imagen anterior), y siguiendo por agregarle una figura rectangular, y habilitando
+la opción de “¿Es Sensor?” para que las cajas que colisionan con ella la traspasen. Dichas
+propiedades resultaron así:</p>
+<p><img src="image32.png" alt=""></p>
+<p>En cuanto a su código, utilizaremos una de las recetas predefinidas de pilas, para ello daremos
+click en el icono de recetas en la sección “EDITOR DE CÓDIGO”, y en la ventana que emerge
+seleccionaremos la opción “cuando colisiona eliminar al otro actor”.</p>
+<p><img src="image33.png" alt=""></p>
+<p><img src="image34.png" alt=""></p>
+<p>La única diferencia con el método original, es que quitaremos el parámetro que viene dentro del
+paréntesis del nombre de la función, y agregaremos la función que nos mande el mensaje perder
+cuando una caja colisione con “zona_perder”.</p>
+<p><img src="image35.png" alt=""></p>
+<p>Como último actor de esta escena, crearemos al actor puntaje utilizando la misma metodología de
+creación que los actores anteriores. En este caso, en la pantalla emergente elegiremos la opción
+“puntaje”. A este actor solo le modificaremos la posición, y agregaremos en su código la función
+<code>cuando_llega_el_mensaje_aumentar_puntaje()</code>, el cual aumenta en <code>1</code> el puntaje, y definimos la
+altura a <code>220</code>, para que el puntaje aparezca en una altura del juego medianamente aceptable.</p>
+<p><img src="image36.png" alt=""></p>
+<p><img src="image37.png" alt=""></p>
+<p>Finalizada la carga de actores de esta escena, debería de quedar así:</p>
+<p><img src="image38.png" alt=""></p>
+<h2 id="escena-2">Escena 2</h2>
+<p>Para empezar con la segunda escena, le cambiaremos a esta el nombre a “actores_pierde”.</p>
+<p><img src="image39.png" alt=""></p>
+<p>En esta escena, agregaremos dos actores nuevos, por un lado el botón para reiniciar, y por el otro,
+un fantasma que aparezca cuando el jugador pierda.</p>
+<p>Comenzando con el fantasma, realizaremos los mismos pasos que hicimos para crear el primer
+fantasma, pero esta vez, seleccionaremos la imagen “fantasma_asustado”. Renombraremos al fantasma
+como “fantasma_pierde”, modificaremos su posición, y desactivaremos la opción “Activo” de modo que
+el actor aparezca oculto al comienzo de juego.</p>
+<p><img src="image40.png" alt=""></p>
+<p>Como segundo paso, crearemos el botón de reinicio que aparecerá cuando el jugador pierda, dándole
+la oportunidad de repetir el juego. En este caso, seleccionaremos el actor predefinido
+“reiniciar_escena”, y solo modificaremos su posición, el texto por “Volver a jugar” y la
+visibilidad del mismo deshabilitando la opción “Activo”, así como también, agregaremos la función
+inicio() en su código para que el cuadro aparezca en la posición en la que se encuentra la cámara
+cuando el jugador pierde, resultando:</p>
+<p><img src="image41.png" alt=""></p>
+<p><img src="image42.png" alt=""></p>
+<p><img src="image43.png" alt=""></p>
+<p><img src="image44.png" alt=""></p>
+<p><img src="image45.png" alt=""></p>
+<p>El resultado final de la escena “actores_pierde” será:</p>
+<p><img src="image46.png" alt=""></p>
+<h2 id="integrar-las-dos-escenas">Integrar las dos escenas</h2>
+<p>Para finalizar, vincularemos la escena “actores_pierde” y la escena principal. ¿Cómo hacemos eso?,
+simple, solamente agregaremos una función que llamaremos <code>cuando_llega_el_mensaje_perder()</code> en el
+código del actor “fantasma” de la primer escena. Esta función crea un clon del “fantasma_pierde”
+en la posición del actor “fantasma”, muestra el mensaje ‘¡Oh, no!’ en pantalla, y elimina al
+fantasma original. Finalmente clona el botón reiniciar para que el jugador pueda comenzar el juego
+nuevamente.</p>
+<p><img src="image47.png" alt=""></p>
+<p><img src="image52.png" alt=""></p>
+<p><img src="image53.png" alt=""></p>
+<p>¡Y listo!, ya tenemos listo nuestro juego.</p>
+<p>¡Hasta la próxima!</p>
+
+
+    <div class="footer_imprimir tc">
+      Artículo extraído del sitio <a href="https://www.pilas-engine.com.ar">https://www.pilas-engine.com.ar</a>
+    </div>
+
+            <footer class="pt4 ph3 ph5-m ph6-l mid-gray sans-serif pv3">
+
+          <div class="tc mt3">
+            <a href="https://github.com/pilas-engine/pilas-engine/" target=_blank title="github" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/github.png"></a>
+            <a href="https://www.youtube.com/user/hugoruscitti" target=_blank title="youtube" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/youtube.png"></a>
+            <a href="https://foro.pilas-engine.com.ar/" target=_blank title="foro" class="mh2 f6 dib ph2 link mid-gray dim"><img src="https://pilas-engine.github.io/sitio-web/iconos/foro.png"></a>
+          </div>
+
+          <div class="tc mt2 f7">
+            © Hugo Ruscitti
+          </div>
+
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
+
+  </main>
+</div>
+

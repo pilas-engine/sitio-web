@@ -11,7 +11,16 @@
     <loc>https://pilas-engine.github.io/sitio-web/foro/</loc>
     <lastmod>2021-09-05T12:31:37-03:00</lastmod>
   </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/carreras/</loc>
+    <lastmod>2021-09-05T12:31:29-03:00</lastmod>
+  </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/documentacion/</loc>
+    <lastmod>2021-09-05T12:31:29-03:00</lastmod>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/</loc>
+    <lastmod>2021-09-05T12:31:29-03:00</lastmod>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/</loc>
     <lastmod>2021-09-05T12:31:29-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/descargas/</loc>
@@ -24,9 +33,6 @@
     <lastmod>2021-09-04T22:26:10-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/</loc>
-    <lastmod>2021-03-20T19:52:23-03:00</lastmod>
-  </url><url>
-    <loc>https://pilas-engine.github.io/sitio-web/</loc>
     <lastmod>2021-03-20T19:52:23-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2021-03-20-sprint-26/</loc>
@@ -170,13 +176,7 @@
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2015-04-19-se-viene-la-nueva-web/</loc>
     <lastmod>2015-04-19T19:15:48-03:00</lastmod>
   </url><url>
-    <loc>https://pilas-engine.github.io/sitio-web/tags/lanzamiento/</loc>
-    <lastmod>2014-12-10T21:29:25-03:00</lastmod>
-  </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</loc>
-    <lastmod>2014-12-10T21:29:25-03:00</lastmod>
-  </url><url>
-    <loc>https://pilas-engine.github.io/sitio-web/tags/</loc>
     <lastmod>2014-12-10T21:29:25-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2014-08-22-se-publicaron-los-videos-de-avanza-2014/</loc>
@@ -189,9 +189,6 @@
     <lastmod>2013-12-12T19:16:00-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</loc>
-    <lastmod>2013-11-14T18:40:47-03:00</lastmod>
-  </url><url>
-    <loc>https://pilas-engine.github.io/sitio-web/tags/release/</loc>
     <lastmod>2013-11-14T18:40:47-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2013-11-01-pilas-en-pycon-2013-rosario/</loc>
@@ -233,15 +230,25 @@
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2012-12-20-el-equipo-de-pilas-les-desea-unas-felices/</loc>
     <lastmod>2012-12-20T14:52:00-03:00</lastmod>
   </url><url>
-    <loc>https://pilas-engine.github.io/sitio-web/tags/asistente/</loc>
-    <lastmod>2012-12-19T08:28:00-03:00</lastmod>
-  </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/noticias/2012-12-19-pantalla-principal-de-pilas-engine-con-el/</loc>
     <lastmod>2012-12-19T08:28:00-03:00</lastmod>
   </url><url>
-    <loc>https://pilas-engine.github.io/sitio-web/tags/version/</loc>
-    <lastmod>2012-12-19T08:28:00-03:00</lastmod>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/apilador-de-cajas/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/arkanoid/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/asteroides/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/defiende-la-base/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/monos/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tutoriales/nave-vs-aliens/</loc>
   </url><url>
     <loc>https://pilas-engine.github.io/sitio-web/categories/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/pilas-version-clasica/</loc>
+  </url><url>
+    <loc>https://pilas-engine.github.io/sitio-web/tags/</loc>
   </url>
 </urlset>

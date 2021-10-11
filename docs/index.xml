@@ -6,7 +6,7 @@
     <description>Recent content on Pilas Engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Mar 2021 19:52:23 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 12:31:29 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Galeria</title>
       <link>https://pilas-engine.github.io/sitio-web/galeria/</link>
@@ -37,19 +37,14 @@ Hagamos un juego juntos  Hagamos un juego de Ninjas Pilas Engine 2     Juego edu
     </item>
     
     <item>
-      <title>Documentación</title>
-      <link>https://pilas-engine.github.io/sitio-web/documentacion/</link>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/carreras/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:29 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/documentacion/</guid>
-      <description>Documentación Un buen punto de inicio para comenzar a utilizar pilas es explorar el manual completo en español. Este manual recorre toda la funcionalidad de pilas, y explica con ejemplos cómo utilizar cada parte del motor.
-Manuales de la versión actual de pilas:
-Leer el manual online Manual en PDF Manual en epub Ver API  Versión python-pilas:
-Ver el manual
-Ver API
-Mini tutorial
-Mini tutorial (huayra)
-Ver el manual (ver 0.</description>
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/carreras/</guid>
+      <description>Juego de carreras En este tutorial mostraremos como realizar el clásico juego de carreras y esquivar obstáculos en Pilas Engine.
+El juego se basa en un auto como actor principal el cual transita una carretera en la cual aparecen variados obstáculos y se deben esquivar.
+Paso 1: Colección de gráficos. Antes de comenzar a desarrollar el videojuego, ingresamos al siguiente link para descargar una colección de gráficos de carreras que luego utilizaremos.</description>
     </item>
     
     <item>
@@ -60,7 +55,8 @@ Ver el manual (ver 0.</description>
       <guid>https://pilas-engine.github.io/sitio-web/descargas/</guid>
       <description>Descargas La versión más reciente de Pilas Engine es la v2.7.2, publicada el 2021-08-19.
 Pulsá en alguno de los siguientes botones para descargarla en tu equipo:
-Windows de 64 bits OSX de 64 bits GNU/Linux de 64 bits  (y hay más opciones de descargas aquí)  Ten en cuenta que pilas también se pude usar de forma online directamente desde el navegador visitando esta dirección: app.pilas-engine.com.ar.</description>
+Windows de 64 bits OSX de 64 bits GNU/Linux de 64 bits  (y hay más opciones de descargas aquí)  Ten en cuenta que pilas también se pude usar de forma online directamente desde el navegador visitando esta dirección: app.pilas-engine.com.ar.
+Ah, también existe una página especial dedicada a la versión clásica de pilas basada en python.</description>
     </item>
     
     <item>
@@ -72,7 +68,8 @@ Windows de 64 bits OSX de 64 bits GNU/Linux de 64 bits  (y hay más opciones de 
       <description>NOTA
 Descargas La versión más reciente de Pilas Engine es la VERSION, publicada el FECHA.
 Pulsá en alguno de los siguientes botones para descargarla en tu equipo:
-Windows de 64 bits OSX de 64 bits GNU/Linux de 64 bits  (y hay más opciones de descargas aquí)  Ten en cuenta que pilas también se pude usar de forma online directamente desde el navegador visitando esta dirección: app.pilas-engine.com.ar.</description>
+Windows de 64 bits OSX de 64 bits GNU/Linux de 64 bits  (y hay más opciones de descargas aquí)  Ten en cuenta que pilas también se pude usar de forma online directamente desde el navegador visitando esta dirección: app.pilas-engine.com.ar.
+Ah, también existe una página especial dedicada a la versión clásica de pilas basada en python.</description>
     </item>
     
     <item>
@@ -761,6 +758,79 @@ Por ejemplo, si arrastras un archivo sobre la ventana de pilas y luego modificas
       
       <guid>https://pilas-engine.github.io/sitio-web/noticias/2012-12-19-pantalla-principal-de-pilas-engine-con-el/</guid>
       <description>Pantalla principal de pilas-engine, con el indicador de versión y actualización.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/apilador-de-cajas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/apilador-de-cajas/</guid>
+      <description>Apilador de cajas En este tutorial nos vamos a dedicar a explicar uno de los ejemplos que posee pilas, el apilador de cajas. El mismo trata de un fantasma que se desplaza horizontalmente en el espacio en conjunto a una caja media transparente, y que al dar click izquierdo en el mouse, se soltará una caja. El objetivo es tratar de sumar el mayor puntaje posible, apilando la mayor cantidad de cajas posibles sobre una plataforma.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/arkanoid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/arkanoid/</guid>
+      <description>Cómo crear el videojuego Arkanoid En este tutorial desarrollaremos un juego inspirado en el clásico Arkanoid, este típico juego donde hay una pequeña plataforma que impide que una bola salga de la zona de juego, haciéndola rebotar, y en la parte superior hay ladrillos o bloques, que desaparecen al ser tocados por la bola, pero con la particularidad de que necesitan un número de toques para desaparecer.
+Primer paso Abrimos el editor de Pilas, borramos los actores que tengamos inicialmente para tener el escenario limpio y poder comenzar a trabajar.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/asteroides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/asteroides/</guid>
+      <description>Asteroides En este tutorial desarrollaremos un juego inspirado en el clásico asteroides de las máquinas recreativas. Se trata de una nave espacial, dirigida con las flechas del cursor, que se enfrenta a una lluvia de asteroides que hay que destruir. Por otra parte, se trata de un mundo esférico, y si nosotros o las rocas nos salimos por un extremo de la ventana, aparecemos por el extremo contrario.
+Primer paso Entre los ejemplos que incorpora pilas-engine se encuentra “ejemplo-nave”, el cual cuenta con el actor principal de nuestro juego, la nave espacial, con el desarrollo del movimiento, su disparo y sonido ya codificados.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/defiende-la-base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/defiende-la-base/</guid>
+      <description>Defiende la base Defiende la base es un juego en el que debes poner defensores que disparen a los zombis que quieren llegar a tu base antes de que estos cumplan con su objetivo. Tu único objetivo es sobrevivir el mayor tiempo posible, mientras que las hordas de zombis cada vez son mayores.
+En este tutorial crearemos nuestra propia versión de este clásico juego en el motor Pilas Engine!
+ Para continuar con este tutorial necesitaras descargar los recursos desde aquí</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/monos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/monos/</guid>
+      <description>Disparar a Monos Uno de los ejemplos que posee Pilas Engine, es el proyecto disparar_a_monos, que brinda al usuario una perspectiva general de lo que se puede hacer. En este tutorial desarrollaremos este proyecto, de modo que cualquier usuario sepa cómo llevarlo a cabo y pueda modificarlo a gusto.
+Disparar a monos es un juego que consiste en que el jugador controla una torreta que debe disparar a los monos, los cuales se generan al azar en la pantalla, que intentan llegar a ella para destruirla.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pilas-engine.github.io/sitio-web/tutoriales/nave-vs-aliens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/nave-vs-aliens/</guid>
+      <description>Nave vs aliens El este tutorial explicaremos paso a paso cómo desarrollar el ejemplo &amp;ldquo;Nave Contra Aliens&amp;rdquo; de Pilas Engine. El mismo se basa en una nave manejada por el jugador con las flechas del teclado, que dispara misiles a aliens que se generan aleatoriamente en la pantalla. Mientras más aliens destruya, mayor va a ser el puntaje final.
+¡Comencemos!
+Paso 1 Para empezar, abriremos el editor de pilas, y eliminaremos a todos los actores iniciales de la escena1, y crearemos un nuevo actor seleccionando en la sección de “ESCENAS Y ACTORES” la opción “Crear actor”:</description>
+    </item>
+    
+    <item>
+      <title>Pilas - versión clásica</title>
+      <link>https://pilas-engine.github.io/sitio-web/pilas-version-clasica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pilas-engine.github.io/sitio-web/pilas-version-clasica/</guid>
+      <description>Versión clásica de pilas Pilas tiene varios años de desarrollo, comenzó a desarrollarse a partir de agosto del año 2010 y evolucionó desde entonces.
+Inicialmente desarrollamos pilas con el lenguaje de programación python, pero a partir del 2018 cambiamos a tecnologías web como JavaScript.
+En esta página vas a encontrar links y recursos de la versión clásica de pilas, así como tutoriales y recursos que hicimos antes de 2018.
+Si tienes la opción de elegir, te recomendamos usar la versión nueva de pilas en lugar de esta versión clásica.</description>
     </item>
     
   </channel>

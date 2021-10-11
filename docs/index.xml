@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pilas Engine</title>
-    <link>https://pilas-engine.github.io/sitio-web/</link>
+    <link>https://pilas-engine.com.ar/</link>
     <description>Recent content on Pilas Engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Sep 2021 12:31:29 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 12:31:29 -0300</lastBuildDate><atom:link href="https://pilas-engine.com.ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Galeria</title>
-      <link>https://pilas-engine.github.io/sitio-web/galeria/</link>
+      <link>https://pilas-engine.com.ar/galeria/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:45 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/galeria/</guid>
+      <guid>https://pilas-engine.com.ar/galeria/</guid>
       <description>Galería de fotos  </description>
     </item>
     
     <item>
       <title>Videos</title>
-      <link>https://pilas-engine.github.io/sitio-web/videos/</link>
+      <link>https://pilas-engine.com.ar/videos/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:41 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/videos/</guid>
+      <guid>https://pilas-engine.com.ar/videos/</guid>
       <description>Videos En esta sección reunimos varios tutoriales y conferencias para que puedas conocer más sobre pilas:
 Hagamos un juego juntos  Hagamos un juego de Ninjas Pilas Engine 2     Juego educativo - Parte 1 Pilas Engine 2     Juego educativo - Parte 2 Pilas Engine 2    Aprende conceptos de programación iniciales  Conceptos iniciales Pilas Engine 2    Tutorial - Cómo implementar autómatas en Pilas Engine 2  Cómo implementar autómatas en Pilas Engine 2 Pilas Engine 2    Tutorial - Cómo desarrollar un juego de lluvia de objetos con Pilas Engine  Cómo hacer un juego de lluvia de objetos - Parte 1 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 2 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 3 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 4 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 5 Pilas Engine 2     Cómo hacer un juego de lluvia de objetos - Parte 6 Pilas Engine 2    Tutorial - Cómo hacer un juego de plataformas  Cómo hacer un juego de plataformas con Pilas Engine 2 Pilas Engine 2    Tutorial - Cómo crear el juego Nave vs Aliens  Nave vs Aliens - Parte 1 Pilas Engine 2     Nave vs Aliens - Parte 2 Pilas Engine 2     Nave vs Aliens - Parte 3 Pilas Engine 2     Nave vs Aliens - Parte 4 Pilas Engine 2    Tutorial - Cómo hacer un Flappy Bird  Cómo hacer un Flappy Bird Video 1 pilas-engine 2     Cómo hacer un Flappy Bird Video 2 pilas-engine 2     Cómo hacer un Flappy Bird Video 3 pilas-engine 2     Cómo hacer un Flappy Bird Video 4 pilas-engine 2     Cómo hacer un Flappy Bird Video 5 pilas-engine 2     Cómo hacer un Flappy Bird Video 6 pilas-engine 2     Cómo hacer un Flappy Bird Video 7 pilas-engine 2     Cómo hacer un Flappy Bird Video 8 pilas-engine 2     Cómo hacer un Flappy Bird Video 9 pilas-engine 2     Cómo hacer un Flappy Bird Video 10 pilas-engine 2    Demos  Pilas en móviles pilas-engine 2     ¿Cómo crear un entorno?</description>
     </item>
     
     <item>
       <title>Foro</title>
-      <link>https://pilas-engine.github.io/sitio-web/foro/</link>
+      <link>https://pilas-engine.com.ar/foro/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:37 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/foro/</guid>
+      <guid>https://pilas-engine.com.ar/foro/</guid>
       <description>Foro de mensajes En el foro de mensajes vas a encontrar una comunidad de personas dispuestas a ayudar y resolver dudas sobre pilas:
  Abrir el foro en una ventana nueva  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/carrera/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/carrera/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:29 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/carrera/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/carrera/</guid>
       <description>¡Carrera! En este tutorial veremos como hacer un juego de carreras como se ve en la imagen, para esto, debemos descargar los sprites que utilizaremos desde aquí
 Calle Lo primero que haremos será construir una calle que de un efecto de que vamos rápido. En este tipo de juegos, el auto no es el que avanza, sino que el fondo es el que se mueve dando a entender al jugador que esta avanzando, cuando no es así.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/carreras/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/carreras/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:29 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/carreras/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/carreras/</guid>
       <description>Juego de carreras En este tutorial mostraremos como realizar el clásico juego de carreras y esquivar obstáculos en Pilas Engine.
 El juego se basa en un auto como actor principal el cual transita una carretera en la cual aparecen variados obstáculos y se deben esquivar.
 Paso 1: Colección de gráficos. Antes de comenzar a desarrollar el videojuego, ingresamos al siguiente link para descargar una colección de gráficos de carreras que luego utilizaremos.</description>
@@ -59,10 +59,10 @@ Paso 1: Colección de gráficos. Antes de comenzar a desarrollar el videojuego, 
     
     <item>
       <title>Descargas</title>
-      <link>https://pilas-engine.github.io/sitio-web/descargas/</link>
+      <link>https://pilas-engine.com.ar/descargas/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:24 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/descargas/</guid>
+      <guid>https://pilas-engine.com.ar/descargas/</guid>
       <description>Descargas La versión más reciente de Pilas Engine es la v2.7.2, publicada el 2021-08-19.
 Pulsá en alguno de los siguientes botones para descargarla en tu equipo:
 Windows de 64 bits OSX de 64 bits GNU/Linux de 64 bits  (y hay más opciones de descargas aquí)  Ten en cuenta que pilas también se pude usar de forma online directamente desde el navegador visitando esta dirección: app.pilas-engine.com.ar.
@@ -71,10 +71,10 @@ Ah, también existe una página especial dedicada a la versión clásica de pila
     
     <item>
       <title>Descargas</title>
-      <link>https://pilas-engine.github.io/sitio-web/descargas_template/</link>
+      <link>https://pilas-engine.com.ar/descargas_template/</link>
       <pubDate>Sun, 05 Sep 2021 12:31:24 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/descargas_template/</guid>
+      <guid>https://pilas-engine.com.ar/descargas_template/</guid>
       <description>NOTA
 Descargas La versión más reciente de Pilas Engine es la VERSION, publicada el FECHA.
 Pulsá en alguno de los siguientes botones para descargarla en tu equipo:
@@ -84,19 +84,19 @@ Ah, también existe una página especial dedicada a la versión clásica de pila
     
     <item>
       <title>Acercade</title>
-      <link>https://pilas-engine.github.io/sitio-web/acercade/</link>
+      <link>https://pilas-engine.com.ar/acercade/</link>
       <pubDate>Sat, 04 Sep 2021 22:26:10 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/acercade/</guid>
+      <guid>https://pilas-engine.com.ar/acercade/</guid>
       <description>Acerca de Pilas Engine ¿Cuál es el propósito?, ¿cómo empezó?, ¿hacia donde va?</description>
     </item>
     
     <item>
       <title>Publicamos el sprint 26</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2021-03-20-sprint-26/</link>
+      <link>https://pilas-engine.com.ar/noticias/2021-03-20-sprint-26/</link>
       <pubDate>Sat, 20 Mar 2021 19:52:23 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2021-03-20-sprint-26/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2021-03-20-sprint-26/</guid>
       <description>Hoy publicamos el sprint 26 de pilas, con varias mejoras como la función print, un sistema para publicar juegos mejorado y alguna novedades que estuvimos investigando:
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -104,10 +104,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 25</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2021-01-24-sprint-25/</link>
+      <link>https://pilas-engine.com.ar/noticias/2021-01-24-sprint-25/</link>
       <pubDate>Sun, 24 Jan 2021 19:52:23 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2021-01-24-sprint-25/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2021-01-24-sprint-25/</guid>
       <description>Hoy publicamos el sprint 25 de pilas, con un remix de un juego llamado Don Ceferino Hazaña y varios arreglos más:
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -115,10 +115,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 24</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-11-15-sprint-24/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-11-15-sprint-24/</link>
       <pubDate>Sun, 15 Nov 2020 19:52:23 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-11-15-sprint-24/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-11-15-sprint-24/</guid>
       <description>Hoy publicamos el resumen del sprint 24, donde incluímos una característica nueva llamada &amp;ldquo;lasers&amp;rdquo; y algunos ejemplos sencillos:
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -126,10 +126,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 23</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-09-27-sprint-23/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-09-27-sprint-23/</link>
       <pubDate>Sun, 27 Sep 2020 19:52:23 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-09-27-sprint-23/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-09-27-sprint-23/</guid>
       <description>¡Saludos!, hoy publicamos el resumen del sprint 23, donde incluímos algunos ejemplos nuevos, un selector de código en el editor y varias mejoras más.
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -137,10 +137,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 22</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-09-08-sprint-22/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-09-08-sprint-22/</link>
       <pubDate>Tue, 08 Sep 2020 19:52:23 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-09-08-sprint-22/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-09-08-sprint-22/</guid>
       <description>Hoy publicamos el sprint 22 de pilas, con varias mejoras como el soporte para varios idiomas, una forma de crear mapas rápidamente y varias mejoras más:
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -148,10 +148,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>¡Pilas Engine cumple 10 años!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-08-07-cumpleanos-10-de-pilas/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-08-07-cumpleanos-10-de-pilas/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-08-07-cumpleanos-10-de-pilas/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-08-07-cumpleanos-10-de-pilas/</guid>
       <description>Esta semana pilas cumplió 10 años entre nosotros, así que para celebrarlo publicamos una versión nueva con varias mejoras, como el resaltado de código en ejecución y un inspector de actores en modo pausa.
 Podes ver un detalle de todas las novedades en el anuncio del sprint:
  Ver anuncio en el foro  </description>
@@ -159,10 +159,10 @@ Podes ver un detalle de todas las novedades en el anuncio del sprint:
     
     <item>
       <title>Publicamos un video tutorial sobre autómatas</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-07-01-video-automatas/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-07-01-video-automatas/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-07-01-video-automatas/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-07-01-video-automatas/</guid>
       <description>Hoy publicamos un nuevo video tutorial que muestra cómo crear un personaje de videojuego con varios movimientos.
 Podes ver este video en nuestra sección de videos o directamente desde youtube:
  Ver sección videos Ver el tutorial en youtube  </description>
@@ -170,10 +170,10 @@ Podes ver este video en nuestra sección de videos o directamente desde youtube:
     
     <item>
       <title>Publicamos el sprint 19</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-06-27-sprint-19/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-06-27-sprint-19/</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-06-27-sprint-19/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-06-27-sprint-19/</guid>
       <description>¡Saludos!, quería comentarles que publicamos varias mejoras en esta nueva versión de pilas. Agregamos varios ejemplos, documentamos el uso de autómatas, recetas de código, un motor nuevo de animaciones y varias cosas más!!!
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -181,10 +181,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Nuevo tutorial: Defiende la base</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-06-21-nuevo-tutorial-sobre-defender-la-base/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-06-21-nuevo-tutorial-sobre-defender-la-base/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-06-21-nuevo-tutorial-sobre-defender-la-base/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-06-21-nuevo-tutorial-sobre-defender-la-base/</guid>
       <description>Estamos muy contentos de poder anunciar un nuevo tutorial creado por Santiago Arguello llamado &amp;ldquo;Defiende la base&amp;rdquo;
 Mirá este tutorial en nuestra sección de documentación:
  Abrir el tutorial Defiende la base  </description>
@@ -192,10 +192,10 @@ Mirá este tutorial en nuestra sección de documentación:
     
     <item>
       <title>Nuevo tutorial de coches de carrera</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-06-11-nuevo-tutorial/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-06-11-nuevo-tutorial/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-06-11-nuevo-tutorial/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-06-11-nuevo-tutorial/</guid>
       <description>Hoy publicamos un nuevo tutorial creado por Gonzalo Gauna sobre cómo hacer un juego de carreras.
 Mirá este tutorial en nuestra sección de documentación:
  Abrir el tutorial Juego de carreras  </description>
@@ -203,10 +203,10 @@ Mirá este tutorial en nuestra sección de documentación:
     
     <item>
       <title>¡ Tenemos un nuevo video tutorial !</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-06-10-lluvia-de-objetos/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-06-10-lluvia-de-objetos/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-06-10-lluvia-de-objetos/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-06-10-lluvia-de-objetos/</guid>
       <description>Recién publicamos un nuevo video tutorial divido en 6 partes creado por Juan Manuel Cerutti.
 El tutorial muestra cómo crear un videojuego de objetos que caen desde el techo de la pantalla y debemos esquivar o recolectar.
 Mirá el tutorial en nuestra sección de videos o en nuestro canal de youtube:
@@ -215,10 +215,10 @@ Mirá el tutorial en nuestra sección de videos o en nuestro canal de youtube:
     
     <item>
       <title>Publicamos el sprint 18</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-06-06-sprint-18/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-06-06-sprint-18/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-06-06-sprint-18/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-06-06-sprint-18/</guid>
       <description>Hoy publicamos el sprint 18 de pilas, con varias mejoras como la posibilidad de incorporar sonidos personalizados, la incorporación del manual dentro del editor, un glosario de funciones, un modo de video &amp;ldquo;pixelart&amp;rdquo; y varias cosas más.
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -226,10 +226,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 17</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-05-23-sprint-17/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-05-23-sprint-17/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-05-23-sprint-17/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-05-23-sprint-17/</guid>
       <description>Hoy publicamos la versión 2.1.8 Pilas Engine 2.
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -237,10 +237,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 16</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-05-11-sprint-16/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-05-11-sprint-16/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-05-11-sprint-16/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-05-11-sprint-16/</guid>
       <description>¡Saludos!
 Hoy publicamos una nueva versión de pilas engine 2, la versión 2.1.3.
 Mirá el resumen completo en el foro para ver más detalles.
@@ -249,10 +249,10 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Dos nuevos tutoriales</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-05-04-nuevos-tutoriales/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-05-04-nuevos-tutoriales/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-05-04-nuevos-tutoriales/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-05-04-nuevos-tutoriales/</guid>
       <description>Hoy publicamos dos tutoriales super detallados y completos para la versión 2 de Pilas Engine.
 Uno de los tutoriales, desarrollado por Mailén Sturtz, muestra cómo crear un juego de asteroides completo.
 El otro tutorial, desarrollado por Martín Carrión, Rodolfo Emiliano, muestra cómo crear un juego de disparos con los personajes clásicos de pilas.
@@ -262,10 +262,10 @@ Miralos en la sección documentación
     
     <item>
       <title>Publicamos el sprint 15</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-04-26-sprint-15/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-04-26-sprint-15/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-04-26-sprint-15/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-04-26-sprint-15/</guid>
       <description>¡Saludos!, quería comentarles que publicamos varias mejoras en esta nueva versión de pilas. Agregamos un ejemplo de juego de plataformas, sensores en el editor, una forma de replicar actores rápidamente pulsado la tecla &amp;ldquo;d&amp;rdquo; y varias cosas más.
 Mirá el resumen completo en el foro para ver más detalles.
  Ver el resumen  </description>
@@ -273,20 +273,20 @@ Mirá el resumen completo en el foro para ver más detalles.
     
     <item>
       <title>Publicamos el sprint 14</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-04-05-sprint-14/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-04-05-sprint-14/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-04-05-sprint-14/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-04-05-sprint-14/</guid>
       <description>Hoy publicamos el sprint 14 de pilas, con varias mejoras como la posibilidad de hacer &amp;ldquo;zoom&amp;rdquo; en la escena, desplazar la cámara, hacer recorridos de actores y varios ejemplos nuevos.
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Publicamos el sprint 13</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2020-01-19-sprint-13/</link>
+      <link>https://pilas-engine.com.ar/noticias/2020-01-19-sprint-13/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2020-01-19-sprint-13/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2020-01-19-sprint-13/</guid>
       <description>Hoy presentamos el sprint 13 con varios ejemplos nuevos, un sistema de mensajes entre actores y el acceso por completo a los eventos de teclado.
 Mira el anuncio de finalización del sprint para más detalles:
  Ver el resumen  </description>
@@ -294,10 +294,10 @@ Mira el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>Finalizamos el sprint 12</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-12-21-sprint-12/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-12-21-sprint-12/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-12-21-sprint-12/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-12-21-sprint-12/</guid>
       <description>Hoy publicamos el sprint 12 con una gran incorporación, ¡nuestro propio editor de animaciones!
 Mira el anuncio de finalización del sprint para más detalles:
  Ver el resumen  </description>
@@ -305,10 +305,10 @@ Mira el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>Finalizamos el sprint 11</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-10-16-sprint-11/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-10-16-sprint-11/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-10-16-sprint-11/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-10-16-sprint-11/</guid>
       <description>Luego de alguna demora, publicamos el resumen del sprint 11 con varias mejoras, entre ellas: ¡La posibilidad de incorporar imágenes personalizadas para los actores!
 Mira el anuncio de finalización del sprint para más detalles:
  Ver el resumen  </description>
@@ -316,10 +316,10 @@ Mira el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>Finalizamos el sprint 10</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-07-31-sprint-10/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-07-31-sprint-10/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-07-31-sprint-10/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-07-31-sprint-10/</guid>
       <description>Esta semana finalizamos el sprint 10, donde se incorporaron varias mejoras, como la posibilidad de desactivar y clonar actores, mejoras en el sistema de animaciones, la incorporación de un asistente de código y muchas mejoras más.
 Mira el anuncio de finalización del sprint para más detalles:
  Ver el resumen  </description>
@@ -327,10 +327,10 @@ Mira el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>Nuevo tutorial en video</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-07-30-nuevo-tutorial-flappy-bird/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-07-30-nuevo-tutorial-flappy-bird/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-07-30-nuevo-tutorial-flappy-bird/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-07-30-nuevo-tutorial-flappy-bird/</guid>
       <description>Publicamos un video sobre cómo crear un juego estilo Flappy Bird usando la versión nueva de Pilas Engine.
 El tutorial ya está disponible en youtube, separado en 10 videos paso a paso:
  Ver el tutorial en youtube  </description>
@@ -338,10 +338,10 @@ El tutorial ya está disponible en youtube, separado en 10 videos paso a paso:
     
     <item>
       <title>Finalizamos el sprint 9</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-07-11-sprint-09/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-07-11-sprint-09/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-07-11-sprint-09/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-07-11-sprint-09/</guid>
       <description>Esta semana finalizamos el sprint 9, donde se implementaron varias mejoras, entre ellas la posibilidad de exportar proyectos completos.
 Mirá el anuncio de finalización del sprint para más detalles:
  Ver el resumen  </description>
@@ -349,136 +349,136 @@ Mirá el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>Finalizamos el sprint 8</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-06-09-sprint-08/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-06-09-sprint-08/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-06-09-sprint-08/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-06-09-sprint-08/</guid>
       <description>Hoy finalizamos el sprint 8, donde implementamos soporte para ejecutar juegos de forma remota en celulares y añadimos varios ejemplos nuevos:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 7</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-05-18-sprint-07/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-05-18-sprint-07/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-05-18-sprint-07/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-05-18-sprint-07/</guid>
       <description>En este sprint agregamos varios ejemplos, optimizamos las imágenes que incluye el editor y añadimos la posibilidad de crear fondos en los textos redimensionables:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 6</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2019-04-27-sprint-06/</link>
+      <link>https://pilas-engine.com.ar/noticias/2019-04-27-sprint-06/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2019-04-27-sprint-06/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2019-04-27-sprint-06/</guid>
       <description>En este sprint añadimos el modo oscuro del editor y agregamos soporte para utilizar habilidades:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 5</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2018-12-01-sprint-05/</link>
+      <link>https://pilas-engine.com.ar/noticias/2018-12-01-sprint-05/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2018-12-01-sprint-05/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2018-12-01-sprint-05/</guid>
       <description>Implementamos una versión renovada de la web junto a varias mejoras en el editor como los indicadores de actores en escena y los modales para crear escenas y actores.
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 4</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2018-06-05-sprint-04/</link>
+      <link>https://pilas-engine.com.ar/noticias/2018-06-05-sprint-04/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2018-06-05-sprint-04/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2018-06-05-sprint-04/</guid>
       <description>Hoy finalizamos el sprint 4 de pilas-engine 2, mirá el avance completo en nuestro foro:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 3</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2018-04-28-sprint-03/</link>
+      <link>https://pilas-engine.com.ar/noticias/2018-04-28-sprint-03/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2018-04-28-sprint-03/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2018-04-28-sprint-03/</guid>
       <description>Hoy finalizamos el sprint 3 de pilas-engine 2, mirá el avance completo en nuestro foro:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 2</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2018-03-31-sprint-02/</link>
+      <link>https://pilas-engine.com.ar/noticias/2018-03-31-sprint-02/</link>
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2018-03-31-sprint-02/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2018-03-31-sprint-02/</guid>
       <description>Hoy finalizamos el sprint 1 de pilas-engine 2, mirá el avance completo en nuestro foro:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>Finalizamos el sprint 1</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2018-03-20-sprint-01/</link>
+      <link>https://pilas-engine.com.ar/noticias/2018-03-20-sprint-01/</link>
       <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2018-03-20-sprint-01/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2018-03-20-sprint-01/</guid>
       <description>Hoy finalizamos el sprint 1 de pilas-engine 2, mirá el avance completo en nuestro foro:
  Ver el resumen  </description>
     </item>
     
     <item>
       <title>¡Comenzamos el desarrollo de pilas-engine 2!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2018-03-4-comenzamos-pilas-engine-2/</link>
+      <link>https://pilas-engine.com.ar/noticias/2018-03-4-comenzamos-pilas-engine-2/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2018-03-4-comenzamos-pilas-engine-2/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2018-03-4-comenzamos-pilas-engine-2/</guid>
       <description>Hoy comenzamos oficialmente a desarrollar la versión 2.0 de Pilas Engine, mirá todos los detalles en nuestro foro:
  Ver comienzo del proyecto Pilas Engine 2  </description>
     </item>
     
     <item>
       <title>Publicamos la versión 1.4.12</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2017-11-24-publicamos-la-versi%C3%B3n-1412/</link>
+      <link>https://pilas-engine.com.ar/noticias/2017-11-24-publicamos-la-versi%C3%B3n-1412/</link>
       <pubDate>Fri, 24 Nov 2017 06:58:17 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2017-11-24-publicamos-la-versi%C3%B3n-1412/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2017-11-24-publicamos-la-versi%C3%B3n-1412/</guid>
       <description>¡Saludos!, hoy publicamos la nueva versión de pilas, con algunos ajustes menores y corrección de errores.</description>
     </item>
     
     <item>
       <title>Lanzamos pilas 1.4.11</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2017-06-15-lanzamos-pilas-1411/</link>
+      <link>https://pilas-engine.com.ar/noticias/2017-06-15-lanzamos-pilas-1411/</link>
       <pubDate>Thu, 15 Jun 2017 08:51:14 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2017-06-15-lanzamos-pilas-1411/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2017-06-15-lanzamos-pilas-1411/</guid>
       <description>Ya está lista la nueva versión de pilas, con varios arreglos y un sistema de actualización de actores que permite ejecutar código justo antes de dibujar en pantalla!</description>
     </item>
     
     <item>
       <title>Publicamos la versión 1.4.10</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2017-02-17-publicamos-la-versi%C3%B3n-1410/</link>
+      <link>https://pilas-engine.com.ar/noticias/2017-02-17-publicamos-la-versi%C3%B3n-1410/</link>
       <pubDate>Fri, 17 Feb 2017 09:59:42 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2017-02-17-publicamos-la-versi%C3%B3n-1410/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2017-02-17-publicamos-la-versi%C3%B3n-1410/</guid>
       <description>Hoy publicamos una nueva versión de pilas-engine, que incluye algunos arreglos como la actualización del manual, mejoras en los mensajes de error al crear actores especificando la imagen a utilizar y más.</description>
     </item>
     
     <item>
       <title>Publicamos una nueva charla de pilas en la sección videos</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2016-11-07-publicamos-una-nueva-charla-de-pilas-en-la-secci%C3%B3n/</link>
+      <link>https://pilas-engine.com.ar/noticias/2016-11-07-publicamos-una-nueva-charla-de-pilas-en-la-secci%C3%B3n/</link>
       <pubDate>Mon, 07 Nov 2016 10:07:12 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2016-11-07-publicamos-una-nueva-charla-de-pilas-en-la-secci%C3%B3n/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2016-11-07-publicamos-una-nueva-charla-de-pilas-en-la-secci%C3%B3n/</guid>
       <description>Publicamos la charla que realizó Manuel Quiñones (Manuq) en el evento PyDay de Rafaela 2016, mirá la charla completa desde la sección videos de la web: http://pilas-engine.com.ar/#/videos  </description>
     </item>
     
     <item>
       <title>Lanzamos pilas 1.4.9</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2016-10-18-lanzamos-pilas-149/</link>
+      <link>https://pilas-engine.com.ar/noticias/2016-10-18-lanzamos-pilas-149/</link>
       <pubDate>Tue, 18 Oct 2016 17:51:09 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2016-10-18-lanzamos-pilas-149/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2016-10-18-lanzamos-pilas-149/</guid>
       <description>Hoy tenemos una nueva versión de pilas para presentar, incluye algunos arreglos en los mensajes del sistema de audio y una opción nueva en el panel de configuración:
 
  </description>
@@ -486,78 +486,78 @@ Mirá el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>Lanzamos pilas 1.4.8</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2016-08-26-lanzamos-pilas-148/</link>
+      <link>https://pilas-engine.com.ar/noticias/2016-08-26-lanzamos-pilas-148/</link>
       <pubDate>Fri, 26 Aug 2016 11:26:37 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2016-08-26-lanzamos-pilas-148/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2016-08-26-lanzamos-pilas-148/</guid>
       <description>Esta versión incorpora mejoras en el sistema de audio: ahora se pueden aplicar efectos de volumen, forzar la inicialización de audio de forma segura y otros cambios menores.</description>
     </item>
     
     <item>
       <title>Lanzamos pilas-engine 1.4.3</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2016-03-16-lanzamos-pilas-engine-143/</link>
+      <link>https://pilas-engine.com.ar/noticias/2016-03-16-lanzamos-pilas-engine-143/</link>
       <pubDate>Wed, 16 Mar 2016 21:16:31 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2016-03-16-lanzamos-pilas-engine-143/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2016-03-16-lanzamos-pilas-engine-143/</guid>
       <description>Hoy publicamos una nueva versión de pilas-engine, con varios arreglos y mejoras.
  </description>
     </item>
     
     <item>
       <title>¡publicamos pilas-engine 1.4!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-12-18-publicamos-pilas-engine-14/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-12-18-publicamos-pilas-engine-14/</link>
       <pubDate>Fri, 18 Dec 2015 10:21:09 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-12-18-publicamos-pilas-engine-14/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-12-18-publicamos-pilas-engine-14/</guid>
       <description>Hoy lanzamos la nueva versión de pilas-engine, con mejoras en el sistema de colisiones y el soporte unicode.
  </description>
     </item>
     
     <item>
       <title>pilas-engine 1.3 ya está aquí</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-10-19-pilas-engine-13-ya-est%C3%A1-aqu%C3%AD/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-10-19-pilas-engine-13-ya-est%C3%A1-aqu%C3%AD/</link>
       <pubDate>Mon, 19 Oct 2015 01:15:15 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-10-19-pilas-engine-13-ya-est%C3%A1-aqu%C3%AD/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-10-19-pilas-engine-13-ya-est%C3%A1-aqu%C3%AD/</guid>
       <description>Hoy lanzamos la versión nueva de pilas-engine, que incluye documentación para programadores, dos nuevos ejemplos y muchas mejoras más.
  </description>
     </item>
     
     <item>
       <title>Publicamos pilas-engine 1.2</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-09-26-publicamos-pilas-engine-12/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-09-26-publicamos-pilas-engine-12/</link>
       <pubDate>Sat, 26 Sep 2015 21:24:32 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-09-26-publicamos-pilas-engine-12/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-09-26-publicamos-pilas-engine-12/</guid>
       <description>Hoy publicamos la versión renovada de pilas-engine, donde incluímos un nuevo ejemplo y se corrige el notificador de errores desde el editor.
  </description>
     </item>
     
     <item>
       <title>Publicamos la versión 1.1</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-08-29-publicamos-la-versi%C3%B3n-11/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-08-29-publicamos-la-versi%C3%B3n-11/</link>
       <pubDate>Sat, 29 Aug 2015 00:28:51 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-08-29-publicamos-la-versi%C3%B3n-11/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-08-29-publicamos-la-versi%C3%B3n-11/</guid>
       <description>Estamos muy contentos de anunciar que tenemos una nueva versión, la versión 1.1, donde mejoramos el reporte de errores, añadimos correcciones de bugs y otras mejoras.
  </description>
     </item>
     
     <item>
       <title>¡¡¡ Publicamos la versión 1.0 !!!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-07-23-publicamos-la-versi%C3%B3n-10/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-07-23-publicamos-la-versi%C3%B3n-10/</link>
       <pubDate>Thu, 23 Jul 2015 14:05:44 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-07-23-publicamos-la-versi%C3%B3n-10/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-07-23-publicamos-la-versi%C3%B3n-10/</guid>
       <description>Hoy publicamos la versión 1.0 de pilas-engine, incorporando varios arreglos, en la documentación y el motor principalmente, ¡A celebrar!</description>
     </item>
     
     <item>
       <title>Publicamos la versión 0.90.37</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-06-16-publicamos-la-versi%C3%B3n-09037/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-06-16-publicamos-la-versi%C3%B3n-09037/</link>
       <pubDate>Tue, 16 Jun 2015 14:39:37 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-06-16-publicamos-la-versi%C3%B3n-09037/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-06-16-publicamos-la-versi%C3%B3n-09037/</guid>
       <description>En esta versión incorporamos un arreglo que permite usar pilas-engine en windows 7
 
  </description>
@@ -565,39 +565,39 @@ Mirá el anuncio de finalización del sprint para más detalles:
     
     <item>
       <title>¡Publicamos la web!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-05-22-publicamos-la-web/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-05-22-publicamos-la-web/</link>
       <pubDate>Fri, 22 May 2015 17:27:37 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-05-22-publicamos-la-web/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-05-22-publicamos-la-web/</guid>
       <description>Tenemos una nueva versión de nuestro sitio web lista y publicada :)
  </description>
     </item>
     
     <item>
       <title>Se viene la nueva web...</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2015-04-19-se-viene-la-nueva-web/</link>
+      <link>https://pilas-engine.com.ar/noticias/2015-04-19-se-viene-la-nueva-web/</link>
       <pubDate>Sun, 19 Apr 2015 19:15:48 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2015-04-19-se-viene-la-nueva-web/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2015-04-19-se-viene-la-nueva-web/</guid>
       <description>Este miécoles vamos a estar publicando la nueva web de pilas-engine, junto con los instaladores renovados y algunas sorpresas más.</description>
     </item>
     
     <item>
       <title>Publicamos la versión beta 0.90.16</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</link>
+      <link>https://pilas-engine.com.ar/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</link>
       <pubDate>Wed, 10 Dec 2014 21:29:25 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2014-12-10-publicamos-la-versi%C3%B3n-beta-09016/</guid>
       <description>¡Saludos!, hoy queremos anunciar que tenemos una nueva versión beta de pilas-engine, aquí está el anuncio oficial:
 http://foro.pilas-engine.com.ar/t/publicamos-una-nueva-beta-0-90-16/290</description>
     </item>
     
     <item>
       <title>Se publicaron los videos de avanza 2014</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2014-08-22-se-publicaron-los-videos-de-avanza-2014/</link>
+      <link>https://pilas-engine.com.ar/noticias/2014-08-22-se-publicaron-los-videos-de-avanza-2014/</link>
       <pubDate>Fri, 22 Aug 2014 15:10:57 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2014-08-22-se-publicaron-los-videos-de-avanza-2014/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2014-08-22-se-publicaron-los-videos-de-avanza-2014/</guid>
       <description>¡Saludos a todos!, hace unos días se realizó el evento avanza 2014, donde se realizó una charla de pilas-engine y varios otros proyectos de software libre.
 Les paso el link del evento, van a encontrar el video de la presentación ahí:
 http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y&amp;ndash;codigo-abierto5
@@ -606,10 +606,10 @@ http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-
     
     <item>
       <title>Videotutoriales de pilas-engine en educ.ar</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2014-06-28-videotutoriales-de-pilas-engine-en-educar/</link>
+      <link>https://pilas-engine.com.ar/noticias/2014-06-28-videotutoriales-de-pilas-engine-en-educar/</link>
       <pubDate>Sat, 28 Jun 2014 20:45:06 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2014-06-28-videotutoriales-de-pilas-engine-en-educar/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2014-06-28-videotutoriales-de-pilas-engine-en-educar/</guid>
       <description>Saludos a todos!, les quería comentar que educ.ar publicó el taller completo de pilas-engine en videotutoriales para descargar:
 http://www.educ.ar/sitios/educar/recursos/ver?id=1229934
 Mirá nuestro anuncio en el foro para mas detalles:
@@ -618,20 +618,20 @@ http://foro-pilasengine.com.ar/t/videotutoriales-de-pilas-engine-en-educ-ar/161<
     
     <item>
       <title>Pilas en FMSL</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-12-12-pilas-en-fmsl/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-12-12-pilas-en-fmsl/</link>
       <pubDate>Thu, 12 Dec 2013 19:16:00 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-12-12-pilas-en-fmsl/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-12-12-pilas-en-fmsl/</guid>
       <description>Este sábado vamos a estar dando una charla sobre pilas-engine en misiones, argentina:
 http://fmsl.com.ar/</description>
     </item>
     
     <item>
       <title>Publicamos la versión 0.83</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</link>
       <pubDate>Thu, 14 Nov 2013 18:40:47 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-11-14-publicamos-la-versi%C3%B3n-083/</guid>
       <description>Publicamos la nueva versión 0.83 de pilas !!!
 Puedes encontrar la versión listo para descargar en:
 http://pilas-engine.com.ar/descargas.html</description>
@@ -639,19 +639,19 @@ http://pilas-engine.com.ar/descargas.html</description>
     
     <item>
       <title>pilas en pycon 2013 Rosario</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-11-01-pilas-en-pycon-2013-rosario/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-11-01-pilas-en-pycon-2013-rosario/</link>
       <pubDate>Fri, 01 Nov 2013 16:42:44 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-11-01-pilas-en-pycon-2013-rosario/</guid>
       <description>Presentamos la charla de pilas en pycon 2013, que se hizo en la ciudad de Rosario.</description>
     </item>
     
     <item>
       <title>Nos vamos a la PyConES</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-09-26-nos-vamos-a-la-pycones/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-09-26-nos-vamos-a-la-pycones/</link>
       <pubDate>Thu, 26 Sep 2013 03:27:05 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-09-26-nos-vamos-a-la-pycones/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-09-26-nos-vamos-a-la-pycones/</guid>
       <description>Hola a todos.
 La charla sobre Pilas ha sido seleccionada por los organizadores de la PyConES para su track básico.
 Todavía no está decidido el horario, pero esperamos veros por allí y compartir impresiones.
@@ -660,151 +660,151 @@ Nos vemos ;)</description>
     
     <item>
       <title>Nuevo actor Manzana</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-06-07-nuevo-actor-manzana/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-06-07-nuevo-actor-manzana/</link>
       <pubDate>Fri, 07 Jun 2013 17:29:20 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-06-07-nuevo-actor-manzana/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-06-07-nuevo-actor-manzana/</guid>
       <description>Añadimos un nuevo actor Manzana para tus juegos.
 Tus personajes ya no pasarán hambre ;)</description>
     </item>
     
     <item>
       <title>Publicamos la versión 0.80!!!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-06-03-publicamos-la-versi%C3%B3n-080/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-06-03-publicamos-la-versi%C3%B3n-080/</link>
       <pubDate>Mon, 03 Jun 2013 15:12:30 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-06-03-publicamos-la-versi%C3%B3n-080/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-06-03-publicamos-la-versi%C3%B3n-080/</guid>
       <description>Hemos publicado la versión 0.80 de pilas engine.  </description>
     </item>
     
     <item>
       <title>Estuvimos dando un taller en HuayraLinux</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-05-31-estuvimos-dando-un-taller-en-huayralinux/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-05-31-estuvimos-dando-un-taller-en-huayralinux/</link>
       <pubDate>Fri, 31 May 2013 11:18:07 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-05-31-estuvimos-dando-un-taller-en-huayralinux/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-05-31-estuvimos-dando-un-taller-en-huayralinux/</guid>
       <description>Dimos un taller de videojuegos para el equipo de HuayraLinux.  En el taller armamos un minijuego, llamado &amp;ldquo;la vaca voladora&amp;rdquo;, con el que pudimos dar un recorrido general por las características de pilas-engine y varios conceptos de videojuegos.  El taller se hizo en las oficinas de Conectar Igualdad, un espacio increíble.   Dejamos los links a la presentación, el código y un video de youtube:  https://speakerdeck.com/hugoruscitti/la-vaca-voladora https://github.</description>
     </item>
     
     <item>
       <title>Publicamos el nuevo mini-tutorial</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-05-12-publicamos-el-nuevo-mini-tutorial/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-05-12-publicamos-el-nuevo-mini-tutorial/</link>
       <pubDate>Sun, 12 May 2013 02:03:48 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-05-12-publicamos-el-nuevo-mini-tutorial/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-05-12-publicamos-el-nuevo-mini-tutorial/</guid>
       <description>Publicamos el nuevo mini-tutorial de pilas en formato PDF, listo para imprimir!!!
 Buscalo en la sección documentación.</description>
     </item>
     
     <item>
       <title>Publicamos la versión 0.79!!!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-05-11-publicamos-la-versi%C3%B3n-079/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-05-11-publicamos-la-versi%C3%B3n-079/</link>
       <pubDate>Sat, 11 May 2013 00:28:00 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-05-11-publicamos-la-versi%C3%B3n-079/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-05-11-publicamos-la-versi%C3%B3n-079/</guid>
       <description>Hemos publicado la versión 0.79 de pilas engine!!!:</description>
     </item>
     
     <item>
       <title>Nuevos tutoriales en la web!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-04-01-nuevos-tutoriales-en-la-web/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-04-01-nuevos-tutoriales-en-la-web/</link>
       <pubDate>Mon, 01 Apr 2013 11:45:23 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-04-01-nuevos-tutoriales-en-la-web/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-04-01-nuevos-tutoriales-en-la-web/</guid>
       <description>Hoy publicamos 4 tutoriales excelentes que escribió Fernando Salamero, los tutoriales cubren temas cómo física, sprites, scroll y animaciones.
 Puedes ver estos nuevos tutoriales en la sección de documentación:</description>
     </item>
     
     <item>
       <title>Lanzamos la versión 0.78</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-03-25-lanzamos-la-versi%C3%B3n-078/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-03-25-lanzamos-la-versi%C3%B3n-078/</link>
       <pubDate>Mon, 25 Mar 2013 19:47:14 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-03-25-lanzamos-la-versi%C3%B3n-078/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-03-25-lanzamos-la-versi%C3%B3n-078/</guid>
       <description>Tenemos una nueva versión de pilas-engine. Esta nueva versión incorpora (entre todas cosas) mensajes de error cuanto tu script falla y recarga automática.
 Por ejemplo, si arrastras un archivo sobre la ventana de pilas y luego modificas el archivo, la ventana de pilas lo sabrá, y cargará nuevamente tu código!</description>
     </item>
     
     <item>
       <title>¡Llevemos programación a las escuelas!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-03-14-nuestra-propuesta-para-llevar-pilas-a-las/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-03-14-nuestra-propuesta-para-llevar-pilas-a-las/</link>
       <pubDate>Thu, 14 Mar 2013 18:49:16 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-03-14-nuestra-propuesta-para-llevar-pilas-a-las/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-03-14-nuestra-propuesta-para-llevar-pilas-a-las/</guid>
       <description>Nuestra propuesta para llevar pilas a las escuelas: www.pilas-editor.com.ar</description>
     </item>
     
     <item>
       <title>Comenzamos los cambios para la versión 0.77</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-02-21-comenzamos-los-cambios-para-la-versi%C3%B3n-077/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-02-21-comenzamos-los-cambios-para-la-versi%C3%B3n-077/</link>
       <pubDate>Thu, 21 Feb 2013 21:28:35 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-02-21-comenzamos-los-cambios-para-la-versi%C3%B3n-077/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-02-21-comenzamos-los-cambios-para-la-versi%C3%B3n-077/</guid>
       <description>Comenzamos los cambios para la versión 0.77 !!!, arrancamos con algo pequeño, ahora tenemos contador de cuerpos en el motor de física&amp;hellip;</description>
     </item>
     
     <item>
       <title>Nuevo asistente</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2013-02-09-el-nuevo-asistente-de-pilas-engine-est%C3%A1-listo-para/</link>
+      <link>https://pilas-engine.com.ar/noticias/2013-02-09-el-nuevo-asistente-de-pilas-engine-est%C3%A1-listo-para/</link>
       <pubDate>Sat, 09 Feb 2013 16:00:24 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2013-02-09-el-nuevo-asistente-de-pilas-engine-est%C3%A1-listo-para/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2013-02-09-el-nuevo-asistente-de-pilas-engine-est%C3%A1-listo-para/</guid>
       <description>El nuevo asistente de pilas engine está listo para el lanzamiento de la versión 0.75 !!!</description>
     </item>
     
     <item>
       <title>¡Felices fiestas!</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2012-12-20-el-equipo-de-pilas-les-desea-unas-felices/</link>
+      <link>https://pilas-engine.com.ar/noticias/2012-12-20-el-equipo-de-pilas-les-desea-unas-felices/</link>
       <pubDate>Thu, 20 Dec 2012 14:52:00 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2012-12-20-el-equipo-de-pilas-les-desea-unas-felices/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2012-12-20-el-equipo-de-pilas-les-desea-unas-felices/</guid>
       <description>El equipo de Pilas les desea unas Felices Fiestas y un próspero año nuevo.</description>
     </item>
     
     <item>
       <title>Mejoramos la pantalla principal</title>
-      <link>https://pilas-engine.github.io/sitio-web/noticias/2012-12-19-pantalla-principal-de-pilas-engine-con-el/</link>
+      <link>https://pilas-engine.com.ar/noticias/2012-12-19-pantalla-principal-de-pilas-engine-con-el/</link>
       <pubDate>Wed, 19 Dec 2012 08:28:00 -0300</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/noticias/2012-12-19-pantalla-principal-de-pilas-engine-con-el/</guid>
+      <guid>https://pilas-engine.com.ar/noticias/2012-12-19-pantalla-principal-de-pilas-engine-con-el/</guid>
       <description>Pantalla principal de pilas-engine, con el indicador de versión y actualización.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/apilador-de-cajas/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/apilador-de-cajas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/apilador-de-cajas/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/apilador-de-cajas/</guid>
       <description>Apilador de cajas En este tutorial nos vamos a dedicar a explicar uno de los ejemplos que posee pilas, el apilador de cajas. El mismo trata de un fantasma que se desplaza horizontalmente en el espacio en conjunto a una caja media transparente, y que al dar click izquierdo en el mouse, se soltará una caja. El objetivo es tratar de sumar el mayor puntaje posible, apilando la mayor cantidad de cajas posibles sobre una plataforma.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/arkanoid/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/arkanoid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/arkanoid/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/arkanoid/</guid>
       <description>Cómo crear el videojuego Arkanoid En este tutorial desarrollaremos un juego inspirado en el clásico Arkanoid, este típico juego donde hay una pequeña plataforma que impide que una bola salga de la zona de juego, haciéndola rebotar, y en la parte superior hay ladrillos o bloques, que desaparecen al ser tocados por la bola, pero con la particularidad de que necesitan un número de toques para desaparecer.
 Primer paso Abrimos el editor de Pilas, borramos los actores que tengamos inicialmente para tener el escenario limpio y poder comenzar a trabajar.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/asteroides/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/asteroides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/asteroides/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/asteroides/</guid>
       <description>Asteroides En este tutorial desarrollaremos un juego inspirado en el clásico asteroides de las máquinas recreativas. Se trata de una nave espacial, dirigida con las flechas del cursor, que se enfrenta a una lluvia de asteroides que hay que destruir. Por otra parte, se trata de un mundo esférico, y si nosotros o las rocas nos salimos por un extremo de la ventana, aparecemos por el extremo contrario.
 Primer paso Entre los ejemplos que incorpora pilas-engine se encuentra “ejemplo-nave”, el cual cuenta con el actor principal de nuestro juego, la nave espacial, con el desarrollo del movimiento, su disparo y sonido ya codificados.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/defiende-la-base/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/defiende-la-base/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/defiende-la-base/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/defiende-la-base/</guid>
       <description>Defiende la base Defiende la base es un juego en el que debes poner defensores que disparen a los zombis que quieren llegar a tu base antes de que estos cumplan con su objetivo. Tu único objetivo es sobrevivir el mayor tiempo posible, mientras que las hordas de zombis cada vez son mayores.
 En este tutorial crearemos nuestra propia versión de este clásico juego en el motor Pilas Engine!
  Para continuar con este tutorial necesitaras descargar los recursos desde aquí</description>
@@ -812,20 +812,20 @@ En este tutorial crearemos nuestra propia versión de este clásico juego en el 
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/monos/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/monos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/monos/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/monos/</guid>
       <description>Disparar a Monos Uno de los ejemplos que posee Pilas Engine, es el proyecto disparar_a_monos, que brinda al usuario una perspectiva general de lo que se puede hacer. En este tutorial desarrollaremos este proyecto, de modo que cualquier usuario sepa cómo llevarlo a cabo y pueda modificarlo a gusto.
 Disparar a monos es un juego que consiste en que el jugador controla una torreta que debe disparar a los monos, los cuales se generan al azar en la pantalla, que intentan llegar a ella para destruirla.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pilas-engine.github.io/sitio-web/tutoriales/nave-vs-aliens/</link>
+      <link>https://pilas-engine.com.ar/tutoriales/nave-vs-aliens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/tutoriales/nave-vs-aliens/</guid>
+      <guid>https://pilas-engine.com.ar/tutoriales/nave-vs-aliens/</guid>
       <description>Nave vs aliens El este tutorial explicaremos paso a paso cómo desarrollar el ejemplo &amp;ldquo;Nave Contra Aliens&amp;rdquo; de Pilas Engine. El mismo se basa en una nave manejada por el jugador con las flechas del teclado, que dispara misiles a aliens que se generan aleatoriamente en la pantalla. Mientras más aliens destruya, mayor va a ser el puntaje final.
 ¡Comencemos!
 Paso 1 Para empezar, abriremos el editor de pilas, y eliminaremos a todos los actores iniciales de la escena1, y crearemos un nuevo actor seleccionando en la sección de “ESCENAS Y ACTORES” la opción “Crear actor”:</description>
@@ -833,10 +833,10 @@ Paso 1 Para empezar, abriremos el editor de pilas, y eliminaremos a todos los ac
     
     <item>
       <title>Pilas - versión clásica</title>
-      <link>https://pilas-engine.github.io/sitio-web/pilas-version-clasica/</link>
+      <link>https://pilas-engine.com.ar/pilas-version-clasica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pilas-engine.github.io/sitio-web/pilas-version-clasica/</guid>
+      <guid>https://pilas-engine.com.ar/pilas-version-clasica/</guid>
       <description>Versión clásica de pilas Pilas tiene varios años de desarrollo, comenzó a desarrollarse a partir de agosto del año 2010 y evolucionó desde entonces.
 Inicialmente desarrollamos pilas con el lenguaje de programación python, pero a partir del 2018 cambiamos a tecnologías web como JavaScript.
 En esta página vas a encontrar links y recursos de la versión clásica de pilas, así como tutoriales y recursos que hicimos antes de 2018.

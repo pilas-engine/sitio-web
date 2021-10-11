@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentación on Pilas Engine</title>
-    <link>https://pilas-engine.github.io/sitio-web/documentacion/</link>
+    <link>https://pilas-engine.com.ar/documentacion/</link>
     <description>Recent content in Documentación on Pilas Engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Sep 2021 12:31:29 -0300</lastBuildDate><atom:link href="https://pilas-engine.github.io/sitio-web/documentacion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 12:31:29 -0300</lastBuildDate><atom:link href="https://pilas-engine.com.ar/documentacion/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,4 +1,4 @@
-baseURL = 'https://pilas-engine.github.io/sitio-web/'
+baseURL = 'https://pilas-engine.com.ar/'
 languageCode = 'en-us'
 title = 'Pilas Engine'
 theme = "pilas"

@@ -26,12 +26,13 @@ ejecutar:
 	hugo serve --disableFastRender -w
 
 deploy: compilar
+	@python3 scripts/realizar-deploy.py
 	@git add docs
 	@git commit -m "Realizando deploy" --allow-empty
 	@git push origin main
 	@echo ""
-	@echo "${Y}El sitio estará temporalmente en https://pilas-engine.com.ar${N}"
-	@echo "${Y}(hay que esperar 1 minuto para que se actualice solo)${N}"
+	@echo "${Y}El sitio se subió a https://pilas-engine.com.ar${N}"
+	@echo "${Y}(hay que esperar 1 minuto para que se pueda acceder)${N}"
 	@echo ""
 
 compilar:
@@ -40,5 +41,3 @@ compilar:
 
 actualizar_descargas:
 	python3 scripts/obtener-version-mas-reciente.py
-
-

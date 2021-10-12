@@ -4,15 +4,12 @@ date: 2021-09-05T12:31:41-03:00
 draft: false
 ---
 
-
 # Videos
-
 
 En esta sección reunimos varios tutoriales y conferencias para que puedas
 conocer más sobre pilas:
 
-## Hagamos un juego juntos
-
+## Serie: Hagamos un juego juntos
 
 {{< video 
   url="https://www.youtube.com/watch?v=WSIjAyTZP-0" 

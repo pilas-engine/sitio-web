@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pilas-engine.com.ar/noticias/</loc>
+    <lastmod>2021-10-24T10:52:23-03:00</lastmod>
+  </url><url>
+    <loc>https://pilas-engine.com.ar/</loc>
+    <lastmod>2021-10-24T10:52:23-03:00</lastmod>
+  </url><url>
+    <loc>https://pilas-engine.com.ar/noticias/2021-10-24-sprint-28/</loc>
+    <lastmod>2021-10-24T10:52:23-03:00</lastmod>
+  </url><url>
     <loc>https://pilas-engine.com.ar/galeria/</loc>
     <lastmod>2021-09-05T12:31:45-03:00</lastmod>
   </url><url>
@@ -20,9 +29,6 @@
     <loc>https://pilas-engine.com.ar/documentacion/</loc>
     <lastmod>2021-09-05T12:31:29-03:00</lastmod>
   </url><url>
-    <loc>https://pilas-engine.com.ar/</loc>
-    <lastmod>2021-09-05T12:31:29-03:00</lastmod>
-  </url><url>
     <loc>https://pilas-engine.com.ar/tutoriales/</loc>
     <lastmod>2021-09-05T12:31:29-03:00</lastmod>
   </url><url>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>https://pilas-engine.com.ar/acercade/</loc>
     <lastmod>2021-09-04T22:26:10-03:00</lastmod>
-  </url><url>
-    <loc>https://pilas-engine.com.ar/noticias/</loc>
-    <lastmod>2021-08-15T19:52:23-03:00</lastmod>
   </url><url>
     <loc>https://pilas-engine.com.ar/noticias/2021-08-15-sprint-27/</loc>
     <lastmod>2021-08-15T19:52:23-03:00</lastmod>

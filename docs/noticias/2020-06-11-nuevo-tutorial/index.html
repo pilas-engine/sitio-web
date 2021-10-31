@@ -46,28 +46,74 @@
     <body>
         
 
-        <nav class="db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+        <input type="checkbox" id="burger" class="dn">
+
+<div id="menu" class="fixed mt5 z-max top-0 dark-gray f5 bg-white shadow-1 right-0 mr3 sans-serif">
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/">Principal</a>
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/noticias">Noticias</a>
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/descargas">Descargas</a>
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/documentacion">Documentación</a>
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/foro">Foro</a>
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/videos">Videos</a>
+    <a class="db link dark-gray pv3 ph4" href="https://pilas-engine.com.ar/galeria">Galería</a>
+</div>
+
+<nav class="fixed z-999 bg-white db w-100 shadow-1 border-box pa0 sans-serif flex items-center">
+
 
   <a href="https://pilas-engine.com.ar/" class="v-mid mid-gray link w5 pl3 pv2" href="#" title="home">
     <img class="logo" width="183" height="64" src="https://pilas-engine.com.ar/logo-de-pilas.svg">
   </a>
 
-  <div class="v-mid w-100 tr truncate">
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/">Principal</a>
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/noticias">Noticias</a>
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/descargas">Descargas</a>
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/documentacion">Documentación</a>
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/foro">Foro</a>
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/videos">Videos</a>
-    <a class="link source-sans-pro dim dark-gray f5 dib mr1-l ph2 pt3 pb3" href="https://pilas-engine.com.ar/galeria">Galería</a>
+  <div class="v-mid w-100 tr dn db-l">
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/">Principal</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/noticias">Noticias</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/descargas">Descargas</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/documentacion">Documentación</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/foro">Foro</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/videos">Videos</a>
+    <a class="link source-sans-pro dim dark-gray f5 dib ph2 pt3 pb3" href="https://pilas-engine.com.ar/galeria">Galería</a>
   </div>
+
+	<div class="dn-l tr flex-auto">
+		<label for="burger" class="pr2 f2 pointer unselectable ">
+			☰
+		</label>
+	</div>
+
+
+
+<style>
+  .menu {
+    min-height: 2.8rem;  
+    max-height: 0;  
+    transition: max-height 0.5s;  
+  }
+
+	.unselectable {
+		user-select: none;
+	}
+
+  #burger:checked .menu {
+		position: fixed;
+  }
+
+	#menu {
+		display: none;
+	}
+
+  #burger:checked ~ #menu {
+		display: block;
+  }
+
+</style>
 
 </nav>
 
 
 
 <div class="contenedor-scroll">
-  <main class="pt4 mw8 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
+  <main class="pt6 mw8 center ph2 sans-serif pb4 lh-copy" aria-label="Content">
 
     <p>Hoy publicamos un nuevo tutorial creado
 por Gonzalo Gauna sobre cómo hacer un

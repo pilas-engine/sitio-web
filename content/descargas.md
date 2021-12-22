@@ -18,6 +18,7 @@ equipo:
   <a class="pa3 br2 bg-blue white link dib mh1" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/pilas-engine-windows-64_bits.zip">Windows de 64 bits</a>
   <a class="pa3 br2 bg-blue white link dib mh1" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/pilas-engine-osx-64_bits.zip">OSX de 64 bits</a>
   <a class="pa3 br2 bg-blue white link dib mh1" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/pilas-engine-linux-64_bits.zip">GNU/Linux de 64 bits</a>
+  <a class="pa3 br2 bg-blue white link dib mh1" href="https://flathub.org/apps/details/ar.com.pilas_engine.App">Flatpak</a>
 </div>
 
 <div class="tc">

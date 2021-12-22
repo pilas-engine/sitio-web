@@ -1,6 +1,7 @@
 NOMBRE="sitio-de-pilas"
 DATE=`date +'%y.%m.%d %H:%M:%S'`
 
+
 N=[0m
 G=[01;32m
 Y=[01;33m

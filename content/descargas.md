@@ -8,8 +8,8 @@ draft: false
 
 # Descargas 
 
-La versión más reciente de Pilas Engine es la <strong>v2.7.3</strong>, publicada el
-<strong>2021-10-23</strong>.
+La versión más reciente de Pilas Engine es la <strong>v2.8.0</strong>, publicada el
+<strong>2022-01-03</strong>.
 
 Pulsá en alguno de los siguientes botones para descargarla en tu
 equipo:
@@ -18,7 +18,6 @@ equipo:
   <a class="pa3 br2 bg-blue white link dib mh1" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/pilas-engine-windows-64_bits.zip">Windows de 64 bits</a>
   <a class="pa3 br2 bg-blue white link dib mh1" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/pilas-engine-osx-64_bits.zip">OSX de 64 bits</a>
   <a class="pa3 br2 bg-blue white link dib mh1" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/pilas-engine-linux-64_bits.zip">GNU/Linux de 64 bits</a>
-  <a class="pa3 br2 bg-blue white link dib mh1" href="https://flathub.org/apps/details/ar.com.pilas_engine.App">Flatpak</a>
 </div>
 
 <div class="tc">

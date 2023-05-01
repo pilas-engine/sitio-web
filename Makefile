@@ -16,7 +16,7 @@ comandos:
 	@echo ""
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
 	@echo "    ${G}compilar${N}                Genera todos los .html del sitio."
-	@echo "    ${G}actualizar_descargas${N}    Actualiza los links de descarga."
+	@echo "    ${G}actualizar-descargas${N}    Actualiza los links de descarga."
 	@echo "    ${G}deploy${N}                  Sube el sitio actualizado a la web."
 	@echo ""
 	@echo ""
@@ -40,5 +40,5 @@ compilar:
 	@echo "Compilando"
 	hugo -d docs
 
-actualizar_descargas:
+actualizar-descargas:
 	python3 scripts/obtener-version-mas-reciente.py

@@ -17,9 +17,18 @@ comandos:
 	@echo "    ${G}ejecutar${N}                Ejecuta el servidor de desarrollo."
 	@echo "    ${G}compilar${N}                Genera todos los .html del sitio."
 	@echo "    ${G}actualizar-descargas${N}    Actualiza los links de descarga."
+	@echo "    ${G}update${N}                  Actualiza el repositorio completo."
 	@echo "    ${G}deploy${N}                  Sube el sitio actualizado a la web."
 	@echo ""
 	@echo ""
+
+
+update:
+	git stash
+	git pull
+	git stash pop
+	git commit -am "update"
+	git push origin
 
 
 ejecutar:

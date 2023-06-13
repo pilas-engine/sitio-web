@@ -8,8 +8,8 @@ draft: false
 
 # Descargas 
 
-La versión más reciente de Pilas Engine es la <strong>v2.8.7-1-g711c725f</strong>, publicada el
-<strong>2023-05-01</strong>.
+La versión más reciente de Pilas Engine es la <strong>v2.8.8-1-g528d2ffa</strong>, publicada el
+<strong>2023-06-13</strong>.
 
 Pulsá en alguno de los siguientes botones para descargarla en tu
 equipo:

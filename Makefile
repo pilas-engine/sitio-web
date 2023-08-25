@@ -10,7 +10,7 @@ B=[01;34m
 
 comandos:
 	@echo ""
-	@echo "${B}Comandos disponibles para ${Y}${NOMBRE}${N} (versión: ${VERSION})"
+	@echo "${B}Comandos disponibles para ${Y}${NOMBRE}${N}"
 	@echo ""
 	@echo "  ${Y}Generales de la aplicación${N}"
 	@echo ""

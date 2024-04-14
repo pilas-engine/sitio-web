@@ -29,3 +29,27 @@ desde el navegador visitando esta dirección: <a href="https://app.pilas-engine.
 
 Ah, también existe una página especial dedicada a la versión
 [clásica de pilas](/pilas-version-clasica) basada en python.
+
+## 🤙 Por cierto, ¿tienes problemas con las descargas?
+
+Ten en cuenta que Windows y OSX solicitarán una confirmación para ejecutar el
+archivo descargado. Esto es así porque el archivo de Pilas no está homologado
+por Microsoft ni Apple.
+
+Pero no te preocupes, nuestro software es seguro y legítimo, solo que no está
+firmado por estas dos empresas.
+
+En windows, es probable que veas esta pantalla:
+
+![](/descargas/windows.png)
+
+Tienes que pulsar "Más información" y luego el botón "Ejecutar de todas formas".
+
+![](/descargas/osx-1.png)
+
+Por otro lado en OSX, es probable que aparezca este mensaje:
+
+![](/descargas/osx-2.png)
+
+Tienes que cancelar, y luego ir a las preferencias del sistema, buscar la
+sección de seguridad y pulsar el botón "abrir de todos modos":

@@ -9,10 +9,9 @@ draft: false
 
 <div class="tc pb4">
   <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://app.pilas-engine.com.ar/manual/index.html" target="_blank">Leer el manual online</a>
-  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/book.pdf">Manual en PDF</a>
-  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://github.com/pilas-engine/pilas-engine/releases/latest/download/book.epub">Manual en epub</a>
+  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="/documentacion/book.pdf">Manual en PDF</a>
+  <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="/documentacion/book.epub">Manual en epub</a>
   <a class="bg-blue pa3 dib mh1 br2 link white source-sans-pro" href="https://app.pilas-engine.com.ar/#/api" target="_blank">Ver API</a>
-
 </div>
 
 ## Tutoriales paso a paso

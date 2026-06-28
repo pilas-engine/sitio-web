@@ -51,3 +51,8 @@ compilar:
 
 actualizar-descargas:
 	python3 scripts/obtener-version-mas-reciente.py
+	@echo "Listo, solo validá que se actualizó el archivo de descargas"
+	@echo ""
+	@echo "  y recordá ejecutar `make update`"
+	@echo "  y luego `make deploy`"
+	@echo ""
